@@ -26,6 +26,7 @@ def splitall(path):
 def process_candidate_configs(base_dir):
     repo = Repo('./')
     repo.git.pull('origin')
+    do_push = False
 
     p = Path(base_dir)
     result_paths = list(p.glob('**/plots/**/result.json'))
@@ -46,7 +47,8 @@ def process_candidate_configs(base_dir):
                 raise Exception('failed to load result file', new_result_path, e)
 
         if new_result_better(current_result, new_result):
-            print(f'replace {new_result["symbol"]} from {current_result_path}')
+            do_push = True
+            print(f'Replacing configuration for {new_result["symbol"]}')
             if current_result_path.exists():
                 # remove all existing files
                 existing_files = list(Path(current_result_path).glob("**/*.*"))
@@ -59,8 +61,10 @@ def process_candidate_configs(base_dir):
     # rmtree(base_dir)
 
     # add all changes &  push to git repository
-    repo.git.add(all=True)
-    repo.git.commit('-m', 'Better configs found during automated processing')
+    if do_push:
+        repo.git.add(all=True)
+        repo.git.commit('-m', 'Better configs found during automated processing')
+        repo.git.push('origin')
 
 
 
