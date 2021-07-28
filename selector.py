@@ -67,6 +67,7 @@ def process_candidate_configs(base_dir):
     if do_push:
         repo.git.add(all=True)
         repo.git.commit('-m', 'Better configs found during automated processing')
+        print('Pushing result to repository')
         repo.git.push('origin')
 
     print('Finished processing results')
