@@ -1,0 +1,457 @@
+{
+  "avg_periodic_gain_key": "avg_3days_gain",
+  "base_dir": "/Users/erwinhoeckx/passivbot_configs/backtests",
+  "break_early_factor": 0.5,
+  "c_mult": 1.0,
+  "caches_dirpath": "/Users/erwinhoeckx/passivbot_configs/backtests/binance/XMRUSDT/caches/",
+  "config_name": "name",
+  "do_long": true,
+  "do_shrt": true,
+  "end_date": "2021-07-01",
+  "exchange": "binance",
+  "hedge_mode": true,
+  "inverse": false,
+  "iters": 10,
+  "latency_simulation_ms": 750,
+  "logging_level": 0,
+  "long\u00a3enabled": true,
+  "long\u00a3iprc_MAr_coeffs$00$00": 0.2456685897835007,
+  "long\u00a3iprc_MAr_coeffs$00$01": -0.39297454272800636,
+  "long\u00a3iprc_MAr_coeffs$01$00": -0.006702131670790035,
+  "long\u00a3iprc_MAr_coeffs$01$01": 0.1560262286930798,
+  "long\u00a3iprc_MAr_coeffs$02$00": 0.1865689340186848,
+  "long\u00a3iprc_MAr_coeffs$02$01": -0.14824263457522335,
+  "long\u00a3iprc_const": 0.9816480269836755,
+  "long\u00a3iqty_MAr_coeffs$00$00": -0.016136404118716363,
+  "long\u00a3iqty_MAr_coeffs$00$01": -0.39087762365077183,
+  "long\u00a3iqty_MAr_coeffs$01$00": -0.2673064099524967,
+  "long\u00a3iqty_MAr_coeffs$01$01": 0.030326620968466833,
+  "long\u00a3iqty_MAr_coeffs$02$00": 0.021326091467785968,
+  "long\u00a3iqty_MAr_coeffs$02$01": 0.35912821789897076,
+  "long\u00a3iqty_const": 0.44839452848360684,
+  "long\u00a3markup_MAr_coeffs$00$00": -0.2384739097809767,
+  "long\u00a3markup_MAr_coeffs$00$01": 0.17697740106645954,
+  "long\u00a3markup_MAr_coeffs$01$00": -0.002138264432392678,
+  "long\u00a3markup_MAr_coeffs$01$01": 0.37767434488979823,
+  "long\u00a3markup_MAr_coeffs$02$00": 0.0007460978999490608,
+  "long\u00a3markup_MAr_coeffs$02$01": -0.09733863429320716,
+  "long\u00a3markup_const": 1.0042422539256965,
+  "long\u00a3pbr_limit": 0.2455550392468697,
+  "long\u00a3pbr_stop_loss": 0.01934928120125358,
+  "long\u00a3rprc_MAr_coeffs$00$00": -0.19997768711865752,
+  "long\u00a3rprc_MAr_coeffs$00$01": -0.39733611205138186,
+  "long\u00a3rprc_MAr_coeffs$01$00": 0.2971020568726651,
+  "long\u00a3rprc_MAr_coeffs$01$01": 0.27318861527971794,
+  "long\u00a3rprc_MAr_coeffs$02$00": 0.2816387365281874,
+  "long\u00a3rprc_MAr_coeffs$02$01": 0.19883136871555562,
+  "long\u00a3rprc_PBr_coeffs$00$00": -0.043524933590921244,
+  "long\u00a3rprc_PBr_coeffs$00$01": -0.4101903033529821,
+  "long\u00a3rprc_const": 0.9880185852772728,
+  "long\u00a3rqty_MAr_coeffs$00$00": 0.08670023396702159,
+  "long\u00a3rqty_MAr_coeffs$00$01": 0.184430633922833,
+  "long\u00a3rqty_MAr_coeffs$01$00": -0.14246130100938315,
+  "long\u00a3rqty_MAr_coeffs$01$01": 0.03193174292557621,
+  "long\u00a3rqty_MAr_coeffs$02$00": -0.04951307178216552,
+  "long\u00a3rqty_MAr_coeffs$02$01": 0.07730950591818059,
+  "long\u00a3rqty_const": 1.252771083100703,
+  "maker_fee": 0.0002,
+  "market_type": "futures",
+  "max_leverage": 75,
+  "max_span": 2780.040490268733,
+  "maximum_hrs_no_fills": 72,
+  "maximum_hrs_no_fills_same_side": 144,
+  "metric": "adjusted_daily_gain",
+  "min_cost": 5.0,
+  "min_qty": 0.001,
+  "min_span": 507.7856967435241,
+  "minimum_bankruptcy_distance": 0.5,
+  "minimum_equity_balance_ratio": 0.5,
+  "minimum_sharpe_ratio": 1,
+  "minimum_slice_adg": 1,
+  "n_days": 29.99996527777778,
+  "n_particles": 48,
+  "n_spans": 3,
+  "num_cpus": 4,
+  "optimize_dirpath": "/Users/erwinhoeckx/passivbot_configs/backtests/binance/XMRUSDT/optimize/2021-07-27T222505/",
+  "options": {
+    "c1": 1.4962,
+    "c2": 1.4962,
+    "w": 0.7298
+  },
+  "periodic_gain_n_days": 3,
+  "plots_dirpath": "/Users/erwinhoeckx/passivbot_configs/backtests/binance/XMRUSDT/plots/",
+  "price_step": 0.01,
+  "qty_step": 0.001,
+  "ranges": {
+    "long\u00a3iprc_MAr_coeffs$00$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3iprc_MAr_coeffs$00$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3iprc_MAr_coeffs$01$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3iprc_MAr_coeffs$01$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3iprc_MAr_coeffs$02$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3iprc_MAr_coeffs$02$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3iprc_const": [
+      0.97,
+      1.01
+    ],
+    "long\u00a3iqty_MAr_coeffs$00$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3iqty_MAr_coeffs$00$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3iqty_MAr_coeffs$01$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3iqty_MAr_coeffs$01$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3iqty_MAr_coeffs$02$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3iqty_MAr_coeffs$02$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3iqty_const": [
+      0.01,
+      0.5
+    ],
+    "long\u00a3markup_MAr_coeffs$00$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3markup_MAr_coeffs$00$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3markup_MAr_coeffs$01$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3markup_MAr_coeffs$01$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3markup_MAr_coeffs$02$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3markup_MAr_coeffs$02$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3markup_const": [
+      1,
+      1.03
+    ],
+    "long\u00a3pbr_limit": [
+      0.1,
+      2
+    ],
+    "long\u00a3pbr_stop_loss": [
+      -0.1,
+      0.5
+    ],
+    "long\u00a3rprc_MAr_coeffs$00$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3rprc_MAr_coeffs$00$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3rprc_MAr_coeffs$01$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3rprc_MAr_coeffs$01$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3rprc_MAr_coeffs$02$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3rprc_MAr_coeffs$02$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3rprc_PBr_coeffs$00$00": [
+      -1,
+      0.1
+    ],
+    "long\u00a3rprc_PBr_coeffs$00$01": [
+      -1,
+      0.1
+    ],
+    "long\u00a3rprc_const": [
+      0.97,
+      1
+    ],
+    "long\u00a3rqty_MAr_coeffs$00$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3rqty_MAr_coeffs$00$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3rqty_MAr_coeffs$01$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3rqty_MAr_coeffs$01$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3rqty_MAr_coeffs$02$00": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3rqty_MAr_coeffs$02$01": [
+      -0.4,
+      0.4
+    ],
+    "long\u00a3rqty_const": [
+      0,
+      2
+    ],
+    "max_span": [
+      720,
+      30000
+    ],
+    "min_span": [
+      20,
+      720
+    ],
+    "shrt\u00a3iprc_MAr_coeffs$00$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3iprc_MAr_coeffs$00$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3iprc_MAr_coeffs$01$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3iprc_MAr_coeffs$01$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3iprc_MAr_coeffs$02$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3iprc_MAr_coeffs$02$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3iprc_const": [
+      0.99,
+      1.03
+    ],
+    "shrt\u00a3iqty_MAr_coeffs$00$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3iqty_MAr_coeffs$00$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3iqty_MAr_coeffs$01$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3iqty_MAr_coeffs$01$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3iqty_MAr_coeffs$02$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3iqty_MAr_coeffs$02$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3iqty_const": [
+      0.01,
+      0.5
+    ],
+    "shrt\u00a3markup_MAr_coeffs$00$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3markup_MAr_coeffs$00$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3markup_MAr_coeffs$01$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3markup_MAr_coeffs$01$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3markup_MAr_coeffs$02$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3markup_MAr_coeffs$02$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3markup_const": [
+      0.97,
+      1
+    ],
+    "shrt\u00a3pbr_limit": [
+      0.1,
+      2
+    ],
+    "shrt\u00a3pbr_stop_loss": [
+      -0.1,
+      0.5
+    ],
+    "shrt\u00a3rprc_MAr_coeffs$00$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3rprc_MAr_coeffs$00$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3rprc_MAr_coeffs$01$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3rprc_MAr_coeffs$01$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3rprc_MAr_coeffs$02$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3rprc_MAr_coeffs$02$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3rprc_PBr_coeffs$00$00": [
+      -0.1,
+      1
+    ],
+    "shrt\u00a3rprc_PBr_coeffs$00$01": [
+      -0.1,
+      1
+    ],
+    "shrt\u00a3rprc_const": [
+      1,
+      1.03
+    ],
+    "shrt\u00a3rqty_MAr_coeffs$00$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3rqty_MAr_coeffs$00$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3rqty_MAr_coeffs$01$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3rqty_MAr_coeffs$01$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3rqty_MAr_coeffs$02$00": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3rqty_MAr_coeffs$02$01": [
+      -0.4,
+      0.4
+    ],
+    "shrt\u00a3rqty_const": [
+      0,
+      2
+    ]
+  },
+  "reward_multiplier_base": 1.2,
+  "session_name": "2021-06-01_2021-07-01",
+  "shrt\u00a3enabled": true,
+  "shrt\u00a3iprc_MAr_coeffs$00$00": 0.22197928457847826,
+  "shrt\u00a3iprc_MAr_coeffs$00$01": -0.3733581837121541,
+  "shrt\u00a3iprc_MAr_coeffs$01$00": 0.32142673513536624,
+  "shrt\u00a3iprc_MAr_coeffs$01$01": -0.25770579240343877,
+  "shrt\u00a3iprc_MAr_coeffs$02$00": -0.3172198374294342,
+  "shrt\u00a3iprc_MAr_coeffs$02$01": -0.20107603107425956,
+  "shrt\u00a3iprc_const": 0.9925105287898662,
+  "shrt\u00a3iqty_MAr_coeffs$00$00": 0.15866155227181478,
+  "shrt\u00a3iqty_MAr_coeffs$00$01": -0.3291748895970346,
+  "shrt\u00a3iqty_MAr_coeffs$01$00": -0.0017591871395735703,
+  "shrt\u00a3iqty_MAr_coeffs$01$01": -0.006649632668133065,
+  "shrt\u00a3iqty_MAr_coeffs$02$00": -0.03152652496303476,
+  "shrt\u00a3iqty_MAr_coeffs$02$01": 0.033650669578401904,
+  "shrt\u00a3iqty_const": 0.435171617124582,
+  "shrt\u00a3markup_MAr_coeffs$00$00": 0.3457425601709362,
+  "shrt\u00a3markup_MAr_coeffs$00$01": -0.3448114728558189,
+  "shrt\u00a3markup_MAr_coeffs$01$00": 0.34123905638127405,
+  "shrt\u00a3markup_MAr_coeffs$01$01": 0.053461122068283795,
+  "shrt\u00a3markup_MAr_coeffs$02$00": -0.08303475249305092,
+  "shrt\u00a3markup_MAr_coeffs$02$01": -0.072011630557541,
+  "shrt\u00a3markup_const": 0.9846022378777108,
+  "shrt\u00a3pbr_limit": 0.5032688009664069,
+  "shrt\u00a3pbr_stop_loss": 0.12938221557482496,
+  "shrt\u00a3rprc_MAr_coeffs$00$00": -0.3966284314272631,
+  "shrt\u00a3rprc_MAr_coeffs$00$01": 0.06100013427778028,
+  "shrt\u00a3rprc_MAr_coeffs$01$00": -0.02575741256009928,
+  "shrt\u00a3rprc_MAr_coeffs$01$01": 0.16628497142757304,
+  "shrt\u00a3rprc_MAr_coeffs$02$00": -0.3566390737947308,
+  "shrt\u00a3rprc_MAr_coeffs$02$01": -0.006370855840075518,
+  "shrt\u00a3rprc_PBr_coeffs$00$00": 0.5400169182037359,
+  "shrt\u00a3rprc_PBr_coeffs$00$01": 0.0019982904408738372,
+  "shrt\u00a3rprc_const": 1.0198719743211149,
+  "shrt\u00a3rqty_MAr_coeffs$00$00": 0.30443189327298903,
+  "shrt\u00a3rqty_MAr_coeffs$00$01": 0.10602742481888483,
+  "shrt\u00a3rqty_MAr_coeffs$01$00": 0.12437475340660153,
+  "shrt\u00a3rqty_MAr_coeffs$01$01": 0.24033632550867912,
+  "shrt\u00a3rqty_MAr_coeffs$02$00": 0.1112246199732817,
+  "shrt\u00a3rqty_MAr_coeffs$02$01": -0.2978714298042802,
+  "shrt\u00a3rqty_const": 1.663841866859732,
+  "sliding_window_days": 21,
+  "spot": false,
+  "start_date": "2021-06-01",
+  "starting_balance": 100,
+  "starting_configs": null,
+  "symbol": "XMRUSDT",
+  "taker_fee": 0.0004,
+  "user": "hoeckxer"
+}

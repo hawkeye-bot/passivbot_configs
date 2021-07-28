@@ -1,0 +1,14 @@
+{
+    "maker_fee": 0.0002,
+    "taker_fee": 0.0004,
+    "spot": false,
+    "exchange": "binance",
+    "inverse": false,
+    "max_leverage": 50,
+    "min_qty": 0.1,
+    "min_cost": 5.0,
+    "qty_step": 0.1,
+    "price_step": 0.0001,
+    "c_mult": 1.0,
+    "hedge_mode": true
+}
