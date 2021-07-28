@@ -60,7 +60,7 @@ def process_candidate_configs(base_dir):
         else:
             print(f'New optimize result for {new_result["symbol"]} is not better than previous result, ignoring result')
 
-    # rmtree(base_dir)
+    rmtree(base_dir)
 
     # add all changes &  push to git repository
     if do_push:
