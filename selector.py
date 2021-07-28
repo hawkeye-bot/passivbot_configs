@@ -24,6 +24,7 @@ def splitall(path):
 
 
 def process_candidate_configs(base_dir):
+    print('Processing new results...')
     repo = Repo('./')
     repo.git.pull('origin')
     do_push = False
@@ -57,6 +58,8 @@ def process_candidate_configs(base_dir):
             # copy the new files
             new_files = list(Path(os.path.split(new_result_path)[0]).glob("**/*.*"))
             [shutil.copy(f, current_result_path) for f in new_files]
+        else:
+            print(f'New optimize result for {new_result["symbol"]} is not better than previous result, ignoring result')
 
     # rmtree(base_dir)
 
@@ -66,6 +69,7 @@ def process_candidate_configs(base_dir):
         repo.git.commit('-m', 'Better configs found during automated processing')
         repo.git.push('origin')
 
+    print('Finished processing results')
 
 
 def new_result_better(current, new) -> bool:
