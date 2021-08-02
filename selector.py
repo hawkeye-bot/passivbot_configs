@@ -37,7 +37,7 @@ def process_candidate_configs(base_dir):
         except Exception as e:
             raise Exception('failed to load result file', new_result_path, e)
 
-        current_result_path = Path(f"configs/live/{new_result['symbol']}")
+        current_result_path = Path(f"configs/live/{new_result['symbol']}/{new_result['market_type']}")
         current_result_path.mkdir(parents=True, exist_ok=True)
         current_result = None
         if len(list(current_result_path.glob("result.json"))) > 0:
