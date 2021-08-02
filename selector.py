@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import shutil
@@ -23,7 +24,7 @@ def splitall(path):
     return allparts
 
 
-def process_candidate_configs(base_dir):
+def process_candidate_configs(base_dir, version):
     print('Processing new results...')
     repo = Repo('./')
     repo.git.pull('origin')
@@ -37,7 +38,7 @@ def process_candidate_configs(base_dir):
         except Exception as e:
             raise Exception('failed to load result file', new_result_path, e)
 
-        current_result_path = Path(f"configs/live/{new_result['symbol']}/{new_result['market_type']}")
+        current_result_path = Path(f"configs/live/{version}/{new_result['symbol']}/{new_result['market_type']}")
         current_result_path.mkdir(parents=True, exist_ok=True)
         current_result = None
         if len(list(current_result_path.glob("result.json"))) > 0:
@@ -90,4 +91,9 @@ def new_result_better(current, new) -> bool:
 
 
 if __name__ == '__main__':
-    process_candidate_configs('/Users/erwinhoeckx/passivbot_configs/backtests')
+    parser = argparse.ArgumentParser(prog='Optimize', description='Optimize passivbot config.')
+    parser.add_argument('-v', '--version', type=str, required=True, dest='version',
+                        default=None,
+                        help='The version of the config files being processed')
+    args = parser.parse_args()
+    process_candidate_configs('/Users/erwinhoeckx/passivbot_configs/backtests', args.version)
