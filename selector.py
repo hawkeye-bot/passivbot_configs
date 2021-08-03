@@ -24,7 +24,7 @@ def splitall(path):
     return allparts
 
 
-def process_candidate_configs(base_dir, version):
+def process_candidate_configs(base_dir, version, delete):
     print('Processing new results...')
     repo = Repo('./')
     repo.git.pull('origin')
@@ -58,10 +58,11 @@ def process_candidate_configs(base_dir, version):
             # copy the new files
             new_files = list(Path(os.path.split(new_result_path)[0]).glob("**/*.*"))
             [shutil.copy(f, current_result_path) for f in new_files]
+
+            if delete:
+                rmtree(new_result_path)
         else:
             print(f'New optimize result for {new_result["symbol"]} is not better than previous result, ignoring result')
-
-    rmtree(base_dir)
 
     # add all changes &  push to git repository
     if do_push:
@@ -95,5 +96,8 @@ if __name__ == '__main__':
     parser.add_argument('-v', '--version', type=str, required=True, dest='version',
                         default=None,
                         help='The version of the config files being processed')
+    parser.add_argument('-d', '--delete', type=bool, required=True, dest='delete',
+                        default=False,
+                        help='Indicates if the folders that have been processed need to be deleted')
     args = parser.parse_args()
-    process_candidate_configs('/Users/erwinhoeckx/passivbot_configs/backtests', args.version)
+    process_candidate_configs('/Users/erwinhoeckx/passivbot_configs/backtests', args.version, args.delete)
