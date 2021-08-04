@@ -96,8 +96,11 @@ if __name__ == '__main__':
     parser.add_argument('-v', '--version', type=str, required=True, dest='version',
                         default=None,
                         help='The version of the config files being processed')
-    parser.add_argument('-d', '--delete', type=bool, required=True, dest='delete',
+    parser.add_argument('-d', '--delete', type=bool, required=False, dest='delete',
                         default=False,
                         help='Indicates if the folders that have been processed need to be deleted')
+    parser.add_argument('-s', '--source', type=str, required=True, dest='source',
+                        default='./backtests',
+                        help='The root folder to use, defaults to ./backtests')
     args = parser.parse_args()
-    process_candidate_configs('/Users/erwinhoeckx/passivbot_configs/backtests', args.version, args.delete)
+    process_candidate_configs(args.source, args.version, args.delete)
