@@ -38,7 +38,7 @@ def process_candidate_configs(base_dir, version, delete):
         except Exception as e:
             raise Exception('failed to load result file', new_result_path, e)
 
-        current_result_path = Path(f"configs/live/{version}/{new_result['symbol']}/{new_result['market_type']}")
+        current_result_path = Path(f"configs/live/{new_result['exchange']}/{new_result['symbol']}/{version}/{new_result['market_type']}")
         current_result_path.mkdir(parents=True, exist_ok=True)
         current_result = None
         if len(list(current_result_path.glob("result.json"))) > 0:
@@ -91,6 +91,21 @@ def new_result_better(current, new) -> bool:
     return new_adg > current_adg
 
 
+def generate_overview_md():
+    with open("summary.md", "w") as summary:
+        summary.write('| exchange | symbol | version | market_type | adg | closest_bkr |\n'
+                      '|----------|--------|---------|-------------| --- | ----------- |\n')
+
+        p = Path('configs')
+        result_paths = list(p.glob('**/result.json'))
+        for result_path in result_paths:
+            try:
+                result = json.load(open(result_path, encoding='utf-8'))
+                summary.write(f'| {result["exchange"]} | {result["symbol"]} | 4.0.0 | {result["market_type"]} | {result["result"]["average_daily_gain"]} | {result["result"]["closest_bkr"]} | \n')
+            except Exception as e:
+                print('failed to load result file', result_path, e)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='Optimize', description='Optimize passivbot config.')
     parser.add_argument('-v', '--version', type=str, required=True, dest='version',
@@ -104,3 +119,4 @@ if __name__ == '__main__':
                         help='The root folder to use, defaults to ./backtests')
     args = parser.parse_args()
     process_candidate_configs(args.source, args.version, args.delete)
+    generate_overview_md()

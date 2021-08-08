@@ -1,0 +1,58 @@
++--------------------------------------------------------+
+|                        Summary                         |
++----------------------------------+---------------------+
+| Metric                           | Value               |
++----------------------------------+---------------------+
+| Exchange                         | binance             |
+| Market type                      | futures             |
+| Symbol                           | THETAUSDT           |
+| No. days                         | 211.0               |
+| Starting balance                 | 1000.0              |
+| Final balance                    | 0.0                 |
+| Final equity                     | 0.0                 |
+| Net PNL + fees                   | -827.743            |
+| Total gain percentage            | -100.0%             |
+| Average daily gain percentage    | -100.0%             |
+| Adjusted daily gain              | 4.12231e-09         |
+| avg_5days_gain percentage        | 2.18%               |
+| Closest bankruptcy percentage    | 5.984%              |
+|                                  |                     |
+| Sharpe ratio                     | 0.702094            |
+| Profit sum                       | 426.497             |
+| Loss sum                         | -1235.54            |
+| Fee sum                          | -18.6969            |
+| Lowest equity/balance ratio      | 0.130971            |
+| Biggest position size            | 585.4               |
+|                                  |                     |
+| No. fills                        | 378.0               |
+| No. entries                      | 148.0               |
+| No. closes                       | 229.0               |
+| No. initial entries              | 133.0               |
+| No. reentries                    | 15.0                |
+| No. normal closes                | 215.0               |
+| No. stoploss closes              | 14.0                |
+|                                  |                     |
+| Mean hours between fills         | 13.3615             |
+| Max hours no fills (same side)   | 3511.77             |
+| Max hours no fills               | 3414.88             |
+|                                  |                     |
+| Long                             | True                |
+| No. inital entries               | 118                 |
+| No. reentries                    | 6                   |
+| No. normal closes                | 200                 |
+| No. stoploss closes              | 0                   |
+| No. partial fills                | 126                 |
+| Mean hours between fills (long)  | 15.5815             |
+| Max hours no fills (long)        | 3511.77             |
+| PNL sum                          | 267.98136713652605  |
+|                                  |                     |
+| Short                            | True                |
+| No. initial entries              | 15                  |
+| No. reentries                    | 9                   |
+| No. normal closes                | 15                  |
+| No. stoploss closes              | 14                  |
+| No. partial fills                | 8                   |
+| Mean hours between fills (short) | 92.0727             |
+| Max hours no fills (short)       | 3414.88             |
+| PNL sum                          | -1077.0277404062726 |
++----------------------------------+---------------------+

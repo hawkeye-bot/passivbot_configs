@@ -1,0 +1,58 @@
++------------------------------------------------------+
+|                       Summary                        |
++----------------------------------+-------------------+
+| Metric                           | Value             |
++----------------------------------+-------------------+
+| Exchange                         | binance           |
+| Market type                      | futures           |
+| Symbol                           | ADAUSDT           |
+| No. days                         | 211.0             |
+| Starting balance                 | 1000.0            |
+| Final balance                    | 1785.99           |
+| Final equity                     | 1785.02           |
+| Net PNL + fees                   | 785.989           |
+| Total gain percentage            | 78.5%             |
+| Average daily gain percentage    | 0.275%            |
+| Adjusted daily gain              | 1.02749           |
+| avg_5days_gain percentage        | 1.37%             |
+| Closest bankruptcy percentage    | 100.0%            |
+|                                  |                   |
+| Sharpe ratio                     | 1.07549           |
+| Profit sum                       | 831.781           |
+| Loss sum                         | -28.9031          |
+| Fee sum                          | -16.8889          |
+| Lowest equity/balance ratio      | 0.78363           |
+| Biggest position size            | 1017.0            |
+|                                  |                   |
+| No. fills                        | 1293.0            |
+| No. entries                      | 824.0             |
+| No. closes                       | 469.0             |
+| No. initial entries              | 468.0             |
+| No. reentries                    | 356.0             |
+| No. normal closes                | 469.0             |
+| No. stoploss closes              | 0.0               |
+|                                  |                   |
+| Mean hours between fills         | 3.91345           |
+| Max hours no fills (same side)   | 118.729           |
+| Max hours no fills               | 70.3792           |
+|                                  |                   |
+| Long                             | True              |
+| No. inital entries               | 215               |
+| No. reentries                    | 41                |
+| No. normal closes                | 217               |
+| No. stoploss closes              | 0                 |
+| No. partial fills                | 4                 |
+| Mean hours between fills (long)  | 10.6835           |
+| Max hours no fills (long)        | 118.729           |
+| PNL sum                          | 720.5673900000002 |
+|                                  |                   |
+| Short                            | True              |
+| No. initial entries              | 253               |
+| No. reentries                    | 315               |
+| No. normal closes                | 252               |
+| No. stoploss closes              | 0                 |
+| No. partial fills                | 0                 |
+| Mean hours between fills (short) | 6.16809           |
+| Max hours no fills (short)       | 102.467           |
+| PNL sum                          | 82.31021999999993 |
++----------------------------------+-------------------+
