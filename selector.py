@@ -64,6 +64,8 @@ def process_candidate_configs(base_dir, version, delete, do_push):
         else:
             print(f'New optimize result for {new_result["symbol"]} is not better than previous result, ignoring result')
 
+    generate_overview_md()
+
     # add all changes &  push to git repository
     if results_changed and do_push:
         repo.git.add(all=True)
@@ -93,15 +95,15 @@ def new_result_better(current, new) -> bool:
 
 def generate_overview_md():
     with open("summary.md", "w") as summary:
-        summary.write('| exchange | symbol | version | market_type | adg | closest_bkr |\n'
-                      '|----------|--------|---------|-------------| --- | ----------- |\n')
+        summary.write('| exchange | symbol | version | market_type | adg | closest_bkr | long | short |\n'
+                      '|----------|--------|---------|-------------| --- | ----------- | ---- | ----- |\n')
 
         p = Path('configs')
         result_paths = list(p.glob('**/result.json'))
         for result_path in result_paths:
             try:
                 result = json.load(open(result_path, encoding='utf-8'))
-                summary.write(f'| {result["exchange"]} | {result["symbol"]} | 4.0.0 | {result["market_type"]} | {result["result"]["average_daily_gain"]} | {result["result"]["closest_bkr"]} | \n')
+                summary.write(f'| {result["exchange"]} | {result["symbol"]} | 4.0.0 | {result["market_type"]} | {result["result"]["average_daily_gain"]} | {result["result"]["closest_bkr"]} | {result["do_long"]} | {result["do_shrt"]} |\n')
             except Exception as e:
                 print('failed to load result file', result_path, e)
 
@@ -111,15 +113,12 @@ if __name__ == '__main__':
     parser.add_argument('-v', '--version', type=str, required=True, dest='version',
                         default=None,
                         help='The version of the config files being processed')
-    parser.add_argument('-d', '--delete', type=bool, required=False, dest='delete',
-                        default=False,
-                        help='Indicates if the folders that have been processed need to be deleted')
-    parser.add_argument('-p', '--push', type=bool, required=False, dest='push',
-                        default=True,
-                        help='Setting to define if result should be pushed to git or not')
+    parser.add_argument('-d', '--delete', required=False, dest='delete',
+                        default=False, help='Indicates if the folders that have been processed need to be deleted')
+    parser.add_argument('-p', '--push', required=False, dest='push',
+                        default='True', help='Setting to define if result should be pushed to git or not')
     parser.add_argument('-s', '--source', type=str, required=True, dest='source',
                         default='./backtests',
                         help='The root folder to use, defaults to ./backtests')
     args = parser.parse_args()
-    process_candidate_configs(args.source, args.version, args.delete, args.push)
-    generate_overview_md()
+    process_candidate_configs(args.source, args.version, args.delete, args.push == 'True')
