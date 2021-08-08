@@ -38,6 +38,10 @@ def process_candidate_configs(base_dir, version, delete, do_push):
         except Exception as e:
             raise Exception('failed to load result file', new_result_path, e)
 
+        if new_result['start_date'] != '2021-01-01' or new_result['end_date'] != '2021-07-31':
+            print(f'{new_result_path} does not match required start_date of 01-01-2021 and/or end_date 31-07-2021')
+            continue
+
         current_result_path = Path(f"configs/live/{new_result['exchange']}/{new_result['symbol']}/{version}/{new_result['market_type']}")
         current_result_path.mkdir(parents=True, exist_ok=True)
         current_result = None
@@ -60,7 +64,7 @@ def process_candidate_configs(base_dir, version, delete, do_push):
             [shutil.copy(f, current_result_path) for f in new_files]
 
             if delete:
-                rmtree(new_result_path)
+                rmtree(new_result_path.parent.absolute())
         else:
             print(f'New optimize result for {new_result["symbol"]} is not better than previous result, ignoring result')
 
@@ -121,4 +125,4 @@ if __name__ == '__main__':
                         default='./backtests',
                         help='The root folder to use, defaults to ./backtests')
     args = parser.parse_args()
-    process_candidate_configs(args.source, args.version, args.delete, args.push == 'True')
+    process_candidate_configs(args.source, args.version, args.delete == 'True', args.push == 'True')
