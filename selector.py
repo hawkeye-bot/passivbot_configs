@@ -24,11 +24,11 @@ def splitall(path):
     return allparts
 
 
-def process_candidate_configs(base_dir, version, delete):
+def process_candidate_configs(base_dir, version, delete, do_push):
     print('Processing new results...')
     repo = Repo('./')
     repo.git.pull('origin')
-    do_push = False
+    results_changed = False
 
     p = Path(base_dir)
     result_paths = list(p.glob('**/plots/**/result.json'))
@@ -48,7 +48,7 @@ def process_candidate_configs(base_dir, version, delete):
                 raise Exception('failed to load result file', new_result_path, e)
 
         if new_result_better(current_result, new_result):
-            do_push = True
+            results_changed = True
             print(f'Replacing configuration for {new_result["symbol"]}')
             if current_result_path.exists():
                 # remove all existing files
@@ -65,7 +65,7 @@ def process_candidate_configs(base_dir, version, delete):
             print(f'New optimize result for {new_result["symbol"]} is not better than previous result, ignoring result')
 
     # add all changes &  push to git repository
-    if do_push:
+    if results_changed and do_push:
         repo.git.add(all=True)
         repo.git.commit('-m', 'Better configs found during automated processing')
         print('Pushing result to repository')
@@ -114,9 +114,12 @@ if __name__ == '__main__':
     parser.add_argument('-d', '--delete', type=bool, required=False, dest='delete',
                         default=False,
                         help='Indicates if the folders that have been processed need to be deleted')
+    parser.add_argument('-p', '--push', type=bool, required=False, dest='push',
+                        default=True,
+                        help='Setting to define if result should be pushed to git or not')
     parser.add_argument('-s', '--source', type=str, required=True, dest='source',
                         default='./backtests',
                         help='The root folder to use, defaults to ./backtests')
     args = parser.parse_args()
-    process_candidate_configs(args.source, args.version, args.delete)
+    process_candidate_configs(args.source, args.version, args.delete, args.push)
     generate_overview_md()
