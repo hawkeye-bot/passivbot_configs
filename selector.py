@@ -2,6 +2,8 @@ import argparse
 import json
 import os
 import shutil
+import datetime
+import time
 from pathlib import Path
 from shutil import rmtree
 
@@ -38,9 +40,15 @@ def process_candidate_configs(base_dir, version, delete, do_push):
         except Exception as e:
             raise Exception('failed to load result file', new_result_path, e)
 
-        if new_result['start_date'] != '2021-01-01' or new_result['end_date'] != '2021-07-31':
+        st=datetime.datetime.strptime(new_result['start_date'], "%Y-%m-%dT%H:%M")
+        et=datetime.datetime.strptime(new_result['end_date'], "%Y-%m-%dT%H:%M")
+        format="%Y-%m-%d"
+        st2=st.strftime(format)
+        et2=et.strftime(format)
+        
+        if st2 != '2021-01-01' or et2 != '2021-07-31':
             print(f'{new_result_path} does not match required start_date of 01-01-2021 and/or end_date 31-07-2021')
-            #continue
+            continue
 
         current_result_path = Path(f"configs/live/{new_result['exchange']}/{new_result['symbol']}/{version}/{new_result['market_type']}")
         current_result_path.mkdir(parents=True, exist_ok=True)
