@@ -40,7 +40,7 @@ def process_candidate_configs(base_dir, version, delete, do_push):
 
         if new_result['start_date'] != '2021-01-01' or new_result['end_date'] != '2021-07-31':
             print(f'{new_result_path} does not match required start_date of 01-01-2021 and/or end_date 31-07-2021')
-            continue
+            #continue
 
         current_result_path = Path(f"configs/live/{new_result['exchange']}/{new_result['symbol']}/{version}/{new_result['market_type']}")
         current_result_path.mkdir(parents=True, exist_ok=True)
