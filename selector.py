@@ -29,7 +29,7 @@ def splitall(path):
 def process_candidate_configs(base_dir, version, delete, do_push):
     print('Processing new results...')
     repo = Repo('./')
-#    repo.git.pull('origin')
+    repo.git.pull('origin')
     results_changed = False
 
     p = Path(base_dir)
