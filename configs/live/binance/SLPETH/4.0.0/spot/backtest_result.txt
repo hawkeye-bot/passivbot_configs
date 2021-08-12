@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | SLPETH            |
+| No. days                        | 211.0             |
+| Starting balance                | 1000.0            |
+| Final balance                   | 1560.32           |
+| Final equity                    | 1504.42           |
+| Net PNL + fees                  | 560.324           |
+| Total gain percentage           | 50.44%            |
+| Average daily gain percentage   | 0.194%            |
+| Adjusted daily gain             | 1.01937           |
+| avg_5days_gain percentage       | 1.13%             |
+| Closest bankruptcy percentage   | 100.0%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.406533          |
+| Profit sum                      | 569.466           |
+| Loss sum                        | -0.0300759        |
+| Fee sum                         | -9.11209          |
+| Lowest equity/balance ratio     | 0.752084          |
+| Biggest position size           | 22080400.0        |
+|                                 |                   |
+| No. fills                       | 22952.0           |
+| No. entries                     | 10197.0           |
+| No. closes                      | 12755.0           |
+| No. initial entries             | 165.0             |
+| No. reentries                   | 10032.0           |
+| No. normal closes               | 12755.0           |
+| No. stoploss closes             | 0.0               |
+|                                 |                   |
+| Mean hours between fills        | 0.220624          |
+| Max hours no fills (same side)  | 115.727           |
+| Max hours no fills              | 115.727           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 165               |
+| No. reentries                   | 10032             |
+| No. normal closes               | 12755             |
+| No. stoploss closes             | 0                 |
+| No. partial fills               | 21317             |
+| Mean hours between fills (long) | 0.220624          |
+| Max hours no fills (long)       | 115.727           |
+| PNL sum                         | 569.4363443071716 |
++---------------------------------+-------------------+

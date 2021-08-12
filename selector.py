@@ -29,7 +29,7 @@ def splitall(path):
 def process_candidate_configs(base_dir, version, delete, do_push):
     print('Processing new results...')
     repo = Repo('./')
-    repo.git.pull('origin')
+#    repo.git.pull('origin')
     results_changed = False
 
     p = Path(base_dir)
@@ -40,13 +40,10 @@ def process_candidate_configs(base_dir, version, delete, do_push):
         except Exception as e:
             raise Exception('failed to load result file', new_result_path, e)
 
-        st=datetime.datetime.strptime(new_result['start_date'], "%Y-%m-%dT%H:%M")
-        et=datetime.datetime.strptime(new_result['end_date'], "%Y-%m-%dT%H:%M")
-        format="%Y-%m-%d"
-        st2=st.strftime(format)
-        et2=et.strftime(format)
+        start_date=(new_result['start_date'].strip('T00:00'))
+        end_date=(new_result['end_date'].strip('T00:00'))
         
-        if st2 != '2021-01-01' or et2 != '2021-07-31':
+        if start_date != '2021-01-01' or end_date != '2021-07-31':
             print(f'{new_result_path} does not match required start_date of 01-01-2021 and/or end_date 31-07-2021')
             continue
 
