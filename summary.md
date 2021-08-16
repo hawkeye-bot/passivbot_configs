@@ -35,7 +35,6 @@
 | binance | AVAXUSDT | 4.0.0 | spot | 1.0054778903466357 | 1.0 | True | False |
 | binance | SLPETH | 4.0.0 | spot | 1.0019374579170295 | 1.0 | True | False |
 | binance | ETHUSDT | 4.0.0 | futures | 1.004298623677707 | 0.3757087951010889 | True | True |
-| binance | SHIBUSDT | 4.0.0 | spot | 1.0082292562935848 | 1.0 | True | False |
 | binance | ALPHAUSDT | 4.0.0 | spot | 1.0049898052015964 | 0.9999895486368269 | True | False |
 | binance | MKRUSDT | 4.0.0 | spot | 1.0033244816368252 | 0.9998291107946342 | True | False |
 | binance | SUSHIUSDT | 4.0.0 | spot | 0.989146515342535 | 1.0 | True | False |
