@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | AAVEUSDT          |
+| No. days                        | 211.0             |
+| Starting balance                | 1000.0            |
+| Final balance                   | 1527.32           |
+| Final equity                    | 1526.08           |
+| Net PNL + fees                  | 527.324           |
+| Total gain percentage           | 52.61%            |
+| Average daily gain percentage   | 0.201%            |
+| Adjusted daily gain             | 1.02005           |
+| avg_7days_gain percentage       | 2.62%             |
+| Closest bankruptcy percentage   | 100.0%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.636061          |
+| Profit sum                      | 559.867           |
+| Loss sum                        | -2.98041          |
+| Fee sum                         | -29.5632          |
+| Lowest equity/balance ratio     | 0.696269          |
+| Biggest position size           | 3.6322            |
+|                                 |                   |
+| No. fills                       | 443.0             |
+| No. entries                     | 232.0             |
+| No. closes                      | 211.0             |
+| No. initial entries             | 200.0             |
+| No. reentries                   | 32.0              |
+| No. normal closes               | 210.0             |
+| No. stoploss closes             | 1.0               |
+|                                 |                   |
+| Mean hours between fills        | 11.4054           |
+| Max hours no fills (same side)  | 1327.31           |
+| Max hours no fills              | 1327.31           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 200               |
+| No. reentries                   | 32                |
+| No. normal closes               | 210               |
+| No. stoploss closes             | 1                 |
+| No. partial fills               | 29                |
+| Mean hours between fills (long) | 11.4054           |
+| Max hours no fills (long)       | 1327.31           |
+| PNL sum                         | 556.8868326396463 |
++---------------------------------+-------------------+

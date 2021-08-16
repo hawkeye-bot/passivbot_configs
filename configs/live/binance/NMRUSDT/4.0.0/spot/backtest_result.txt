@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | NMRUSDT           |
+| No. days                        | 211.0             |
+| Starting balance                | 1000.0            |
+| Final balance                   | 3119.52           |
+| Final equity                    | 3119.52           |
+| Net PNL + fees                  | 2119.52           |
+| Total gain percentage           | 212.0%            |
+| Average daily gain percentage   | 0.541%            |
+| Adjusted daily gain             | 1.05401           |
+| avg_7days_gain percentage       | 4.96%             |
+| Closest bankruptcy percentage   | 99.94%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.459525          |
+| Profit sum                      | 9629.67           |
+| Loss sum                        | -5603.53          |
+| Fee sum                         | -1906.62          |
+| Lowest equity/balance ratio     | 0.545582          |
+| Biggest position size           | 103.444           |
+|                                 |                   |
+| No. fills                       | 7023.0            |
+| No. entries                     | 3848.0            |
+| No. closes                      | 3175.0            |
+| No. initial entries             | 548.0             |
+| No. reentries                   | 3300.0            |
+| No. normal closes               | 2698.0            |
+| No. stoploss closes             | 477.0             |
+|                                 |                   |
+| Mean hours between fills        | 0.720955          |
+| Max hours no fills (same side)  | 72.2772           |
+| Max hours no fills              | 72.2772           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 548               |
+| No. reentries                   | 3300              |
+| No. normal closes               | 2698              |
+| No. stoploss closes             | 477               |
+| No. partial fills               | 5320              |
+| Mean hours between fills (long) | 0.720955          |
+| Max hours no fills (long)       | 72.2772           |
+| PNL sum                         | 4026.137825214273 |
++---------------------------------+-------------------+

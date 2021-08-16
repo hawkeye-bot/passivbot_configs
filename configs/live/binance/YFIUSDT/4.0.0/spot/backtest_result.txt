@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | YFIUSDT            |
+| No. days                        | 211.0              |
+| Starting balance                | 1000.0             |
+| Final balance                   | 2889.3             |
+| Final equity                    | 2889.3             |
+| Net PNL + fees                  | 1889.3             |
+| Total gain percentage           | 188.9%             |
+| Average daily gain percentage   | 0.504%             |
+| Adjusted daily gain             | 1.05037            |
+| avg_7days_gain percentage       | 3.83%              |
+| Closest bankruptcy percentage   | 100.0%             |
+|                                 |                    |
+| Sharpe ratio                    | 0.624438           |
+| Profit sum                      | 2024.75            |
+| Loss sum                        | -3.24784           |
+| Fee sum                         | -132.206           |
+| Lowest equity/balance ratio     | 0.504255           |
+| Biggest position size           | 0.07391            |
+|                                 |                    |
+| No. fills                       | 1039.0             |
+| No. entries                     | 621.0              |
+| No. closes                      | 418.0              |
+| No. initial entries             | 264.0              |
+| No. reentries                   | 357.0              |
+| No. normal closes               | 324.0              |
+| No. stoploss closes             | 94.0               |
+|                                 |                    |
+| Mean hours between fills        | 4.86923            |
+| Max hours no fills (same side)  | 236.472            |
+| Max hours no fills              | 236.472            |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 264                |
+| No. reentries                   | 357                |
+| No. normal closes               | 324                |
+| No. stoploss closes             | 94                 |
+| No. partial fills               | 126                |
+| Mean hours between fills (long) | 4.86923            |
+| Max hours no fills (long)       | 236.472            |
+| PNL sum                         | 2021.5049269821513 |
++---------------------------------+--------------------+

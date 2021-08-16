@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | RUNEUSDT           |
+| No. days                        | 211.0              |
+| Starting balance                | 1000.0             |
+| Final balance                   | 2142.89            |
+| Final equity                    | 2142.89            |
+| Net PNL + fees                  | 1142.89            |
+| Total gain percentage           | 114.3%             |
+| Average daily gain percentage   | 0.362%             |
+| Adjusted daily gain             | 1.03617            |
+| avg_7days_gain percentage       | 2.61%              |
+| Closest bankruptcy percentage   | 100.0%             |
+|                                 |                    |
+| Sharpe ratio                    | 0.691272           |
+| Profit sum                      | 1243.59            |
+| Loss sum                        | -18.6645           |
+| Fee sum                         | -82.0362           |
+| Lowest equity/balance ratio     | 0.850413           |
+| Biggest position size           | 245.94             |
+|                                 |                    |
+| No. fills                       | 1825.0             |
+| No. entries                     | 1296.0             |
+| No. closes                      | 529.0              |
+| No. initial entries             | 493.0              |
+| No. reentries                   | 803.0              |
+| No. normal closes               | 504.0              |
+| No. stoploss closes             | 25.0               |
+|                                 |                    |
+| Mean hours between fills        | 2.77327            |
+| Max hours no fills (same side)  | 98.8575            |
+| Max hours no fills              | 98.8575            |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 493                |
+| No. reentries                   | 803                |
+| No. normal closes               | 504                |
+| No. stoploss closes             | 25                 |
+| No. partial fills               | 60                 |
+| Mean hours between fills (long) | 2.77327            |
+| Max hours no fills (long)       | 98.8575            |
+| PNL sum                         | 1224.9304461352374 |
++---------------------------------+--------------------+

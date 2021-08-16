@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | KAVAUSDT          |
+| No. days                        | 211.0             |
+| Starting balance                | 1000.0            |
+| Final balance                   | 3693.56           |
+| Final equity                    | 3693.56           |
+| Net PNL + fees                  | 2693.56           |
+| Total gain percentage           | 269.4%            |
+| Average daily gain percentage   | 0.621%            |
+| Adjusted daily gain             | 1.06204           |
+| avg_7days_gain percentage       | 4.41%             |
+| Closest bankruptcy percentage   | 99.97%            |
+|                                 |                   |
+| Sharpe ratio                    | 1.19897           |
+| Profit sum                      | 3721.24           |
+| Loss sum                        | -603.941          |
+| Fee sum                         | -423.739          |
+| Lowest equity/balance ratio     | 0.517802          |
+| Biggest position size           | 989.44            |
+|                                 |                   |
+| No. fills                       | 1083.0            |
+| No. entries                     | 489.0             |
+| No. closes                      | 594.0             |
+| No. initial entries             | 299.0             |
+| No. reentries                   | 190.0             |
+| No. normal closes               | 570.0             |
+| No. stoploss closes             | 24.0              |
+|                                 |                   |
+| Mean hours between fills        | 4.67158           |
+| Max hours no fills (same side)  | 97.0103           |
+| Max hours no fills              | 97.0103           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 299               |
+| No. reentries                   | 190               |
+| No. normal closes               | 570               |
+| No. stoploss closes             | 24                |
+| No. partial fills               | 501               |
+| Mean hours between fills (long) | 4.67158           |
+| Max hours no fills (long)       | 97.0103           |
+| PNL sum                         | 3117.300627269402 |
++---------------------------------+-------------------+
