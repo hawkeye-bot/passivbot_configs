@@ -1,6 +1,6 @@
 | exchange | symbol | version | market_type | adg | closest_bkr | long | short |
 |----------|--------|---------|-------------| --- | ----------- | ---- | ----- |
-| binance | HOTUSDT | 4.0.0 | spot | 1.013830123808755 | 0.9994487927792883 | True | False |
+| binance | HOTUSDT | 4.0.0 | spot | 1.014559039570494 | 0.9993541657603258 | True | False |
 | binance | RVNUSDT | 4.0.0 | spot | 1.0095276344360644 | 0.9989295965378944 | True | False |
 | binance | 1INCHUSDT | 4.0.0 | spot | 1.0023976068380391 | 1.0 | True | False |
 | binance | AAVEUSDT | 4.0.0 | spot | 1.0020053448424808 | 1.0 | True | False |
@@ -22,6 +22,7 @@
 | binance | XRPUSDT | 4.0.0 | futures | 1.0029009692865194 | 1.0 | True | False |
 | binance | LUNAUSDT | 4.0.0 | spot | 1.0033797998302867 | 1.0 | True | False |
 | binance | XLMUSDT | 4.0.0 | futures | 0.9945737370380754 | 0.7557935613286378 | True | False |
+| binance | XLMUSDT | 4.0.0 | spot | 1.0033331992755876 | 0.9997986623706644 | True | False |
 | binance | THETAUSDT | 4.0.0 | spot | 0.989146502786577 | 1.0 | True | False |
 | binance | THETAUSDT | 4.0.0 | futures | 0.0 | 0.05983957517159699 | True | True |
 | binance | UNIUSDT | 4.0.0 | spot | 1.0031933321535973 | 1.0 | True | False |
@@ -29,7 +30,7 @@
 | binance | SNXUSDT | 4.0.0 | spot | 1.0029553399716953 | 0.9990260985617196 | True | False |
 | binance | COMPUSDT | 4.0.0 | spot | 1.0058929388712516 | 0.9993699400698123 | True | False |
 | binance | BNTUSDT | 4.0.0 | spot | 1.0029741217317316 | 1.0 | True | False |
-| binance | MATICUSDT | 4.0.0 | spot | 1.0085748983374871 | 1.0 | True | False |
+| binance | MATICUSDT | 4.0.0 | spot | 1.0118315659009114 | 0.9993231484516338 | True | False |
 | binance | YFIUSDT | 4.0.0 | spot | 1.005041168850388 | 1.0 | True | False |
 | binance | ANKRUSDT | 4.0.0 | spot | 1.0024401017740583 | 1.0 | True | False |
 | binance | AVAXUSDT | 4.0.0 | spot | 1.0054778903466357 | 1.0 | True | False |
