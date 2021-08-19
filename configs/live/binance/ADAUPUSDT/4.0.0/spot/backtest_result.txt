@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | ADAUPUSDT          |
+| No. days                        | 210.999            |
+| Starting balance                | 1000.0             |
+| Final balance                   | 17419.2            |
+| Final equity                    | 17419.2            |
+| Net PNL + fees                  | 16419.2            |
+| Total gain percentage           | 1642.0%            |
+| Average daily gain percentage   | 1.36%              |
+| Adjusted daily gain             | 1.13551            |
+| avg_5days_gain percentage       | 7.88%              |
+| Closest bankruptcy percentage   | 99.96%             |
+|                                 |                    |
+| Sharpe ratio                    | 0.669895           |
+| Profit sum                      | 16933.6            |
+| Loss sum                        | -151.552           |
+| Fee sum                         | -362.845           |
+| Lowest equity/balance ratio     | 0.521891           |
+| Biggest position size           | 282.12             |
+|                                 |                    |
+| No. fills                       | 4610.0             |
+| No. entries                     | 4056.0             |
+| No. closes                      | 554.0              |
+| No. initial entries             | 253.0              |
+| No. reentries                   | 3803.0             |
+| No. normal closes               | 543.0              |
+| No. stoploss closes             | 11.0               |
+|                                 |                    |
+| Mean hours between fills        | 1.09824            |
+| Max hours no fills (same side)  | 255.614            |
+| Max hours no fills              | 255.614            |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 253                |
+| No. reentries                   | 3803               |
+| No. normal closes               | 543                |
+| No. stoploss closes             | 11                 |
+| No. partial fills               | 518                |
+| Mean hours between fills (long) | 1.09824            |
+| Max hours no fills (long)       | 255.614            |
+| PNL sum                         | 16782.031632329352 |
++---------------------------------+--------------------+

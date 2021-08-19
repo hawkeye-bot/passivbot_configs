@@ -1,48 +1,48 @@
-+------------------------------------------------------+
-|                       Summary                        |
-+---------------------------------+--------------------+
-| Metric                          | Value              |
-+---------------------------------+--------------------+
-| Exchange                        | binance            |
-| Market type                     | spot               |
-| Symbol                          | MATICUSDT          |
-| No. days                        | 211.0              |
-| Starting balance                | 1000.0             |
-| Final balance                   | 11962.9            |
-| Final equity                    | 11962.9            |
-| Net PNL + fees                  | 10962.9            |
-| Total gain percentage           | 1096.0%            |
-| Average daily gain percentage   | 1.18%              |
-| Adjusted daily gain             | 1.11777            |
-| avg_7days_gain percentage       | 9.09%              |
-| Closest bankruptcy percentage   | 99.93%             |
-|                                 |                    |
-| Sharpe ratio                    | 0.753592           |
-| Profit sum                      | 13234.7            |
-| Loss sum                        | -535.495           |
-| Fee sum                         | -1736.35           |
-| Lowest equity/balance ratio     | 0.548651           |
-| Biggest position size           | 46403.7            |
-|                                 |                    |
-| No. fills                       | 2730.0             |
-| No. entries                     | 1481.0             |
-| No. closes                      | 1249.0             |
-| No. initial entries             | 917.0              |
-| No. reentries                   | 564.0              |
-| No. normal closes               | 1247.0             |
-| No. stoploss closes             | 2.0                |
-|                                 |                    |
-| Mean hours between fills        | 1.85427            |
-| Max hours no fills (same side)  | 99.0881            |
-| Max hours no fills              | 99.0881            |
-|                                 |                    |
-| Long                            | True               |
-| No. inital entries              | 917                |
-| No. reentries                   | 564                |
-| No. normal closes               | 1247               |
-| No. stoploss closes             | 2                  |
-| No. partial fills               | 520                |
-| Mean hours between fills (long) | 1.85427            |
-| Max hours no fills (long)       | 99.0881            |
-| PNL sum                         | 12699.198297432655 |
-+---------------------------------+--------------------+
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | MATICUSDT         |
+| No. days                        | 211.0             |
+| Starting balance                | 1000.0            |
+| Final balance                   | 26375.3           |
+| Final equity                    | 26375.3           |
+| Net PNL + fees                  | 25375.3           |
+| Total gain percentage           | 2538.0%           |
+| Average daily gain percentage   | 1.56%             |
+| Adjusted daily gain             | 1.15504           |
+| avg_5days_gain percentage       | 8.62%             |
+| Closest bankruptcy percentage   | 99.89%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.857996          |
+| Profit sum                      | 33452.7           |
+| Loss sum                        | -5310.85          |
+| Fee sum                         | -2766.6           |
+| Lowest equity/balance ratio     | 0.507688          |
+| Biggest position size           | 41358.8           |
+|                                 |                   |
+| No. fills                       | 1116.0            |
+| No. entries                     | 341.0             |
+| No. closes                      | 775.0             |
+| No. initial entries             | 215.0             |
+| No. reentries                   | 126.0             |
+| No. normal closes               | 438.0             |
+| No. stoploss closes             | 337.0             |
+|                                 |                   |
+| Mean hours between fills        | 4.53357           |
+| Max hours no fills (same side)  | 81.6897           |
+| Max hours no fills              | 81.6897           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 215               |
+| No. reentries                   | 126               |
+| No. normal closes               | 438               |
+| No. stoploss closes             | 337               |
+| No. partial fills               | 361               |
+| Mean hours between fills (long) | 4.53357           |
+| Max hours no fills (long)       | 81.6897           |
+| PNL sum                         | 28141.90161117798 |
++---------------------------------+-------------------+

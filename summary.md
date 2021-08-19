@@ -1,7 +1,7 @@
 | exchange | symbol | version | market_type | adg | closest_bkr | long | short |
 |----------|--------|---------|-------------| --- | ----------- | ---- | ----- |
 | binance | HOTUSDT | 4.0.0 | spot | 1.014559039570494 | 0.9993541657603258 | True | False |
-| binance | RVNUSDT | 4.0.0 | spot | 1.0095276344360644 | 0.9989295965378944 | True | False |
+| binance | RVNUSDT | 4.0.0 | spot | 1.0105532684517147 | 0.9998182355786767 | True | False |
 | binance | 1INCHUSDT | 4.0.0 | spot | 1.0023976068380391 | 1.0 | True | False |
 | binance | AAVEUSDT | 4.0.0 | spot | 1.0020053448424808 | 1.0 | True | False |
 | binance | BTTUSDT | 4.0.0 | spot | 1.0074160578550597 | 0.9996520965392531 | True | False |
@@ -9,6 +9,7 @@
 | binance | RUNEUSDT | 4.0.0 | spot | 1.0036186601167185 | 1.0 | True | False |
 | binance | BATUSDT | 4.0.0 | spot | 1.0052967030535758 | 0.9997016639466414 | True | False |
 | binance | ADAUSDT | 4.0.0 | futures | 1.002749874095769 | 1.0 | True | True |
+| binance | ADAUPUSDT | 4.0.0 | spot | 1.013635173229322 | 0.9995527787210017 | True | False |
 | binance | FTMUSDT | 4.0.0 | spot | 1.0064882366788706 | 0.9999282631086106 | True | False |
 | binance | KAVAUSDT | 4.0.0 | spot | 1.0062115913876737 | 0.9996733477623433 | True | False |
 | binance | ETCUSDT | 4.0.0 | futures | 0.0 | 0.05932230391734765 | True | True |
@@ -30,7 +31,7 @@
 | binance | SNXUSDT | 4.0.0 | spot | 1.0029553399716953 | 0.9990260985617196 | True | False |
 | binance | COMPUSDT | 4.0.0 | spot | 1.0058929388712516 | 0.9993699400698123 | True | False |
 | binance | BNTUSDT | 4.0.0 | spot | 1.0029741217317316 | 1.0 | True | False |
-| binance | MATICUSDT | 4.0.0 | spot | 1.0118315659009114 | 0.9993231484516338 | True | False |
+| binance | MATICUSDT | 4.0.0 | spot | 1.015630035184803 | 0.998931030092483 | True | False |
 | binance | YFIUSDT | 4.0.0 | spot | 1.005041168850388 | 1.0 | True | False |
 | binance | ANKRUSDT | 4.0.0 | spot | 1.0024401017740583 | 1.0 | True | False |
 | binance | AVAXUSDT | 4.0.0 | spot | 1.0054778903466357 | 1.0 | True | False |
