@@ -11,7 +11,6 @@
 | binance | ADAUSDT | 4.0.0 | futures | 1.002749874095769 | 1.0 | True | True |
 | binance | ADAUPUSDT | 4.0.0 | spot | 1.013635173229322 | 0.9995527787210017 | True | False |
 | binance | FTMUSDT | 4.0.0 | spot | 1.0064882366788706 | 0.9999282631086106 | True | False |
-| binance | ARUSDT | 4.0.0 | spot | 1.0106941244029204 | 1.0 | True | False |
 | binance | XTZUSDT | 4.0.0 | spot | 1.004094190430169 | 0.9997296222811372 | True | False |
 | binance | MANAUSDT | 4.0.0 | spot | 1.0107900866275976 | 0.9996048608967835 | True | False |
 | binance | KAVAUSDT | 4.0.0 | spot | 1.0062115913876737 | 0.9996733477623433 | True | False |
@@ -19,7 +18,6 @@
 | binance | CRVUSDT | 4.0.0 | spot | 1.0050466787239307 | 0.9995587641398028 | True | False |
 | binance | NMRUSDT | 4.0.0 | spot | 1.0054064173639055 | 0.9993941317436896 | True | False |
 | binance | RSRUSDT | 4.0.0 | spot | 1.0040885003660736 | 1.0 | True | False |
-| binance | KLAYUSDT | 4.0.0 | spot | 1.0156232702172638 | 0.9996487903368353 | True | False |
 | binance | HNTUSDT | 4.0.0 | spot | 1.0146941201881006 | 0.9994328389489131 | True | False |
 | binance | EGLDUSDT | 4.0.0 | spot | 1.006401324727269 | 0.9994251128643428 | True | False |
 | binance | UMAUSDT | 4.0.0 | spot | 1.004003760313523 | 1.0 | True | False |
