@@ -1,48 +1,48 @@
-+------------------------------------------------------+
-|                       Summary                        |
-+---------------------------------+--------------------+
-| Metric                          | Value              |
-+---------------------------------+--------------------+
-| Exchange                        | binance            |
-| Market type                     | spot               |
-| Symbol                          | SNXUSDT            |
-| No. days                        | 211.0              |
-| Starting balance                | 1000.0             |
-| Final balance                   | 1863.87            |
-| Final equity                    | 1863.87            |
-| Net PNL + fees                  | 863.874            |
-| Total gain percentage           | 86.39%             |
-| Average daily gain percentage   | 0.296%             |
-| Adjusted daily gain             | 1.02954            |
-| avg_7days_gain percentage       | 2.45%              |
-| Closest bankruptcy percentage   | 99.9%              |
-|                                 |                    |
-| Sharpe ratio                    | 0.688926           |
-| Profit sum                      | 1479.5             |
-| Loss sum                        | -287.098           |
-| Fee sum                         | -328.53            |
-| Lowest equity/balance ratio     | 0.659872           |
-| Biggest position size           | 208.73             |
-|                                 |                    |
-| No. fills                       | 1106.0             |
-| No. entries                     | 451.0              |
-| No. closes                      | 655.0              |
-| No. initial entries             | 347.0              |
-| No. reentries                   | 104.0              |
-| No. normal closes               | 589.0              |
-| No. stoploss closes             | 66.0               |
-|                                 |                    |
-| Mean hours between fills        | 4.57452            |
-| Max hours no fills (same side)  | 257.096            |
-| Max hours no fills              | 257.096            |
-|                                 |                    |
-| Long                            | True               |
-| No. inital entries              | 347                |
-| No. reentries                   | 104                |
-| No. normal closes               | 589                |
-| No. stoploss closes             | 66                 |
-| No. partial fills               | 407                |
-| Mean hours between fills (long) | 4.57452            |
-| Max hours no fills (long)       | 257.096            |
-| PNL sum                         | 1192.4041532427027 |
-+---------------------------------+--------------------+
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | SNXUSDT           |
+| No. days                        | 211.0             |
+| Starting balance                | 1000.0            |
+| Final balance                   | 2935.09           |
+| Final equity                    | 2935.09           |
+| Net PNL + fees                  | 1935.09           |
+| Total gain percentage           | 193.5%            |
+| Average daily gain percentage   | 0.512%            |
+| Adjusted daily gain             | 1.05112           |
+| avg_7days_gain percentage       | 3.8%              |
+| Closest bankruptcy percentage   | 99.94%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.664586          |
+| Profit sum                      | 2325.69           |
+| Loss sum                        | -105.949          |
+| Fee sum                         | -284.651          |
+| Lowest equity/balance ratio     | 0.719742          |
+| Biggest position size           | 422.589           |
+|                                 |                   |
+| No. fills                       | 3694.0            |
+| No. entries                     | 2151.0            |
+| No. closes                      | 1543.0            |
+| No. initial entries             | 1360.0            |
+| No. reentries                   | 791.0             |
+| No. normal closes               | 1523.0            |
+| No. stoploss closes             | 20.0              |
+|                                 |                   |
+| Mean hours between fills        | 1.3705            |
+| Max hours no fills (same side)  | 66.3497           |
+| Max hours no fills              | 66.3497           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 1360              |
+| No. reentries                   | 791               |
+| No. normal closes               | 1523              |
+| No. stoploss closes             | 20                |
+| No. partial fills               | 364               |
+| Mean hours between fills (long) | 1.3705            |
+| Max hours no fills (long)       | 66.3497           |
+| PNL sum                         | 2219.739440371163 |
++---------------------------------+-------------------+

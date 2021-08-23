@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | ALGOUSDT           |
+| No. days                        | 211.0              |
+| Starting balance                | 1000.0             |
+| Final balance                   | 3337.04            |
+| Final equity                    | 3337.04            |
+| Net PNL + fees                  | 2337.04            |
+| Total gain percentage           | 233.7%             |
+| Average daily gain percentage   | 0.573%             |
+| Adjusted daily gain             | 1.05721            |
+| avg_7days_gain percentage       | 3.99%              |
+| Closest bankruptcy percentage   | 99.95%             |
+|                                 |                    |
+| Sharpe ratio                    | 0.662351           |
+| Profit sum                      | 2517.53            |
+| Loss sum                        | -29.9481           |
+| Fee sum                         | -150.546           |
+| Lowest equity/balance ratio     | 0.691946           |
+| Biggest position size           | 3607.21            |
+|                                 |                    |
+| No. fills                       | 1013.0             |
+| No. entries                     | 689.0              |
+| No. closes                      | 324.0              |
+| No. initial entries             | 250.0              |
+| No. reentries                   | 439.0              |
+| No. normal closes               | 309.0              |
+| No. stoploss closes             | 15.0               |
+|                                 |                    |
+| Mean hours between fills        | 4.99408            |
+| Max hours no fills (same side)  | 135.315            |
+| Max hours no fills              | 135.315            |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 250                |
+| No. reentries                   | 439                |
+| No. normal closes               | 309                |
+| No. stoploss closes             | 15                 |
+| No. partial fills               | 122                |
+| Mean hours between fills (long) | 4.99408            |
+| Max hours no fills (long)       | 135.315            |
+| PNL sum                         | 2487.5862428202076 |
++---------------------------------+--------------------+

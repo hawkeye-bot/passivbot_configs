@@ -1,0 +1,340 @@
+{
+    "market_type": "spot",
+    "user": "binance_01",
+    "symbol": "KLAYUSDT",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 1000,
+    "start_date": "2021-01-01T00:00",
+    "end_date": "2021-07-31T00:00",
+    "iters": 25000,
+    "num_cpus": 4,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "break_early_factor": 0.5,
+    "periodic_gain_n_days": 7,
+    "minimum_sharpe_ratio": 1,
+    "minimum_bankruptcy_distance": 0.5,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": 1,
+    "maximum_hrs_no_fills": 72,
+    "maximum_hrs_no_fills_same_side": 168,
+    "maximum_mean_hrs_between_fills": 10,
+    "sliding_window_days": 25,
+    "reward_multiplier_base": 1.2,
+    "metric": "adjusted_daily_gain",
+    "n_spans": 3,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "min_span": [
+            20,
+            1440
+        ],
+        "max_span": [
+            1440,
+            30000
+        ],
+        "MAr_coeffs": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rprc_PBr_coeffs": [
+            -1,
+            0.1
+        ],
+        "long\u00a3pbr_stop_loss": [
+            0,
+            1
+        ],
+        "long\u00a3pbr_limit": [
+            0,
+            1
+        ],
+        "long\u00a3iqty_const": [
+            0.01,
+            0.5
+        ],
+        "long\u00a3iprc_const": [
+            0.97,
+            1.01
+        ],
+        "long\u00a3rqty_const": [
+            0,
+            2
+        ],
+        "long\u00a3rprc_const": [
+            0.97,
+            1
+        ],
+        "long\u00a3markup_const": [
+            1,
+            1.03
+        ],
+        "shrt\u00a3rprc_PBr_coeffs": [
+            -0.1,
+            1
+        ],
+        "shrt\u00a3pbr_stop_loss": [
+            0,
+            1
+        ],
+        "shrt\u00a3pbr_limit": [
+            0,
+            1
+        ],
+        "shrt\u00a3iqty_const": [
+            0.01,
+            0.5
+        ],
+        "shrt\u00a3iprc_const": [
+            0.99,
+            1.03
+        ],
+        "shrt\u00a3rqty_const": [
+            0,
+            2
+        ],
+        "shrt\u00a3rprc_const": [
+            1,
+            1.03
+        ],
+        "shrt\u00a3markup_const": [
+            0.97,
+            1
+        ]
+    },
+    "starting_configs": null,
+    "base_dir": "backtests",
+    "spot": true,
+    "exchange": "binance",
+    "session_name": "2021-01-01T0000_2021-07-31T0000",
+    "caches_dirpath": "backtests/binance_spot/KLAYUSDT/caches/",
+    "optimize_dirpath": "backtests/binance_spot/KLAYUSDT/optimize/",
+    "plots_dirpath": "backtests/binance_spot/KLAYUSDT/plots/2021-08-21T191250/",
+    "avg_periodic_gain_key": "avg_7days_gain",
+    "maker_fee": 0.001,
+    "taker_fee": 0.001,
+    "hedge_mode": false,
+    "inverse": false,
+    "max_leverage": 25,
+    "min_qty": 1.0,
+    "min_cost": 10.0,
+    "qty_step": 1.0,
+    "price_step": 0.0001,
+    "c_mult": 1.0,
+    "config_name": "binance_klayusdt_37days",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "iprc_MAr_coeffs": [
+            [
+                0.01747894181397123,
+                -0.07822569892406125
+            ],
+            [
+                -0.028703846282165966,
+                0.42293537057328306
+            ],
+            [
+                -0.05210895875929351,
+                -0.5
+            ]
+        ],
+        "iprc_const": 0.9884976888978128,
+        "iqty_MAr_coeffs": [
+            [
+                -0.12420497642035107,
+                0.1353307644317125
+            ],
+            [
+                -0.08705369367448905,
+                -0.14047093985377934
+            ],
+            [
+                0.42841647939741223,
+                0.24067784740311693
+            ]
+        ],
+        "iqty_const": 0.3672512452205467,
+        "markup_MAr_coeffs": [
+            [
+                0.3492666450150001,
+                -0.11798009012940217
+            ],
+            [
+                -0.20079749701897562,
+                -0.46303680022427074
+            ],
+            [
+                -0.34604086020967617,
+                -0.03084938786771336
+            ]
+        ],
+        "markup_const": 1.0265314945456305,
+        "pbr_limit": 0.9635701511614205,
+        "pbr_stop_loss": 0.03642984883857948,
+        "rprc_MAr_coeffs": [
+            [
+                0.030193524787126173,
+                0.5
+            ],
+            [
+                -0.29065680501269586,
+                -0.21369392927708333
+            ],
+            [
+                0.0814841592790355,
+                -0.3408604413196127
+            ]
+        ],
+        "rprc_PBr_coeffs": [
+            [
+                0.22522348097045883,
+                0.4634950730009768
+            ]
+        ],
+        "rprc_const": 0.9944566545835054,
+        "rqty_MAr_coeffs": [
+            [
+                0.32569376620256635,
+                0.4073691046969043
+            ],
+            [
+                -0.271512918371092,
+                -0.43095074831725344
+            ],
+            [
+                0.2765821109987591,
+                0.3654469800990258
+            ]
+        ],
+        "rqty_const": 1.8555038667279415
+    },
+    "max_span": 1512.279856787626,
+    "min_span": 730.5095563181007,
+    "shrt": {
+        "enabled": false,
+        "iprc_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "iprc_const": 0.0,
+        "iqty_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "iqty_const": 0.0,
+        "markup_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "markup_const": 0.0,
+        "pbr_limit": 0.0,
+        "pbr_stop_loss": 0.0,
+        "rprc_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "rprc_PBr_coeffs": [
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "rprc_const": 0.0,
+        "rqty_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "rqty_const": 0.0
+    },
+    "n_days": 36.7,
+    "result": {
+        "exchange": "binance",
+        "symbol": "KLAYUSDT",
+        "starting_balance": 1000,
+        "final_balance": 1765.465723400001,
+        "final_equity": 1765.465723400001,
+        "net_pnl_plus_fees": 765.4657234000011,
+        "gain": 1.765465723400001,
+        "n_days": 36.66603009259259,
+        "average_daily_gain": 1.0156232702172638,
+        "average_periodic_gain": 0.10772107224456932,
+        "adjusted_daily_gain": 1.154973848029599,
+        "sharpe_ratio": 0.9516554742461587,
+        "profit_sum": 899.8706074206111,
+        "loss_sum": -70.49200742061002,
+        "fee_sum": -63.912876600000004,
+        "lowest_eqbal_ratio": 0.8490010218279904,
+        "closest_bkr": 0.9996487903368353,
+        "n_fills": 289,
+        "n_entries": 148,
+        "n_closes": 141,
+        "n_reentries": 113,
+        "n_initial_entries": 35,
+        "n_normal_closes": 83,
+        "n_stop_loss_closes": 58,
+        "biggest_psize": 1710.0,
+        "mean_hrs_between_fills": 3.0344300766283525,
+        "mean_hrs_between_fills_long": 3.034430076628353,
+        "mean_hrs_between_fills_shrt": 0.0,
+        "max_hrs_no_fills_long": 52.244166666666665,
+        "max_hrs_no_fills_shrt": 0.0,
+        "max_hrs_no_fills_same_side": 52.244166666666665,
+        "max_hrs_no_fills": 52.244166666666665
+    }
+}

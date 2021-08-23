@@ -1,48 +1,48 @@
-+-----------------------------------------------------+
-|                       Summary                       |
-+---------------------------------+-------------------+
-| Metric                          | Value             |
-+---------------------------------+-------------------+
-| Exchange                        | binance           |
-| Market type                     | spot              |
-| Symbol                          | ZRXUSDT           |
-| No. days                        | 211.0             |
-| Starting balance                | 1000.0            |
-| Final balance                   | 1850.04           |
-| Final equity                    | 1850.04           |
-| Net PNL + fees                  | 850.036           |
-| Total gain percentage           | 85.0%             |
-| Average daily gain percentage   | 0.292%            |
-| Adjusted daily gain             | 1.02919           |
-| avg_7days_gain percentage       | 2.1%              |
-| Closest bankruptcy percentage   | 99.94%            |
-|                                 |                   |
-| Sharpe ratio                    | 0.853526          |
-| Profit sum                      | 1013.33           |
-| Loss sum                        | -15.6755          |
-| Fee sum                         | -147.615          |
-| Lowest equity/balance ratio     | 0.677302          |
-| Biggest position size           | 2271.18           |
-|                                 |                   |
-| No. fills                       | 1769.0            |
-| No. entries                     | 930.0             |
-| No. closes                      | 839.0             |
-| No. initial entries             | 681.0             |
-| No. reentries                   | 249.0             |
-| No. normal closes               | 839.0             |
-| No. stoploss closes             | 0.0               |
-|                                 |                   |
-| Mean hours between fills        | 2.86102           |
-| Max hours no fills (same side)  | 94.4025           |
-| Max hours no fills              | 94.4025           |
-|                                 |                   |
-| Long                            | True              |
-| No. inital entries              | 681               |
-| No. reentries                   | 249               |
-| No. normal closes               | 839               |
-| No. stoploss closes             | 0                 |
-| No. partial fills               | 291               |
-| Mean hours between fills (long) | 2.86102           |
-| Max hours no fills (long)       | 94.4025           |
-| PNL sum                         | 997.6507396600612 |
-+---------------------------------+-------------------+
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | ZRXUSDT            |
+| No. days                        | 211.0              |
+| Starting balance                | 1000.0             |
+| Final balance                   | 2156.26            |
+| Final equity                    | 2156.26            |
+| Net PNL + fees                  | 1156.26            |
+| Total gain percentage           | 115.6%             |
+| Average daily gain percentage   | 0.365%             |
+| Adjusted daily gain             | 1.03647            |
+| avg_7days_gain percentage       | 2.66%              |
+| Closest bankruptcy percentage   | 100.0%             |
+|                                 |                    |
+| Sharpe ratio                    | 0.775039           |
+| Profit sum                      | 1524.4             |
+| Loss sum                        | -239.911           |
+| Fee sum                         | -128.235           |
+| Lowest equity/balance ratio     | 0.523947           |
+| Biggest position size           | 3229.78            |
+|                                 |                    |
+| No. fills                       | 743.0              |
+| No. entries                     | 367.0              |
+| No. closes                      | 376.0              |
+| No. initial entries             | 249.0              |
+| No. reentries                   | 118.0              |
+| No. normal closes               | 366.0              |
+| No. stoploss closes             | 10.0               |
+|                                 |                    |
+| Mean hours between fills        | 6.80645            |
+| Max hours no fills (same side)  | 132.343            |
+| Max hours no fills              | 132.343            |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 249                |
+| No. reentries                   | 118                |
+| No. normal closes               | 366                |
+| No. stoploss closes             | 10                 |
+| No. partial fills               | 219                |
+| Mean hours between fills (long) | 6.80645            |
+| Max hours no fills (long)       | 132.343            |
+| PNL sum                         | 1284.4917439936617 |
++---------------------------------+--------------------+

@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | KLAYUSDT          |
+| No. days                        | 36.666            |
+| Starting balance                | 1000.0            |
+| Final balance                   | 1765.47           |
+| Final equity                    | 1765.47           |
+| Net PNL + fees                  | 765.466           |
+| Total gain percentage           | 76.55%            |
+| Average daily gain percentage   | 1.56%             |
+| Adjusted daily gain             | 1.15497           |
+| avg_7days_gain percentage       | 10.8%             |
+| Closest bankruptcy percentage   | 99.96%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.951655          |
+| Profit sum                      | 899.871           |
+| Loss sum                        | -70.492           |
+| Fee sum                         | -63.9129          |
+| Lowest equity/balance ratio     | 0.849001          |
+| Biggest position size           | 1710.0            |
+|                                 |                   |
+| No. fills                       | 289.0             |
+| No. entries                     | 148.0             |
+| No. closes                      | 141.0             |
+| No. initial entries             | 35.0              |
+| No. reentries                   | 113.0             |
+| No. normal closes               | 83.0              |
+| No. stoploss closes             | 58.0              |
+|                                 |                   |
+| Mean hours between fills        | 3.03443           |
+| Max hours no fills (same side)  | 52.2442           |
+| Max hours no fills              | 52.2442           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 35                |
+| No. reentries                   | 113               |
+| No. normal closes               | 83                |
+| No. stoploss closes             | 58                |
+| No. partial fills               | 148               |
+| Mean hours between fills (long) | 3.03443           |
+| Max hours no fills (long)       | 52.2442           |
+| PNL sum                         | 829.3786000000011 |
++---------------------------------+-------------------+

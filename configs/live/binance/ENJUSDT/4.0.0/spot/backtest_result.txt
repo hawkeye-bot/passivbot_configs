@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | ENJUSDT           |
+| No. days                        | 211.0             |
+| Starting balance                | 1000.0            |
+| Final balance                   | 3263.11           |
+| Final equity                    | 3263.11           |
+| Net PNL + fees                  | 2263.11           |
+| Total gain percentage           | 226.3%            |
+| Average daily gain percentage   | 0.562%            |
+| Adjusted daily gain             | 1.05615           |
+| avg_7days_gain percentage       | 3.8%              |
+| Closest bankruptcy percentage   | 100.0%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.931217          |
+| Profit sum                      | 2478.89           |
+| Loss sum                        | -76.634           |
+| Fee sum                         | -139.146          |
+| Lowest equity/balance ratio     | 0.688291          |
+| Biggest position size           | 4854.03           |
+|                                 |                   |
+| No. fills                       | 785.0             |
+| No. entries                     | 456.0             |
+| No. closes                      | 329.0             |
+| No. initial entries             | 266.0             |
+| No. reentries                   | 190.0             |
+| No. normal closes               | 326.0             |
+| No. stoploss closes             | 3.0               |
+|                                 |                   |
+| Mean hours between fills        | 6.44274           |
+| Max hours no fills (same side)  | 118.526           |
+| Max hours no fills              | 118.526           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 266               |
+| No. reentries                   | 190               |
+| No. normal closes               | 326               |
+| No. stoploss closes             | 3                 |
+| No. partial fills               | 98                |
+| Mean hours between fills (long) | 6.44274           |
+| Max hours no fills (long)       | 118.526           |
+| PNL sum                         | 2402.260152215791 |
++---------------------------------+-------------------+
