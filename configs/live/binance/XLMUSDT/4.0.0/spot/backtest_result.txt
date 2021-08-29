@@ -8,41 +8,41 @@
 | Symbol                          | XLMUSDT            |
 | No. days                        | 211.0              |
 | Starting balance                | 1000.0             |
-| Final balance                   | 2018.06            |
-| Final equity                    | 2018.06            |
-| Net PNL + fees                  | 1018.06            |
-| Total gain percentage           | 101.8%             |
-| Average daily gain percentage   | 0.333%             |
-| Adjusted daily gain             | 1.03332            |
-| avg_5days_gain percentage       | 1.69%              |
-| Closest bankruptcy percentage   | 99.98%             |
+| Final balance                   | 3739.44            |
+| Final equity                    | 3739.44            |
+| Net PNL + fees                  | 2739.44            |
+| Total gain percentage           | 273.9%             |
+| Average daily gain percentage   | 0.627%             |
+| Adjusted daily gain             | 1.06262            |
+| avg_7days_gain percentage       | 4.75%              |
+| Closest bankruptcy percentage   | 99.92%             |
 |                                 |                    |
-| Sharpe ratio                    | 0.817844           |
-| Profit sum                      | 1363.3             |
-| Loss sum                        | -13.2796           |
-| Fee sum                         | -331.967           |
-| Lowest equity/balance ratio     | 0.888223           |
-| Biggest position size           | 7627.8             |
+| Sharpe ratio                    | 0.787957           |
+| Profit sum                      | 3190.97            |
+| Loss sum                        | -199.478           |
+| Fee sum                         | -252.048           |
+| Lowest equity/balance ratio     | 0.541437           |
+| Biggest position size           | 13284.7            |
 |                                 |                    |
-| No. fills                       | 3615.0             |
-| No. entries                     | 2570.0             |
-| No. closes                      | 1045.0             |
-| No. initial entries             | 989.0              |
-| No. reentries                   | 1581.0             |
-| No. normal closes               | 1045.0             |
-| No. stoploss closes             | 0.0                |
+| No. fills                       | 750.0              |
+| No. entries                     | 281.0              |
+| No. closes                      | 469.0              |
+| No. initial entries             | 162.0              |
+| No. reentries                   | 119.0              |
+| No. normal closes               | 212.0              |
+| No. stoploss closes             | 257.0              |
 |                                 |                    |
-| Mean hours between fills        | 1.40044            |
-| Max hours no fills (same side)  | 144.507            |
-| Max hours no fills              | 144.507            |
+| Mean hours between fills        | 6.74301            |
+| Max hours no fills (same side)  | 210.304            |
+| Max hours no fills              | 210.304            |
 |                                 |                    |
 | Long                            | True               |
-| No. inital entries              | 989                |
-| No. reentries                   | 1581               |
-| No. normal closes               | 1045               |
-| No. stoploss closes             | 0                  |
-| No. partial fills               | 125                |
-| Mean hours between fills (long) | 1.40044            |
-| Max hours no fills (long)       | 144.507            |
-| PNL sum                         | 1350.0244125242873 |
+| No. inital entries              | 162                |
+| No. reentries                   | 119                |
+| No. normal closes               | 212                |
+| No. stoploss closes             | 257                |
+| No. partial fills               | 98                 |
+| Mean hours between fills (long) | 6.74301            |
+| Max hours no fills (long)       | 210.304            |
+| PNL sum                         | 2991.4920103046766 |
 +---------------------------------+--------------------+

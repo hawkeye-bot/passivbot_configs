@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | QTUMUSDT           |
+| No. days                        | 211.0              |
+| Starting balance                | 1000.0             |
+| Final balance                   | 2170.22            |
+| Final equity                    | 2170.22            |
+| Net PNL + fees                  | 1170.22            |
+| Total gain percentage           | 117.0%             |
+| Average daily gain percentage   | 0.368%             |
+| Adjusted daily gain             | 1.03677            |
+| avg_7days_gain percentage       | 2.77%              |
+| Closest bankruptcy percentage   | 99.97%             |
+|                                 |                    |
+| Sharpe ratio                    | 0.587477           |
+| Profit sum                      | 1327.53            |
+| Loss sum                        | -62.9036           |
+| Fee sum                         | -94.4041           |
+| Lowest equity/balance ratio     | 0.615794           |
+| Biggest position size           | 333.125            |
+|                                 |                    |
+| No. fills                       | 3155.0             |
+| No. entries                     | 2524.0             |
+| No. closes                      | 631.0              |
+| No. initial entries             | 581.0              |
+| No. reentries                   | 1943.0             |
+| No. normal closes               | 629.0              |
+| No. stoploss closes             | 2.0                |
+|                                 |                    |
+| Mean hours between fills        | 1.60456            |
+| Max hours no fills (same side)  | 99.76              |
+| Max hours no fills              | 99.76              |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 581                |
+| No. reentries                   | 1943               |
+| No. normal closes               | 629                |
+| No. stoploss closes             | 2                  |
+| No. partial fills               | 83                 |
+| Mean hours between fills (long) | 1.60456            |
+| Max hours no fills (long)       | 99.76              |
+| PNL sum                         | 1264.6273838587676 |
++---------------------------------+--------------------+

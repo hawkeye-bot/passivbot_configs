@@ -1,0 +1,340 @@
+{
+    "market_type": "spot",
+    "user": "binance_01",
+    "symbol": "SHIBUSDT",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 1000,
+    "start_date": "2021-01-01T00:00",
+    "end_date": "2021-07-31T00:00",
+    "iters": 25000,
+    "num_cpus": 4,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "break_early_factor": 0.5,
+    "periodic_gain_n_days": 7,
+    "minimum_sharpe_ratio": 1,
+    "minimum_bankruptcy_distance": 0.5,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": 1,
+    "maximum_hrs_no_fills": 72,
+    "maximum_hrs_no_fills_same_side": 168,
+    "maximum_mean_hrs_between_fills": 10,
+    "sliding_window_days": 25,
+    "reward_multiplier_base": 1.2,
+    "metric": "adjusted_daily_gain",
+    "n_spans": 3,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "min_span": [
+            20,
+            1440
+        ],
+        "max_span": [
+            1440,
+            30000
+        ],
+        "MAr_coeffs": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rprc_PBr_coeffs": [
+            -1,
+            0.1
+        ],
+        "long\u00a3pbr_stop_loss": [
+            0,
+            1
+        ],
+        "long\u00a3pbr_limit": [
+            0,
+            1
+        ],
+        "long\u00a3iqty_const": [
+            0.01,
+            0.5
+        ],
+        "long\u00a3iprc_const": [
+            0.97,
+            1.01
+        ],
+        "long\u00a3rqty_const": [
+            0,
+            2
+        ],
+        "long\u00a3rprc_const": [
+            0.97,
+            1
+        ],
+        "long\u00a3markup_const": [
+            1,
+            1.03
+        ],
+        "shrt\u00a3rprc_PBr_coeffs": [
+            -0.1,
+            1
+        ],
+        "shrt\u00a3pbr_stop_loss": [
+            0,
+            1
+        ],
+        "shrt\u00a3pbr_limit": [
+            0,
+            1
+        ],
+        "shrt\u00a3iqty_const": [
+            0.01,
+            0.5
+        ],
+        "shrt\u00a3iprc_const": [
+            0.99,
+            1.03
+        ],
+        "shrt\u00a3rqty_const": [
+            0,
+            2
+        ],
+        "shrt\u00a3rprc_const": [
+            1,
+            1.03
+        ],
+        "shrt\u00a3markup_const": [
+            0.97,
+            1
+        ]
+    },
+    "starting_configs": null,
+    "base_dir": "backtests",
+    "spot": true,
+    "exchange": "binance",
+    "session_name": "2021-01-01T0000_2021-07-31T0000",
+    "caches_dirpath": "backtests/binance_spot/SHIBUSDT/caches/",
+    "optimize_dirpath": "backtests/binance_spot/SHIBUSDT/optimize/",
+    "plots_dirpath": "backtests/binance_spot/SHIBUSDT/plots/2021-08-24T165034/",
+    "avg_periodic_gain_key": "avg_7days_gain",
+    "maker_fee": 0.001,
+    "taker_fee": 0.001,
+    "hedge_mode": false,
+    "inverse": false,
+    "max_leverage": 25,
+    "min_qty": 1.0,
+    "min_cost": 10.0,
+    "qty_step": 1.0,
+    "price_step": 1e-08,
+    "c_mult": 1.0,
+    "config_name": "binance_shibusdt_82days",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "iprc_MAr_coeffs": [
+            [
+                -0.5568557189913497,
+                -0.8225580783552368
+            ],
+            [
+                -0.08584684967357135,
+                -0.10598368999607963
+            ],
+            [
+                -0.23638002014474355,
+                -0.7186270020930832
+            ]
+        ],
+        "iprc_const": 0.9850894956678713,
+        "iqty_MAr_coeffs": [
+            [
+                0.9,
+                0.3502856333995989
+            ],
+            [
+                -0.12106379172256926,
+                0.5914287319138336
+            ],
+            [
+                0.781826307878341,
+                -0.2623267567647124
+            ]
+        ],
+        "iqty_const": 0.26885221997910885,
+        "markup_MAr_coeffs": [
+            [
+                -0.8725846986055018,
+                -0.6167906598435287
+            ],
+            [
+                -0.9,
+                0.39312301206952377
+            ],
+            [
+                -0.8262134465507989,
+                0.3663796833448228
+            ]
+        ],
+        "markup_const": 1.0100859440387062,
+        "pbr_limit": 0.7455919956839078,
+        "pbr_stop_loss": 0.25440800431609223,
+        "rprc_MAr_coeffs": [
+            [
+                0.1411137164773613,
+                0.9
+            ],
+            [
+                -0.4068641079624638,
+                0.6661634226598526
+            ],
+            [
+                -0.35886417084699,
+                0.08640817134883082
+            ]
+        ],
+        "rprc_PBr_coeffs": [
+            [
+                0.20506738508618774,
+                -0.5354259126319217
+            ]
+        ],
+        "rprc_const": 0.9893731301846227,
+        "rqty_MAr_coeffs": [
+            [
+                -0.4344135926463781,
+                -0.40038538199672874
+            ],
+            [
+                -0.2700473970443082,
+                0.40537301779798546
+            ],
+            [
+                -0.25074177963127786,
+                0.5230917942030421
+            ]
+        ],
+        "rqty_const": 0.8738928420586541
+    },
+    "max_span": 1440.0,
+    "min_span": 99.16675535144097,
+    "shrt": {
+        "enabled": false,
+        "iprc_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "iprc_const": 0.0,
+        "iqty_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "iqty_const": 0.0,
+        "markup_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "markup_const": 0.0,
+        "pbr_limit": 0.0,
+        "pbr_stop_loss": 0.0,
+        "rprc_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "rprc_PBr_coeffs": [
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "rprc_const": 0.0,
+        "rqty_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "rqty_const": 0.0
+    },
+    "n_days": 81.5,
+    "result": {
+        "exchange": "binance",
+        "symbol": "SHIBUSDT",
+        "starting_balance": 1000,
+        "final_balance": 1189.5806836450192,
+        "final_equity": 1189.5806836450192,
+        "net_pnl_plus_fees": 189.58068364501932,
+        "gain": 1.1895806836450193,
+        "n_days": 81.54165509259259,
+        "average_daily_gain": 1.002131251887197,
+        "average_periodic_gain": 0.029068721449911794,
+        "adjusted_daily_gain": 1.0213092925761265,
+        "sharpe_ratio": 0.7233400891251704,
+        "profit_sum": 825.0698266200618,
+        "loss_sum": -546.3198823600625,
+        "fee_sum": -89.16926061498,
+        "lowest_eqbal_ratio": 0.4346696375802639,
+        "closest_bkr": 0.9994086050382035,
+        "n_fills": 302,
+        "n_entries": 165,
+        "n_closes": 137,
+        "n_reentries": 56,
+        "n_initial_entries": 109,
+        "n_normal_closes": 133,
+        "n_stop_loss_closes": 4,
+        "biggest_psize": 179704440.0,
+        "mean_hrs_between_fills": 6.458744957829117,
+        "mean_hrs_between_fills_long": 6.458744957829117,
+        "mean_hrs_between_fills_shrt": 0.0,
+        "max_hrs_no_fills_long": 90.945,
+        "max_hrs_no_fills_shrt": 0.0,
+        "max_hrs_no_fills_same_side": 90.945,
+        "max_hrs_no_fills": 90.945
+    }
+}

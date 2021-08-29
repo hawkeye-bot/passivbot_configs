@@ -1,48 +1,48 @@
-+-------------------------------------------------------+
-|                        Summary                        |
-+---------------------------------+---------------------+
-| Metric                          | Value               |
-+---------------------------------+---------------------+
-| Exchange                        | binance             |
-| Market type                     | spot                |
-| Symbol                          | SUSHIUSDT           |
-| No. days                        | 211.0               |
-| Starting balance                | 1000.0              |
-| Final balance                   | 100.021             |
-| Final equity                    | 99.9982             |
-| Net PNL + fees                  | -899.979            |
-| Total gain percentage           | -90.0%              |
-| Average daily gain percentage   | -1.09%              |
-| Adjusted daily gain             | 0.891889            |
-| avg_7days_gain percentage       | -20.2%              |
-| Closest bankruptcy percentage   | 100.0%              |
-|                                 |                     |
-| Sharpe ratio                    | -0.482775           |
-| Profit sum                      | 108.861             |
-| Loss sum                        | -497.298            |
-| Fee sum                         | -511.541            |
-| Lowest equity/balance ratio     | 0.943266            |
-| Biggest position size           | 51.734              |
-|                                 |                     |
-| No. fills                       | 3354.0              |
-| No. entries                     | 1552.0              |
-| No. closes                      | 1802.0              |
-| No. initial entries             | 1527.0              |
-| No. reentries                   | 25.0                |
-| No. normal closes               | 1799.0              |
-| No. stoploss closes             | 3.0                 |
-|                                 |                     |
-| Mean hours between fills        | 1.50939             |
-| Max hours no fills (same side)  | 3121.96             |
-| Max hours no fills              | 3121.96             |
-|                                 |                     |
-| Long                            | True                |
-| No. inital entries              | 1527                |
-| No. reentries                   | 25                  |
-| No. normal closes               | 1799                |
-| No. stoploss closes             | 3                   |
-| No. partial fills               | 570                 |
-| Mean hours between fills (long) | 1.50939             |
-| Max hours no fills (long)       | 3121.96             |
-| PNL sum                         | -388.43782265107575 |
-+---------------------------------+---------------------+
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | SUSHIUSDT          |
+| No. days                        | 211.0              |
+| Starting balance                | 1000.0             |
+| Final balance                   | 3088.15            |
+| Final equity                    | 3088.15            |
+| Net PNL + fees                  | 2088.15            |
+| Total gain percentage           | 208.8%             |
+| Average daily gain percentage   | 0.536%             |
+| Adjusted daily gain             | 1.05353            |
+| avg_7days_gain percentage       | 3.82%              |
+| Closest bankruptcy percentage   | 100.0%             |
+|                                 |                    |
+| Sharpe ratio                    | 0.605899           |
+| Profit sum                      | 3006.6             |
+| Loss sum                        | -590.824           |
+| Fee sum                         | -327.624           |
+| Lowest equity/balance ratio     | 0.462566           |
+| Biggest position size           | 421.034            |
+|                                 |                    |
+| No. fills                       | 2830.0             |
+| No. entries                     | 2187.0             |
+| No. closes                      | 643.0              |
+| No. initial entries             | 274.0              |
+| No. reentries                   | 1913.0             |
+| No. normal closes               | 349.0              |
+| No. stoploss closes             | 294.0              |
+|                                 |                    |
+| Mean hours between fills        | 1.78877            |
+| Max hours no fills (same side)  | 184.21             |
+| Max hours no fills              | 184.21             |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 274                |
+| No. reentries                   | 1913               |
+| No. normal closes               | 349                |
+| No. stoploss closes             | 294                |
+| No. partial fills               | 251                |
+| Mean hours between fills (long) | 1.78877            |
+| Max hours no fills (long)       | 184.21             |
+| PNL sum                         | 2415.7724570037626 |
++---------------------------------+--------------------+

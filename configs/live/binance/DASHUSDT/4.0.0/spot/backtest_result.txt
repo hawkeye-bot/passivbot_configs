@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | DASHUSDT           |
+| No. days                        | 211.0              |
+| Starting balance                | 1000.0             |
+| Final balance                   | 2036.4             |
+| Final equity                    | 2036.4             |
+| Net PNL + fees                  | 1036.4             |
+| Total gain percentage           | 103.6%             |
+| Average daily gain percentage   | 0.338%             |
+| Adjusted daily gain             | 1.03375            |
+| avg_7days_gain percentage       | 2.48%              |
+| Closest bankruptcy percentage   | 100.0%             |
+|                                 |                    |
+| Sharpe ratio                    | 0.642222           |
+| Profit sum                      | 1179.7             |
+| Loss sum                        | -50.7618           |
+| Fee sum                         | -92.5392           |
+| Lowest equity/balance ratio     | 0.668401           |
+| Biggest position size           | 13.3913            |
+|                                 |                    |
+| No. fills                       | 2638.0             |
+| No. entries                     | 2279.0             |
+| No. closes                      | 359.0              |
+| No. initial entries             | 294.0              |
+| No. reentries                   | 1985.0             |
+| No. normal closes               | 344.0              |
+| No. stoploss closes             | 15.0               |
+|                                 |                    |
+| Mean hours between fills        | 1.91891            |
+| Max hours no fills (same side)  | 54.3125            |
+| Max hours no fills              | 54.3125            |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 294                |
+| No. reentries                   | 1985               |
+| No. normal closes               | 344                |
+| No. stoploss closes             | 15                 |
+| No. partial fills               | 80                 |
+| Mean hours between fills (long) | 1.91891            |
+| Max hours no fills (long)       | 54.3125            |
+| PNL sum                         | 1128.9385950098156 |
++---------------------------------+--------------------+

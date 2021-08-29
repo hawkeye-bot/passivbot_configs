@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | ZECUSDT           |
+| No. days                        | 211.0             |
+| Starting balance                | 1000.0            |
+| Final balance                   | 1701.27           |
+| Final equity                    | 1701.27           |
+| Net PNL + fees                  | 701.272           |
+| Total gain percentage           | 70.13%            |
+| Average daily gain percentage   | 0.252%            |
+| Adjusted daily gain             | 1.02521           |
+| avg_7days_gain percentage       | 2.15%             |
+| Closest bankruptcy percentage   | 99.91%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.7783            |
+| Profit sum                      | 1143.01           |
+| Loss sum                        | -284.526          |
+| Fee sum                         | -157.208          |
+| Lowest equity/balance ratio     | 0.681063          |
+| Biggest position size           | 15.8214           |
+|                                 |                   |
+| No. fills                       | 461.0             |
+| No. entries                     | 215.0             |
+| No. closes                      | 246.0             |
+| No. initial entries             | 168.0             |
+| No. reentries                   | 47.0              |
+| No. normal closes               | 213.0             |
+| No. stoploss closes             | 33.0              |
+|                                 |                   |
+| Mean hours between fills        | 10.961            |
+| Max hours no fills (same side)  | 147.274           |
+| Max hours no fills              | 147.274           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 168               |
+| No. reentries                   | 47                |
+| No. normal closes               | 213               |
+| No. stoploss closes             | 33                |
+| No. partial fills               | 111               |
+| Mean hours between fills (long) | 10.961            |
+| Max hours no fills (long)       | 147.274           |
+| PNL sum                         | 858.4801906985522 |
++---------------------------------+-------------------+
