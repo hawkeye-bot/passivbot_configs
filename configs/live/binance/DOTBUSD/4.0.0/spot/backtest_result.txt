@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | DOTBUSD           |
+| No. days                        | 211.0             |
+| Starting balance                | 1000.0            |
+| Final balance                   | 1116.36           |
+| Final equity                    | 1116.36           |
+| Net PNL + fees                  | 116.356           |
+| Total gain percentage           | 11.64%            |
+| Average daily gain percentage   | 0.0522%           |
+| Adjusted daily gain             | 1.00522           |
+| avg_7days_gain percentage       | 1.66%             |
+| Closest bankruptcy percentage   | 100.0%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.867754          |
+| Profit sum                      | 775.655           |
+| Loss sum                        | -584.828          |
+| Fee sum                         | -74.4705          |
+| Lowest equity/balance ratio     | 0.671636          |
+| Biggest position size           | 58.56             |
+|                                 |                   |
+| No. fills                       | 350.0             |
+| No. entries                     | 103.0             |
+| No. closes                      | 247.0             |
+| No. initial entries             | 87.0              |
+| No. reentries                   | 16.0              |
+| No. normal closes               | 121.0             |
+| No. stoploss closes             | 126.0             |
+|                                 |                   |
+| Mean hours between fills        | 14.4273           |
+| Max hours no fills (same side)  | 172.408           |
+| Max hours no fills              | 172.408           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 87                |
+| No. reentries                   | 16                |
+| No. normal closes               | 121               |
+| No. stoploss closes             | 126               |
+| No. partial fills               | 61                |
+| Mean hours between fills (long) | 14.4273           |
+| Max hours no fills (long)       | 172.408           |
+| PNL sum                         | 190.8269220044966 |
++---------------------------------+-------------------+

@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | MATICEUR          |
+| No. days                        | 133.666           |
+| Starting balance                | 1000.0            |
+| Final balance                   | 1278.91           |
+| Final equity                    | 1279.09           |
+| Net PNL + fees                  | 278.91            |
+| Total gain percentage           | 27.91%            |
+| Average daily gain percentage   | 0.184%            |
+| Adjusted daily gain             | 1.01843           |
+| avg_7days_gain percentage       | 1.43%             |
+| Closest bankruptcy percentage   | 100.0%            |
+|                                 |                   |
+| Sharpe ratio                    | 1.32339           |
+| Profit sum                      | 311.272           |
+| Loss sum                        | -5.67722          |
+| Fee sum                         | -26.6851          |
+| Lowest equity/balance ratio     | 0.825851          |
+| Biggest position size           | 1229.7            |
+|                                 |                   |
+| No. fills                       | 1407.0            |
+| No. entries                     | 988.0             |
+| No. closes                      | 419.0             |
+| No. initial entries             | 354.0             |
+| No. reentries                   | 634.0             |
+| No. normal closes               | 361.0             |
+| No. stoploss closes             | 58.0              |
+|                                 |                   |
+| Mean hours between fills        | 2.2784            |
+| Max hours no fills (same side)  | 438.187           |
+| Max hours no fills              | 438.187           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 354               |
+| No. reentries                   | 634               |
+| No. normal closes               | 361               |
+| No. stoploss closes             | 58                |
+| No. partial fills               | 76                |
+| Mean hours between fills (long) | 2.2784            |
+| Max hours no fills (long)       | 438.187           |
+| PNL sum                         | 305.5951743666711 |
++---------------------------------+-------------------+

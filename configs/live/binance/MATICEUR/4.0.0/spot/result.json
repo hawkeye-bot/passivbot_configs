@@ -1,0 +1,340 @@
+{
+    "market_type": "spot",
+    "user": "binance_01",
+    "symbol": "MATICEUR",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 1000,
+    "start_date": "2021-01-01T00:00",
+    "end_date": "2021-07-31T00:00",
+    "iters": 25000,
+    "num_cpus": 4,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "break_early_factor": 0.5,
+    "periodic_gain_n_days": 7,
+    "minimum_sharpe_ratio": 1,
+    "minimum_bankruptcy_distance": 0.5,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": 1,
+    "maximum_hrs_no_fills": 72,
+    "maximum_hrs_no_fills_same_side": 168,
+    "maximum_mean_hrs_between_fills": 10,
+    "sliding_window_days": 25,
+    "reward_multiplier_base": 1.2,
+    "metric": "adjusted_daily_gain",
+    "n_spans": 3,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "min_span": [
+            20,
+            1440
+        ],
+        "max_span": [
+            1440,
+            30000
+        ],
+        "MAr_coeffs": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rprc_PBr_coeffs": [
+            -1,
+            0.1
+        ],
+        "long\u00a3pbr_stop_loss": [
+            0,
+            1
+        ],
+        "long\u00a3pbr_limit": [
+            0,
+            1
+        ],
+        "long\u00a3iqty_const": [
+            0.01,
+            0.5
+        ],
+        "long\u00a3iprc_const": [
+            0.97,
+            1.01
+        ],
+        "long\u00a3rqty_const": [
+            0,
+            2
+        ],
+        "long\u00a3rprc_const": [
+            0.97,
+            1
+        ],
+        "long\u00a3markup_const": [
+            1,
+            1.03
+        ],
+        "shrt\u00a3rprc_PBr_coeffs": [
+            -0.1,
+            1
+        ],
+        "shrt\u00a3pbr_stop_loss": [
+            0,
+            1
+        ],
+        "shrt\u00a3pbr_limit": [
+            0,
+            1
+        ],
+        "shrt\u00a3iqty_const": [
+            0.01,
+            0.5
+        ],
+        "shrt\u00a3iprc_const": [
+            0.99,
+            1.03
+        ],
+        "shrt\u00a3rqty_const": [
+            0,
+            2
+        ],
+        "shrt\u00a3rprc_const": [
+            1,
+            1.03
+        ],
+        "shrt\u00a3markup_const": [
+            0.97,
+            1
+        ]
+    },
+    "starting_configs": null,
+    "base_dir": "backtests",
+    "spot": true,
+    "exchange": "binance",
+    "session_name": "2021-01-01T0000_2021-07-31T0000",
+    "caches_dirpath": "backtests/binance_spot/MATICEUR/caches/",
+    "optimize_dirpath": "backtests/binance_spot/MATICEUR/optimize/",
+    "plots_dirpath": "backtests/binance_spot/MATICEUR/plots/2021-08-30T160449/",
+    "avg_periodic_gain_key": "avg_7days_gain",
+    "maker_fee": 0.001,
+    "taker_fee": 0.001,
+    "hedge_mode": false,
+    "inverse": false,
+    "max_leverage": 25,
+    "min_qty": 0.1,
+    "min_cost": 10.0,
+    "qty_step": 0.1,
+    "price_step": 0.0001,
+    "c_mult": 1.0,
+    "config_name": "binance_maticeur_134days",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "iprc_MAr_coeffs": [
+            [
+                -0.1567682575712232,
+                0.30167617698222887
+            ],
+            [
+                0.3221788727685304,
+                0.3716052124676953
+            ],
+            [
+                0.20247291186230576,
+                0.13678131761175014
+            ]
+        ],
+        "iprc_const": 0.9757857628440558,
+        "iqty_MAr_coeffs": [
+            [
+                0.15168121199750714,
+                -0.20637133184646764
+            ],
+            [
+                0.330085670398204,
+                0.22589365258638333
+            ],
+            [
+                0.040941329459608676,
+                -0.39038187652680945
+            ]
+        ],
+        "iqty_const": 0.025130615395585785,
+        "markup_MAr_coeffs": [
+            [
+                -0.3987939016554252,
+                0.04238788758376472
+            ],
+            [
+                0.3100975731413439,
+                0.36027030270975896
+            ],
+            [
+                -0.18381485265497277,
+                0.20135107766269794
+            ]
+        ],
+        "markup_const": 1.0269504184830247,
+        "pbr_limit": 0.005835363586199516,
+        "pbr_stop_loss": 0.9941646364138005,
+        "rprc_MAr_coeffs": [
+            [
+                -0.271618114397863,
+                -0.2589728758889787
+            ],
+            [
+                0.16845359458325251,
+                0.07800457555350482
+            ],
+            [
+                -0.3819753433680386,
+                0.34666060406201676
+            ]
+        ],
+        "rprc_PBr_coeffs": [
+            [
+                -0.8533835182663948,
+                -0.37162760522430954
+            ]
+        ],
+        "rprc_const": 0.993801777617672,
+        "rqty_MAr_coeffs": [
+            [
+                0.21522759058079108,
+                0.2536729565206274
+            ],
+            [
+                -0.12241416461066058,
+                0.2829253130773654
+            ],
+            [
+                0.39277223381364357,
+                0.28269518242683545
+            ]
+        ],
+        "rqty_const": 0.0020409329429750636
+    },
+    "max_span": 25265.571546763753,
+    "min_span": 1253.1153914141667,
+    "shrt": {
+        "enabled": false,
+        "iprc_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "iprc_const": 0.0,
+        "iqty_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "iqty_const": 0.0,
+        "markup_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "markup_const": 0.0,
+        "pbr_limit": 0.0,
+        "pbr_stop_loss": 0.0,
+        "rprc_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "rprc_PBr_coeffs": [
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "rprc_const": 0.0,
+        "rqty_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "rqty_const": 0.0
+    },
+    "n_days": 133.7,
+    "result": {
+        "exchange": "binance",
+        "symbol": "MATICEUR",
+        "starting_balance": 1000,
+        "final_balance": 1278.910033565953,
+        "final_equity": 1279.0878833257214,
+        "net_pnl_plus_fees": 278.910033565953,
+        "gain": 1.2790878833257213,
+        "n_days": 133.66619212962962,
+        "average_daily_gain": 1.0018432036474971,
+        "average_periodic_gain": 0.014284499587776849,
+        "adjusted_daily_gain": 1.0184299493920992,
+        "sharpe_ratio": 1.3233859712089413,
+        "profit_sum": 311.27239650394085,
+        "loss_sum": -5.677222137269775,
+        "fee_sum": -26.68514080071809,
+        "lowest_eqbal_ratio": 0.8258507577601572,
+        "closest_bkr": 1.0,
+        "n_fills": 1407,
+        "n_entries": 988,
+        "n_closes": 419,
+        "n_reentries": 634,
+        "n_initial_entries": 354,
+        "n_normal_closes": 361,
+        "n_stop_loss_closes": 58,
+        "biggest_psize": 1229.7,
+        "mean_hrs_between_fills": 2.278401002209596,
+        "mean_hrs_between_fills_long": 2.2784010022095957,
+        "mean_hrs_between_fills_shrt": 0.0,
+        "max_hrs_no_fills_long": 438.1872222222222,
+        "max_hrs_no_fills_shrt": 0.0,
+        "max_hrs_no_fills_same_side": 438.1872222222222,
+        "max_hrs_no_fills": 438.1872222222222
+    }
+}

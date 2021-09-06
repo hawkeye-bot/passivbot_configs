@@ -1,0 +1,340 @@
+{
+    "market_type": "spot",
+    "user": "binance_01",
+    "symbol": "HNTBTC",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 1000,
+    "start_date": "2021-01-01T00:00",
+    "end_date": "2021-07-31T00:00",
+    "iters": 25000,
+    "num_cpus": 4,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "break_early_factor": 0.5,
+    "periodic_gain_n_days": 7,
+    "minimum_sharpe_ratio": 1,
+    "minimum_bankruptcy_distance": 0.5,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": 1,
+    "maximum_hrs_no_fills": 72,
+    "maximum_hrs_no_fills_same_side": 168,
+    "maximum_mean_hrs_between_fills": 10,
+    "sliding_window_days": 25,
+    "reward_multiplier_base": 1.2,
+    "metric": "adjusted_daily_gain",
+    "n_spans": 3,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "min_span": [
+            20,
+            1440
+        ],
+        "max_span": [
+            1440,
+            30000
+        ],
+        "MAr_coeffs": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rprc_PBr_coeffs": [
+            -1,
+            0.1
+        ],
+        "long\u00a3pbr_stop_loss": [
+            0,
+            1
+        ],
+        "long\u00a3pbr_limit": [
+            0,
+            1
+        ],
+        "long\u00a3iqty_const": [
+            0.01,
+            0.5
+        ],
+        "long\u00a3iprc_const": [
+            0.97,
+            1.01
+        ],
+        "long\u00a3rqty_const": [
+            0,
+            2
+        ],
+        "long\u00a3rprc_const": [
+            0.97,
+            1
+        ],
+        "long\u00a3markup_const": [
+            1,
+            1.03
+        ],
+        "shrt\u00a3rprc_PBr_coeffs": [
+            -0.1,
+            1
+        ],
+        "shrt\u00a3pbr_stop_loss": [
+            0,
+            1
+        ],
+        "shrt\u00a3pbr_limit": [
+            0,
+            1
+        ],
+        "shrt\u00a3iqty_const": [
+            0.01,
+            0.5
+        ],
+        "shrt\u00a3iprc_const": [
+            0.99,
+            1.03
+        ],
+        "shrt\u00a3rqty_const": [
+            0,
+            2
+        ],
+        "shrt\u00a3rprc_const": [
+            1,
+            1.03
+        ],
+        "shrt\u00a3markup_const": [
+            0.97,
+            1
+        ]
+    },
+    "starting_configs": null,
+    "base_dir": "backtests",
+    "spot": true,
+    "exchange": "binance",
+    "session_name": "2021-01-01T0000_2021-07-31T0000",
+    "caches_dirpath": "backtests/binance_spot/HNTBTC/caches/",
+    "optimize_dirpath": "backtests/binance_spot/HNTBTC/optimize/",
+    "plots_dirpath": "backtests/binance_spot/HNTBTC/plots/2021-08-31T001721/",
+    "avg_periodic_gain_key": "avg_7days_gain",
+    "maker_fee": 0.001,
+    "taker_fee": 0.001,
+    "hedge_mode": false,
+    "inverse": false,
+    "max_leverage": 25,
+    "min_qty": 0.01,
+    "min_cost": 0.0001,
+    "qty_step": 0.01,
+    "price_step": 1e-07,
+    "c_mult": 1.0,
+    "config_name": "binance_hntbtc_211days",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "iprc_MAr_coeffs": [
+            [
+                -0.24021959373159502,
+                0.12283697110759818
+            ],
+            [
+                -0.19099829040104974,
+                0.2674009795624349
+            ],
+            [
+                0.1530049074877943,
+                -0.039343996860697346
+            ]
+        ],
+        "iprc_const": 1.0050705938850577,
+        "iqty_MAr_coeffs": [
+            [
+                -0.38927710825792294,
+                -0.2754811103542732
+            ],
+            [
+                0.04563109170620611,
+                0.13257007856089661
+            ],
+            [
+                0.26570110259129975,
+                0.042692097934221525
+            ]
+        ],
+        "iqty_const": 0.15597537499375974,
+        "markup_MAr_coeffs": [
+            [
+                -0.08111150091418141,
+                0.278442281715833
+            ],
+            [
+                -0.07264664895512163,
+                0.09275536148187487
+            ],
+            [
+                -0.2683925607617235,
+                0.1437528738516246
+            ]
+        ],
+        "markup_const": 1.0259541943952593,
+        "pbr_limit": 0.2753362183731552,
+        "pbr_stop_loss": 0.5538790140762798,
+        "rprc_MAr_coeffs": [
+            [
+                0.323618727028875,
+                -0.0027760499498987526
+            ],
+            [
+                0.20809288806390208,
+                -0.196234469589014
+            ],
+            [
+                0.19515060045064148,
+                0.1594565031892795
+            ]
+        ],
+        "rprc_PBr_coeffs": [
+            [
+                -0.7999551177354727,
+                -0.14283229007722187
+            ]
+        ],
+        "rprc_const": 0.9933818654304689,
+        "rqty_MAr_coeffs": [
+            [
+                0.20797075572386095,
+                -0.03402363145289792
+            ],
+            [
+                0.1257785424720941,
+                -0.34262471936491495
+            ],
+            [
+                -0.08367500974943794,
+                0.09188994216995888
+            ]
+        ],
+        "rqty_const": 1.2923483357389105
+    },
+    "max_span": 2516.5142227923357,
+    "min_span": 1313.9202202484944,
+    "shrt": {
+        "enabled": false,
+        "iprc_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "iprc_const": 0.0,
+        "iqty_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "iqty_const": 0.0,
+        "markup_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "markup_const": 0.0,
+        "pbr_limit": 0.0,
+        "pbr_stop_loss": 0.0,
+        "rprc_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "rprc_PBr_coeffs": [
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "rprc_const": 0.0,
+        "rqty_MAr_coeffs": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "rqty_const": 0.0
+    },
+    "n_days": 211.0,
+    "result": {
+        "exchange": "binance",
+        "symbol": "HNTBTC",
+        "starting_balance": 1000,
+        "final_balance": 1005.9661256304122,
+        "final_equity": 1005.9661256304122,
+        "net_pnl_plus_fees": 5.966125630413591,
+        "gain": 1.0059661256304122,
+        "n_days": 210.99921296296296,
+        "average_daily_gain": 1.0000281919659304,
+        "average_periodic_gain": 0.00019618215231368048,
+        "adjusted_daily_gain": 1.000281919651835,
+        "sharpe_ratio": 1.1431354776140144,
+        "profit_sum": 6.127995411869264,
+        "loss_sum": 0.0,
+        "fee_sum": -0.16186978145567288,
+        "lowest_eqbal_ratio": 0.9995283458288828,
+        "closest_bkr": 1.0,
+        "n_fills": 8629,
+        "n_entries": 3162,
+        "n_closes": 5467,
+        "n_reentries": 2998,
+        "n_initial_entries": 164,
+        "n_normal_closes": 5467,
+        "n_stop_loss_closes": 0,
+        "biggest_psize": 34162.18,
+        "mean_hrs_between_fills": 0.5867880777649028,
+        "mean_hrs_between_fills_long": 0.5867880777649028,
+        "mean_hrs_between_fills_shrt": 0.0,
+        "max_hrs_no_fills_long": 50.29638888888889,
+        "max_hrs_no_fills_shrt": 0.0,
+        "max_hrs_no_fills_same_side": 50.29638888888889,
+        "max_hrs_no_fills": 50.29638888888889
+    }
+}

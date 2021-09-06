@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | HOTEUR             |
+| No. days                        | 112.666            |
+| Starting balance                | 1000.0             |
+| Final balance                   | 1142.18            |
+| Final equity                    | 1142.18            |
+| Net PNL + fees                  | 142.176            |
+| Total gain percentage           | 14.22%             |
+| Average daily gain percentage   | 0.118%             |
+| Adjusted daily gain             | 1.01181            |
+| avg_7days_gain percentage       | 0.821%             |
+| Closest bankruptcy percentage   | 100.0%             |
+|                                 |                    |
+| Sharpe ratio                    | 1.09339            |
+| Profit sum                      | 155.987            |
+| Loss sum                        | 0.0                |
+| Fee sum                         | -13.8106           |
+| Lowest equity/balance ratio     | 0.928109           |
+| Biggest position size           | 85123.8            |
+|                                 |                    |
+| No. fills                       | 572.0              |
+| No. entries                     | 332.0              |
+| No. closes                      | 240.0              |
+| No. initial entries             | 164.0              |
+| No. reentries                   | 168.0              |
+| No. normal closes               | 240.0              |
+| No. stoploss closes             | 0.0                |
+|                                 |                    |
+| Mean hours between fills        | 4.71898            |
+| Max hours no fills (same side)  | 75.2364            |
+| Max hours no fills              | 75.2364            |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 164                |
+| No. reentries                   | 168                |
+| No. normal closes               | 240                |
+| No. stoploss closes             | 0                  |
+| No. partial fills               | 133                |
+| Mean hours between fills (long) | 4.71898            |
+| Max hours no fills (long)       | 75.2364            |
+| PNL sum                         | 155.98664510529676 |
++---------------------------------+--------------------+

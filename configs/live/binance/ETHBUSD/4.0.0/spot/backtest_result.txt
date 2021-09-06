@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | ETHBUSD            |
+| No. days                        | 211.0              |
+| Starting balance                | 1000.0             |
+| Final balance                   | 2578.68            |
+| Final equity                    | 2578.68            |
+| Net PNL + fees                  | 1578.68            |
+| Total gain percentage           | 157.9%             |
+| Average daily gain percentage   | 0.45%              |
+| Adjusted daily gain             | 1.04497            |
+| avg_7days_gain percentage       | 3.28%              |
+| Closest bankruptcy percentage   | 99.93%             |
+|                                 |                    |
+| Sharpe ratio                    | 0.51393            |
+| Profit sum                      | 1731.73            |
+| Loss sum                        | -46.0387           |
+| Fee sum                         | -107.012           |
+| Lowest equity/balance ratio     | 0.758777           |
+| Biggest position size           | 1.014              |
+|                                 |                    |
+| No. fills                       | 637.0              |
+| No. entries                     | 373.0              |
+| No. closes                      | 264.0              |
+| No. initial entries             | 246.0              |
+| No. reentries                   | 127.0              |
+| No. normal closes               | 249.0              |
+| No. stoploss closes             | 15.0               |
+|                                 |                    |
+| Mean hours between fills        | 7.9373             |
+| Max hours no fills (same side)  | 163.511            |
+| Max hours no fills              | 163.511            |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 246                |
+| No. reentries                   | 127                |
+| No. normal closes               | 249                |
+| No. stoploss closes             | 15                 |
+| No. partial fills               | 8                  |
+| Mean hours between fills (long) | 7.9373             |
+| Max hours no fills (long)       | 163.511            |
+| PNL sum                         | 1685.6944208549776 |
++---------------------------------+--------------------+

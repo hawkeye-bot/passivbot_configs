@@ -1,5 +1,6 @@
 | exchange | symbol | version | market_type | adg | closest_bkr | long | short |
 |----------|--------|---------|-------------| --- | ----------- | ---- | ----- |
+| binance | MATICEUR | 4.0.0 | spot | 1.0018432036474971 | 1.0 | True | False |
 | binance | DASHUSDT | 4.0.0 | spot | 1.003376226716417 | 1.0 | True | False |
 | binance | HOTUSDT | 4.0.0 | spot | 1.014559039570494 | 0.9993541657603258 | True | False |
 | binance | XMRUSDT | 4.0.0 | spot | 1.00260251811046 | 1.0 | True | False |
@@ -7,6 +8,7 @@
 | binance | 1INCHUSDT | 4.0.0 | spot | 1.0023976068380391 | 1.0 | True | False |
 | binance | AAVEUSDT | 4.0.0 | spot | 1.0020053448424808 | 1.0 | True | False |
 | binance | BTTUSDT | 4.0.0 | spot | 1.0074160578550597 | 0.9996520965392531 | True | False |
+| binance | ETHBUSD | 4.0.0 | spot | 1.0044995643907673 | 0.9992516924195711 | True | False |
 | binance | OCEANUSDT | 4.0.0 | spot | 1.003896509054295 | 1.0 | True | False |
 | binance | RUNEUSDT | 4.0.0 | spot | 1.0056469825081578 | 0.9993107675221764 | True | False |
 | binance | BATUSDT | 4.0.0 | spot | 1.0052967030535758 | 0.9997016639466414 | True | False |
@@ -14,8 +16,10 @@
 | binance | ADAUPUSDT | 4.0.0 | spot | 1.013635173229322 | 0.9995527787210017 | True | False |
 | binance | FTMUSDT | 4.0.0 | spot | 1.0064882366788706 | 0.9999282631086106 | True | False |
 | binance | XTZUSDT | 4.0.0 | spot | 1.004094190430169 | 0.9997296222811372 | True | False |
+| binance | BTCBUSD | 4.0.0 | spot | 1.0030105383216052 | 1.0 | True | False |
 | binance | MANAUSDT | 4.0.0 | spot | 1.0107900866275976 | 0.9996048608967835 | True | False |
 | binance | AXSUSDT | 4.0.0 | spot | 1.0135898096430704 | 1.0 | True | False |
+| binance | MATICBUSD | 4.0.0 | spot | 1.0043148872262002 | 1.0 | True | False |
 | binance | CHZUSDT | 4.0.0 | spot | 1.0046774417242235 | 0.9992838754861437 | True | False |
 | binance | KAVAUSDT | 4.0.0 | spot | 1.0062115913876737 | 0.9996733477623433 | True | False |
 | binance | ETCUSDT | 4.0.0 | futures | 0.0 | 0.05932230391734765 | True | True |
@@ -33,8 +37,12 @@
 | binance | GRTUSDT | 4.0.0 | spot | 1.0034480882099497 | 1.0 | True | False |
 | binance | ATOMUSDT | 4.0.0 | spot | 1.004817294418739 | 1.0 | True | False |
 | binance | SXPUSDT | 4.0.0 | spot | 1.0060190404355058 | 1.0 | True | False |
+| binance | SOLBUSD | 4.0.0 | spot | 1.0057058267293588 | 0.9991207693113794 | True | False |
 | binance | XRPUSDT | 4.0.0 | futures | 1.0029009692865194 | 1.0 | True | False |
+| binance | HOTEUR | 4.0.0 | spot | 1.0011806120636504 | 1.0 | True | False |
+| binance | XRPBUSD | 4.0.0 | spot | 1.0046965652845328 | 0.9995744051729949 | True | False |
 | binance | ONTUSDT | 4.0.0 | spot | 1.0032772275381525 | 1.0 | True | False |
+| binance | ONEBUSD | 4.0.0 | spot | 1.0091065949266662 | 0.9996221142521631 | True | False |
 | binance | LUNAUSDT | 4.0.0 | spot | 1.0033797998302867 | 1.0 | True | False |
 | binance | XLMUSDT | 4.0.0 | futures | 0.9945737370380754 | 0.7557935613286378 | True | False |
 | binance | XLMUSDT | 4.0.0 | spot | 1.0062704666846942 | 0.9992307644468763 | True | False |
@@ -43,12 +51,16 @@
 | binance | THETAUSDT | 4.0.0 | futures | 0.0 | 0.05983957517159699 | True | True |
 | binance | UNIUSDT | 4.0.0 | spot | 1.0107633589554263 | 0.9992714000811876 | True | False |
 | binance | FTTUSDT | 4.0.0 | spot | 1.0028033468897994 | 1.0 | True | False |
+| binance | BNBBUSD | 4.0.0 | spot | 1.0030827688546962 | 0.999513848670165 | True | False |
 | binance | SNXUSDT | 4.0.0 | spot | 1.0051160658344984 | 0.9994114928892677 | True | False |
 | binance | COMPUSDT | 4.0.0 | spot | 1.0058929388712516 | 0.9993699400698123 | True | False |
 | binance | BNTUSDT | 4.0.0 | spot | 1.0029741217317316 | 1.0 | True | False |
 | binance | MATICUSDT | 4.0.0 | spot | 1.015630035184803 | 0.998931030092483 | True | False |
 | binance | YFIUSDT | 4.0.0 | spot | 1.005041168850388 | 1.0 | True | False |
 | binance | ANKRUSDT | 4.0.0 | spot | 1.0024401017740583 | 1.0 | True | False |
+| binance | FTMBUSD | 4.0.0 | spot | 1.0056288624589593 | 1.0 | True | False |
+| binance | ARBUSD | 4.0.0 | spot | 1.0136422901212925 | 1.0 | True | False |
+| binance | ADABUSD | 4.0.0 | spot | 1.0067069446975219 | 0.9994260821430768 | True | False |
 | binance | AVAXUSDT | 4.0.0 | spot | 1.0054778903466357 | 1.0 | True | False |
 | binance | XEMUSDT | 4.0.0 | spot | 1.005808064614119 | 0.9997414572437158 | True | False |
 | binance | SLPETH | 4.0.0 | spot | 1.0019374579170295 | 1.0 | True | False |
@@ -60,5 +72,8 @@
 | binance | SUSHIUSDT | 4.0.0 | spot | 1.0053582476748126 | 0.9999950793711732 | True | False |
 | binance | ICPUSDT | 4.0.0 | spot | 0.9780898544916228 | 0.9979751430364359 | True | False |
 | binance | LINKUSDT | 4.0.0 | spot | 1.0033089777375215 | 1.0 | True | False |
+| binance | HOTBUSD | 4.0.0 | spot | 1.0062491050823883 | 0.9999264471530898 | True | False |
 | binance | RENUSDT | 4.0.0 | spot | 1.004053581063809 | 1.0 | True | False |
+| binance | DOTBUSD | 4.0.0 | spot | 1.0005217962486215 | 1.0 | True | False |
+| binance | HNTBTC | 4.0.0 | spot | 1.0000281919659304 | 1.0 | True | False |
 | binance | ALGOUSDT | 4.0.0 | spot | 1.0057276424806971 | 0.9995037210080362 | True | False |
