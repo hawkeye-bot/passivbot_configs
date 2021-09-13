@@ -1,0 +1,48 @@
++----------------------------------------------+
+|                   Summary                    |
++---------------------------------+------------+
+| Metric                          | Value      |
++---------------------------------+------------+
+| Exchange                        | binance    |
+| Market type                     | spot       |
+| Symbol                          | RVNUSDT    |
+| No. days                        | 210.999    |
+| Starting balance                | 1000.0     |
+| Final balance                   | 5521.31    |
+| Final equity                    | 5521.28    |
+| Net PNL + fees                  | 4521.31    |
+| Total gain percentage           | 452.1%     |
+| Average daily gain percentage   | 0.813%     |
+| Adjusted daily gain             | 1.08113    |
+| avg_3days_gain percentage       | 2.52%      |
+| Closest bankruptcy percentage   | 82.47%     |
+|                                 |            |
+| Sharpe ratio                    | 0.764929   |
+| Profit sum                      | 6263.8     |
+| Loss sum                        | 0.0        |
+| Fee sum                         | -1742.49   |
+| Lowest equity/balance ratio     | 0.508185   |
+| Biggest position size           | 107854.0   |
+|                                 |            |
+| No. fills                       | 39815.0    |
+| No. entries                     | 8016.0     |
+| No. closes                      | 31799.0    |
+| No. initial entries             | 5440.0     |
+| No. reentries                   | 2576.0     |
+| No. normal closes               | 31799.0    |
+| No. stoploss closes             | 0.0        |
+|                                 |            |
+| Mean hours between fills        | 0.127184   |
+| Max hours no fills (same side)  | 81.3019    |
+| Max hours no fills              | 81.3019    |
+|                                 |            |
+| Long                            | True       |
+| No. inital entries              | 5440       |
+| No. reentries                   | 2576       |
+| No. normal closes               | 31799      |
+| No. stoploss closes             | 0          |
+| No. partial fills               | 0          |
+| Mean hours between fills (long) | 0.127184   |
+| Max hours no fills (long)       | 81.3019    |
+| PNL sum                         | 6263.79861 |
++---------------------------------+------------+
