@@ -73,7 +73,7 @@ def process_candidate_configs(base_dir, version, delete, do_push):
         else:
             print(f'New optimize result for {new_result["symbol"]} is not better than previous result, ignoring result')
 
-    generate_overview_md()
+    generate_overview_md(version)
 
     # add all changes &  push to git repository
     if results_changed and do_push:
@@ -102,7 +102,7 @@ def new_result_better(current, new) -> bool:
     return new_adg > current_adg
 
 
-def generate_overview_md():
+def generate_overview_md(version: str):
     with open("summary.md", "w") as summary:
         summary.write('| exchange | symbol | version | market_type | adg | closest_bkr | long | short |\n'
                       '|----------|--------|---------|-------------| --- | ----------- | ---- | ----- |\n')
@@ -112,7 +112,7 @@ def generate_overview_md():
         for result_path in result_paths:
             try:
                 result = json.load(open(result_path, encoding='utf-8'))
-                summary.write(f'| {result["exchange"]} | {result["symbol"]} | 4.0.0 | {result["market_type"]} | {result["result"]["average_daily_gain"]} | {result["result"]["closest_bkr"]} | {result["long"]["enabled"]} | {result["shrt"]["enabled"]} |\n')
+                summary.write(f'| {result["exchange"]} | {result["symbol"]} | {version} | {result["market_type"]} | {result["result"]["average_daily_gain"]} | {result["result"]["closest_bkr"]} | {result["long"]["enabled"]} | {result["shrt"]["enabled"]} |\n')
             except Exception as e:
                 print('failed to load result file', result_path, e)
 
