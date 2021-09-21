@@ -2,8 +2,8 @@ import argparse
 import json
 import os
 import shutil
-import datetime
 import time
+import datetime
 from pathlib import Path
 from shutil import rmtree
 
@@ -40,10 +40,10 @@ def process_candidate_configs(base_dir, version, delete, do_push):
         except Exception as e:
             raise Exception('failed to load result file', new_result_path, e)
 
-        start_date=(new_result['start_date'].strip('T00:00'))
-        end_date=(new_result['end_date'].strip('T00:00'))
+        start_date = datetime.datetime.strptime(new_result['start_date'], '%Y-%m-%d')
+        end_date = datetime.datetime.strptime(new_result['end_date'], '%Y-%m-%d')
         
-        if start_date != '2021-01-01' or end_date != '2021-07-31':
+        if start_date > datetime.datetime(2021, 1, 1) or end_date < datetime.datetime(2021, 7, 1):
             print(f'{new_result_path} does not match required start_date of 01-01-2021 and/or end_date 31-07-2021')
             continue
 
@@ -112,7 +112,7 @@ def generate_overview_md():
         for result_path in result_paths:
             try:
                 result = json.load(open(result_path, encoding='utf-8'))
-                summary.write(f'| {result["exchange"]} | {result["symbol"]} | 4.0.0 | {result["market_type"]} | {result["result"]["average_daily_gain"]} | {result["result"]["closest_bkr"]} | {result["do_long"]} | {result["do_shrt"]} |\n')
+                summary.write(f'| {result["exchange"]} | {result["symbol"]} | 4.0.0 | {result["market_type"]} | {result["result"]["average_daily_gain"]} | {result["result"]["closest_bkr"]} | {result["long"]["enabled"]} | {result["shrt"]["enabled"]} |\n')
             except Exception as e:
                 print('failed to load result file', result_path, e)
 
