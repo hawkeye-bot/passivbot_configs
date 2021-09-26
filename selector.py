@@ -1,9 +1,8 @@
 import argparse
+import datetime
 import json
 import os
 import shutil
-import time
-import datetime
 from pathlib import Path
 from shutil import rmtree
 
@@ -40,8 +39,8 @@ def process_candidate_configs(base_dir, version, delete, do_push):
         except Exception as e:
             raise Exception('failed to load result file', new_result_path, e)
 
-        start_date = datetime.datetime.strptime(new_result['start_date'], '%Y-%m-%d')
-        end_date = datetime.datetime.strptime(new_result['end_date'], '%Y-%m-%d')
+        start_date = datetime.datetime.strptime(new_result['start_date'].strip('T00:00'), '%Y-%m-%d')
+        end_date = datetime.datetime.strptime(new_result['end_date'].strip('T00:00'), '%Y-%m-%d')
         
         if start_date > datetime.datetime(2021, 1, 1) or end_date < datetime.datetime(2021, 7, 1):
             print(f'{new_result_path} does not match required start_date of 01-01-2021 and/or end_date 31-07-2021')
