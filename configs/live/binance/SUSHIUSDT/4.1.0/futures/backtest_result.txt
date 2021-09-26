@@ -1,0 +1,48 @@
++-------------------------------------------------------+
+|                        Summary                        |
++---------------------------------+---------------------+
+| Metric                          | Value               |
++---------------------------------+---------------------+
+| Exchange                        | binance             |
+| Market type                     | futures             |
+| Symbol                          | SUSHIUSDT           |
+| No. days                        | 248.0               |
+| Starting balance                | 1000.0              |
+| Final balance                   | 0.0                 |
+| Final equity                    | 0.0                 |
+| Net PNL + fees                  | -590.781            |
+| Total gain percentage           | -100.0%             |
+| Average daily gain percentage   | 0.0%                |
+| Adjusted daily gain             | 0.0                 |
+| avg_5days_gain percentage       | 7.46%               |
+| Closest bankruptcy percentage   | 5.754%              |
+|                                 |                     |
+| Sharpe ratio                    | 0.803468            |
+| Profit sum                      | 6721.87             |
+| Loss sum                        | -6881.09            |
+| Fee sum                         | -431.553            |
+| Lowest equity/balance ratio     | 0.0564626           |
+| Biggest position size           | 718.0               |
+|                                 |                     |
+| No. fills                       | 21613.0             |
+| No. entries                     | 2633.0              |
+| No. closes                      | 18979.0             |
+| No. initial entries             | 1754.0              |
+| No. reentries                   | 879.0               |
+| No. normal closes               | 18979.0             |
+| No. stoploss closes             | 0.0                 |
+|                                 |                     |
+| Mean hours between fills        | 0.275377            |
+| Max hours no fills (same side)  | 2627.09             |
+| Max hours no fills              | 2627.09             |
+|                                 |                     |
+| Long                            | True                |
+| No. inital entries              | 1754                |
+| No. reentries                   | 879                 |
+| No. normal closes               | 18979               |
+| No. stoploss closes             | 0                   |
+| No. partial fills               | 0                   |
+| Mean hours between fills (long) | 0.275377            |
+| Max hours no fills (long)       | 2627.09             |
+| PNL sum                         | -159.22869999998966 |
++---------------------------------+---------------------+

@@ -1,0 +1,48 @@
++-------------------------------------------------------+
+|                        Summary                        |
++---------------------------------+---------------------+
+| Metric                          | Value               |
++---------------------------------+---------------------+
+| Exchange                        | binance             |
+| Market type                     | futures             |
+| Symbol                          | FILUSDT             |
+| No. days                        | 248.0               |
+| Starting balance                | 1000.0              |
+| Final balance                   | 0.0                 |
+| Final equity                    | 0.0                 |
+| Net PNL + fees                  | -790.952            |
+| Total gain percentage           | -100.0%             |
+| Average daily gain percentage   | 0.0%                |
+| Adjusted daily gain             | 0.0                 |
+| avg_5days_gain percentage       | 6.16%               |
+| Closest bankruptcy percentage   | 5.793%              |
+|                                 |                     |
+| Sharpe ratio                    | 0.571945            |
+| Profit sum                      | 3777.11             |
+| Loss sum                        | -4256.65            |
+| Fee sum                         | -311.417            |
+| Lowest equity/balance ratio     | 0.0471487           |
+| Biggest position size           | 78.8                |
+|                                 |                     |
+| No. fills                       | 10397.0             |
+| No. entries                     | 1304.0              |
+| No. closes                      | 9092.0              |
+| No. initial entries             | 966.0               |
+| No. reentries                   | 338.0               |
+| No. normal closes               | 9092.0              |
+| No. stoploss closes             | 0.0                 |
+|                                 |                     |
+| Mean hours between fills        | 0.572418            |
+| Max hours no fills (same side)  | 2783.91             |
+| Max hours no fills              | 2783.91             |
+|                                 |                     |
+| Long                            | True                |
+| No. inital entries              | 966                 |
+| No. reentries                   | 338                 |
+| No. normal closes               | 9092                |
+| No. stoploss closes             | 0                   |
+| No. partial fills               | 0                   |
+| Mean hours between fills (long) | 0.572418            |
+| Max hours no fills (long)       | 2783.91             |
+| PNL sum                         | -479.53559999999834 |
++---------------------------------+---------------------+

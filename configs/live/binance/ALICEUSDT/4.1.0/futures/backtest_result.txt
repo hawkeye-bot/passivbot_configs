@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | futures            |
+| Symbol                          | ALICEUSDT          |
+| No. days                        | 173.875            |
+| Starting balance                | 1000.0             |
+| Final balance                   | 1292.86            |
+| Final equity                    | 774.829            |
+| Net PNL + fees                  | 292.856            |
+| Total gain percentage           | -22.52%            |
+| Average daily gain percentage   | -0.147%            |
+| Adjusted daily gain             | -0.00146572        |
+| avg_5days_gain percentage       | 3.83%              |
+| Closest bankruptcy percentage   | 9.812%             |
+|                                 |                    |
+| Sharpe ratio                    | 0.793412           |
+| Profit sum                      | 309.726            |
+| Loss sum                        | 0.0                |
+| Fee sum                         | -16.87             |
+| Lowest equity/balance ratio     | 0.0756498          |
+| Biggest position size           | 153.0              |
+|                                 |                    |
+| No. fills                       | 1650.0             |
+| No. entries                     | 221.0              |
+| No. closes                      | 1429.0             |
+| No. initial entries             | 148.0              |
+| No. reentries                   | 73.0               |
+| No. normal closes               | 1429.0             |
+| No. stoploss closes             | 0.0                |
+|                                 |                    |
+| Mean hours between fills        | 2.52756            |
+| Max hours no fills (same side)  | 3380.7             |
+| Max hours no fills              | 3380.7             |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 148                |
+| No. reentries                   | 73                 |
+| No. normal closes               | 1429               |
+| No. stoploss closes             | 0                  |
+| No. partial fills               | 0                  |
+| Mean hours between fills (long) | 2.52756            |
+| Max hours no fills (long)       | 3380.7             |
+| PNL sum                         | 309.72560000000044 |
++---------------------------------+--------------------+
