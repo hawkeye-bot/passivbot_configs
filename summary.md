@@ -132,7 +132,6 @@
 | binance | SOLBTC | 4.1.0 | spot | 0.008068545811910077 | 0.9884023844796769 | True | False |
 | binance | SOLBUSD | 4.0.0 | spot | 0.0057058267293588205 | 0.9991207693113794 | True | False |
 | binance | SOLUSDT | 4.1.0 | futures | 0.0 | 0.05877951104669574 | True | False |
-| binance | SOLUSDT | 5.0.0. | futures | 0.016533798737104144 | 0.8202871015095134 | True | False |
 | binance | SRMBUSD | 4.1.0 | spot | 0.004905806947548941 | 0.9851044488343182 | True | False |
 | binance | SUPERBUSD | 4.1.0 | spot | 0.0017725841036175805 | 0.9550051293847733 | True | False |
 | binance | SUSHIUPUSDT | 4.1.0 | spot | -0.002368768110081132 | 1.0 | True | False |
