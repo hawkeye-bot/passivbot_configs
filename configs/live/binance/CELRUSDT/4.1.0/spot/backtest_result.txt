@@ -1,0 +1,48 @@
++-----------------------------------------------+
+|                    Summary                    |
++---------------------------------+-------------+
+| Metric                          | Value       |
++---------------------------------+-------------+
+| Exchange                        | binance     |
+| Market type                     | spot        |
+| Symbol                          | CELRUSDT    |
+| No. days                        | 248.0       |
+| Starting balance                | 1000.0      |
+| Final balance                   | 6620.72     |
+| Final equity                    | 5782.82     |
+| Net PNL + fees                  | 5620.72     |
+| Total gain percentage           | 478.3%      |
+| Average daily gain percentage   | 0.71%       |
+| Adjusted daily gain             | 0.00705391  |
+| avg_5days_gain percentage       | 11.2%       |
+| Closest bankruptcy percentage   | 98.89%      |
+|                                 |             |
+| Sharpe ratio                    | 1.40417     |
+| Profit sum                      | 7585.9      |
+| Loss sum                        | 0.0         |
+| Fee sum                         | -1965.19    |
+| Lowest equity/balance ratio     | 0.225875    |
+| Biggest position size           | 205814.0    |
+|                                 |             |
+| No. fills                       | 13853.0     |
+| No. entries                     | 2330.0      |
+| No. closes                      | 11523.0     |
+| No. initial entries             | 1155.0      |
+| No. reentries                   | 1175.0      |
+| No. normal closes               | 11523.0     |
+| No. stoploss closes             | 0.0         |
+|                                 |             |
+| Mean hours between fills        | 0.429623    |
+| Max hours no fills (same side)  | 3766.12     |
+| Max hours no fills              | 3766.12     |
+|                                 |             |
+| Long                            | True        |
+| No. inital entries              | 1155        |
+| No. reentries                   | 1175        |
+| No. normal closes               | 11523       |
+| No. stoploss closes             | 0           |
+| No. partial fills               | 0           |
+| Mean hours between fills (long) | 0.429623    |
+| Max hours no fills (long)       | 3766.12     |
+| PNL sum                         | 7585.901543 |
++---------------------------------+-------------+

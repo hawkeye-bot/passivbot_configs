@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | VETUSDT           |
+| No. days                        | 248.0             |
+| Starting balance                | 1000.0            |
+| Final balance                   | 5892.42           |
+| Final equity                    | 5781.08           |
+| Net PNL + fees                  | 4892.42           |
+| Total gain percentage           | 478.1%            |
+| Average daily gain percentage   | 0.71%             |
+| Adjusted daily gain             | 0.00705271        |
+| avg_5days_gain percentage       | 7.13%             |
+| Closest bankruptcy percentage   | 98.71%            |
+|                                 |                   |
+| Sharpe ratio                    | 1.02981           |
+| Profit sum                      | 7013.9            |
+| Loss sum                        | 0.0               |
+| Fee sum                         | -2121.48          |
+| Lowest equity/balance ratio     | 0.243498          |
+| Biggest position size           | 54988.5           |
+|                                 |                   |
+| No. fills                       | 18768.0           |
+| No. entries                     | 2374.0            |
+| No. closes                      | 16394.0           |
+| No. initial entries             | 1825.0            |
+| No. reentries                   | 549.0             |
+| No. normal closes               | 16394.0           |
+| No. stoploss closes             | 0.0               |
+|                                 |                   |
+| Mean hours between fills        | 0.317119          |
+| Max hours no fills (same side)  | 2845.19           |
+| Max hours no fills              | 2845.19           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 1825              |
+| No. reentries                   | 549               |
+| No. normal closes               | 16394             |
+| No. stoploss closes             | 0                 |
+| No. partial fills               | 0                 |
+| Mean hours between fills (long) | 0.317119          |
+| Max hours no fills (long)       | 2845.19           |
+| PNL sum                         | 7013.895225600001 |
++---------------------------------+-------------------+

@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | XRPBNB            |
+| No. days                        | 247.999           |
+| Starting balance                | 1000.0            |
+| Final balance                   | 1533.28           |
+| Final equity                    | 1285.55           |
+| Net PNL + fees                  | 533.28            |
+| Total gain percentage           | 28.55%            |
+| Average daily gain percentage   | 0.101%            |
+| Adjusted daily gain             | 0.00101321        |
+| avg_5days_gain percentage       | 3.93%             |
+| Closest bankruptcy percentage   | 93.56%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.731146          |
+| Profit sum                      | 727.056           |
+| Loss sum                        | 0.0               |
+| Fee sum                         | -193.776          |
+| Lowest equity/balance ratio     | 0.0971581         |
+| Biggest position size           | 191556.0          |
+|                                 |                   |
+| No. fills                       | 5032.0            |
+| No. entries                     | 932.0             |
+| No. closes                      | 4100.0            |
+| No. initial entries             | 525.0             |
+| No. reentries                   | 407.0             |
+| No. normal closes               | 4100.0            |
+| No. stoploss closes             | 0.0               |
+|                                 |                   |
+| Mean hours between fills        | 1.18259           |
+| Max hours no fills (same side)  | 5196.06           |
+| Max hours no fills              | 5196.06           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 525               |
+| No. reentries                   | 407               |
+| No. normal closes               | 4100              |
+| No. stoploss closes             | 0                 |
+| No. partial fills               | 0                 |
+| Mean hours between fills (long) | 1.18259           |
+| Max hours no fills (long)       | 5196.06           |
+| PNL sum                         | 727.0557612605649 |
++---------------------------------+-------------------+

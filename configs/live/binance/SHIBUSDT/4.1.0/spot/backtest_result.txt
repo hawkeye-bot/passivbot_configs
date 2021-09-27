@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | SHIBUSDT          |
+| No. days                        | 118.542           |
+| Starting balance                | 1000.0            |
+| Final balance                   | 1085.22           |
+| Final equity                    | 964.043           |
+| Net PNL + fees                  | 85.2212           |
+| Total gain percentage           | -3.596%           |
+| Average daily gain percentage   | -0.0309%          |
+| Adjusted daily gain             | -0.000308868      |
+| avg_5days_gain percentage       | 0.0%              |
+| Closest bankruptcy percentage   | 94.02%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.0               |
+| Profit sum                      | 98.185            |
+| Loss sum                        | 0.0               |
+| Fee sum                         | -12.9637          |
+| Lowest equity/balance ratio     | 0.131796          |
+| Biggest position size           | 32857200.0        |
+|                                 |                   |
+| No. fills                       | 127.0             |
+| No. entries                     | 51.0              |
+| No. closes                      | 76.0              |
+| No. initial entries             | 16.0              |
+| No. reentries                   | 35.0              |
+| No. normal closes               | 76.0              |
+| No. stoploss closes             | 0.0               |
+|                                 |                   |
+| Mean hours between fills        | 22.2266           |
+| Max hours no fills (same side)  | 2844.74           |
+| Max hours no fills              | 2844.74           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 16                |
+| No. reentries                   | 35                |
+| No. normal closes               | 76                |
+| No. stoploss closes             | 0                 |
+| No. partial fills               | 0                 |
+| Mean hours between fills (long) | 22.2266           |
+| Max hours no fills (long)       | 2844.74           |
+| PNL sum                         | 98.18496491973538 |
++---------------------------------+-------------------+

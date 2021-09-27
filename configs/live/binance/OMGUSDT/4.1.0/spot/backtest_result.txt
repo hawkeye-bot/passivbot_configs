@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | OMGUSDT            |
+| No. days                        | 248.0              |
+| Starting balance                | 1000.0             |
+| Final balance                   | 3091.33            |
+| Final equity                    | 2606.22            |
+| Net PNL + fees                  | 2091.33            |
+| Total gain percentage           | 160.6%             |
+| Average daily gain percentage   | 0.387%             |
+| Adjusted daily gain             | 0.00386226         |
+| avg_5days_gain percentage       | 4.34%              |
+| Closest bankruptcy percentage   | 98.94%             |
+|                                 |                    |
+| Sharpe ratio                    | 0.653764           |
+| Profit sum                      | 2993.51            |
+| Loss sum                        | 0.0                |
+| Fee sum                         | -902.18            |
+| Lowest equity/balance ratio     | 0.195029           |
+| Biggest position size           | 389.8              |
+|                                 |                    |
+| No. fills                       | 10231.0            |
+| No. entries                     | 1367.0             |
+| No. closes                      | 8864.0             |
+| No. initial entries             | 862.0              |
+| No. reentries                   | 505.0              |
+| No. normal closes               | 8864.0             |
+| No. stoploss closes             | 0.0                |
+|                                 |                    |
+| Mean hours between fills        | 0.581704           |
+| Max hours no fills (same side)  | 2911.18            |
+| Max hours no fills              | 2911.18            |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 862                |
+| No. reentries                   | 505                |
+| No. normal closes               | 8864               |
+| No. stoploss closes             | 0                  |
+| No. partial fills               | 0                  |
+| Mean hours between fills (long) | 0.581704           |
+| Max hours no fills (long)       | 2911.18            |
+| PNL sum                         | 2993.5139900000017 |
++---------------------------------+--------------------+

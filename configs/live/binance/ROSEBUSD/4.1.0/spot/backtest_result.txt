@@ -1,0 +1,48 @@
++-----------------------------------------------+
+|                    Summary                    |
++---------------------------------+-------------+
+| Metric                          | Value       |
++---------------------------------+-------------+
+| Exchange                        | binance     |
+| Market type                     | spot        |
+| Symbol                          | ROSEBUSD    |
+| No. days                        | 247.994     |
+| Starting balance                | 1000.0      |
+| Final balance                   | 5730.62     |
+| Final equity                    | 5578.38     |
+| Net PNL + fees                  | 4730.62     |
+| Total gain percentage           | 457.8%      |
+| Average daily gain percentage   | 0.696%      |
+| Adjusted daily gain             | 0.00691076  |
+| avg_5days_gain percentage       | 8.68%       |
+| Closest bankruptcy percentage   | 98.94%      |
+|                                 |             |
+| Sharpe ratio                    | 0.825264    |
+| Profit sum                      | 5854.66     |
+| Loss sum                        | 0.0         |
+| Fee sum                         | -1124.03    |
+| Lowest equity/balance ratio     | 0.21649     |
+| Biggest position size           | 28632.9     |
+|                                 |             |
+| No. fills                       | 3372.0      |
+| No. entries                     | 737.0       |
+| No. closes                      | 2635.0      |
+| No. initial entries             | 478.0       |
+| No. reentries                   | 259.0       |
+| No. normal closes               | 2635.0      |
+| No. stoploss closes             | 0.0         |
+|                                 |             |
+| Mean hours between fills        | 1.76456     |
+| Max hours no fills (same side)  | 3386.1      |
+| Max hours no fills              | 3386.1      |
+|                                 |             |
+| Long                            | True        |
+| No. inital entries              | 478         |
+| No. reentries                   | 259         |
+| No. normal closes               | 2635        |
+| No. stoploss closes             | 0           |
+| No. partial fills               | 0           |
+| Mean hours between fills (long) | 1.76456     |
+| Max hours no fills (long)       | 3386.1      |
+| PNL sum                         | 5854.658918 |
++---------------------------------+-------------+

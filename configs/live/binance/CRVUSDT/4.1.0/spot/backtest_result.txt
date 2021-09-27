@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | CRVUSDT           |
+| No. days                        | 248.0             |
+| Starting balance                | 1000.0            |
+| Final balance                   | 3695.93           |
+| Final equity                    | 3638.7            |
+| Net PNL + fees                  | 2695.93           |
+| Total gain percentage           | 263.9%            |
+| Average daily gain percentage   | 0.522%            |
+| Adjusted daily gain             | 0.00520286        |
+| avg_5days_gain percentage       | 6.32%             |
+| Closest bankruptcy percentage   | 96.29%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.784501          |
+| Profit sum                      | 3821.38           |
+| Loss sum                        | 0.0               |
+| Fee sum                         | -1125.46          |
+| Lowest equity/balance ratio     | 0.230569          |
+| Biggest position size           | 1828.7            |
+|                                 |                   |
+| No. fills                       | 11862.0           |
+| No. entries                     | 1603.0            |
+| No. closes                      | 10259.0           |
+| No. initial entries             | 1133.0            |
+| No. reentries                   | 470.0             |
+| No. normal closes               | 10259.0           |
+| No. stoploss closes             | 0.0               |
+|                                 |                   |
+| Mean hours between fills        | 0.501728          |
+| Max hours no fills (same side)  | 3427.45           |
+| Max hours no fills              | 3427.45           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 1133              |
+| No. reentries                   | 470               |
+| No. normal closes               | 10259             |
+| No. stoploss closes             | 0                 |
+| No. partial fills               | 0                 |
+| Mean hours between fills (long) | 0.501728          |
+| Max hours no fills (long)       | 3427.45           |
+| PNL sum                         | 3821.382300000002 |
++---------------------------------+-------------------+

@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | SLPUSDT            |
+| No. days                        | 128.5              |
+| Starting balance                | 1000.0             |
+| Final balance                   | 2510.63            |
+| Final equity                    | 2510.2             |
+| Net PNL + fees                  | 1510.63            |
+| Total gain percentage           | 151.0%             |
+| Average daily gain percentage   | 0.719%             |
+| Adjusted daily gain             | 0.00713896         |
+| avg_5days_gain percentage       | 3.8%               |
+| Closest bankruptcy percentage   | 95.0%              |
+|                                 |                    |
+| Sharpe ratio                    | 0.546559           |
+| Profit sum                      | 2059.39            |
+| Loss sum                        | 0.0                |
+| Fee sum                         | -548.767           |
+| Lowest equity/balance ratio     | 0.155532           |
+| Biggest position size           | 19942.0            |
+|                                 |                    |
+| No. fills                       | 15269.0            |
+| No. entries                     | 4652.0             |
+| No. closes                      | 10617.0            |
+| No. initial entries             | 3386.0             |
+| No. reentries                   | 1266.0             |
+| No. normal closes               | 10617.0            |
+| No. stoploss closes             | 0.0                |
+|                                 |                    |
+| Mean hours between fills        | 0.201965           |
+| Max hours no fills (same side)  | 1723.81            |
+| Max hours no fills              | 1723.81            |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 3386               |
+| No. reentries                   | 1266               |
+| No. normal closes               | 10617              |
+| No. stoploss closes             | 0                  |
+| No. partial fills               | 0                  |
+| Mean hours between fills (long) | 0.201965           |
+| Max hours no fills (long)       | 1723.81            |
+| PNL sum                         | 2059.3941999999997 |
++---------------------------------+--------------------+

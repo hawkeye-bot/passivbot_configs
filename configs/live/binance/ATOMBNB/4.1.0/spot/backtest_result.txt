@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | ATOMBNB            |
+| No. days                        | 247.999            |
+| Starting balance                | 1000.0             |
+| Final balance                   | 1301.68            |
+| Final equity                    | 1073.19            |
+| Net PNL + fees                  | 301.679            |
+| Total gain percentage           | 7.319%             |
+| Average daily gain percentage   | 0.0285%            |
+| Adjusted daily gain             | 0.000284856        |
+| avg_5days_gain percentage       | 2.68%              |
+| Closest bankruptcy percentage   | 97.28%             |
+|                                 |                    |
+| Sharpe ratio                    | 0.709047           |
+| Profit sum                      | 389.648            |
+| Loss sum                        | 0.0                |
+| Fee sum                         | -87.9683           |
+| Lowest equity/balance ratio     | 0.175917           |
+| Biggest position size           | 7399.44            |
+|                                 |                    |
+| No. fills                       | 938.0              |
+| No. entries                     | 222.0              |
+| No. closes                      | 716.0              |
+| No. initial entries             | 105.0              |
+| No. reentries                   | 117.0              |
+| No. normal closes               | 716.0              |
+| No. stoploss closes             | 0.0                |
+|                                 |                    |
+| Mean hours between fills        | 6.33863            |
+| Max hours no fills (same side)  | 4803.94            |
+| Max hours no fills              | 4803.94            |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 105                |
+| No. reentries                   | 117                |
+| No. normal closes               | 716                |
+| No. stoploss closes             | 0                  |
+| No. partial fills               | 0                  |
+| Mean hours between fills (long) | 6.33863            |
+| Max hours no fills (long)       | 4803.94            |
+| PNL sum                         | 389.64764909999974 |
++---------------------------------+--------------------+

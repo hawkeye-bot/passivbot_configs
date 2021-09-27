@@ -1,0 +1,48 @@
++------------------------------------------------------+
+|                       Summary                        |
++---------------------------------+--------------------+
+| Metric                          | Value              |
++---------------------------------+--------------------+
+| Exchange                        | binance            |
+| Market type                     | spot               |
+| Symbol                          | ONEUSDT            |
+| No. days                        | 248.0              |
+| Starting balance                | 1000.0             |
+| Final balance                   | 1762.0             |
+| Final equity                    | 1762.08            |
+| Net PNL + fees                  | 761.995            |
+| Total gain percentage           | 76.21%             |
+| Average daily gain percentage   | 0.229%             |
+| Adjusted daily gain             | 0.00228526         |
+| avg_5days_gain percentage       | 6.69%              |
+| Closest bankruptcy percentage   | 99.02%             |
+|                                 |                    |
+| Sharpe ratio                    | 1.59098            |
+| Profit sum                      | 1010.01            |
+| Loss sum                        | 0.0                |
+| Fee sum                         | -248.011           |
+| Lowest equity/balance ratio     | 0.699223           |
+| Biggest position size           | 202177.0           |
+|                                 |                    |
+| No. fills                       | 6077.0             |
+| No. entries                     | 1643.0             |
+| No. closes                      | 4434.0             |
+| No. initial entries             | 904.0              |
+| No. reentries                   | 739.0              |
+| No. normal closes               | 4434.0             |
+| No. stoploss closes             | 0.0                |
+|                                 |                    |
+| Mean hours between fills        | 0.979269           |
+| Max hours no fills (same side)  | 5015.52            |
+| Max hours no fills              | 5015.52            |
+|                                 |                    |
+| Long                            | True               |
+| No. inital entries              | 904                |
+| No. reentries                   | 739                |
+| No. normal closes               | 4434               |
+| No. stoploss closes             | 0                  |
+| No. partial fills               | 0                  |
+| Mean hours between fills (long) | 0.979269           |
+| Max hours no fills (long)       | 5015.52            |
+| PNL sum                         | 1010.0063420424843 |
++---------------------------------+--------------------+

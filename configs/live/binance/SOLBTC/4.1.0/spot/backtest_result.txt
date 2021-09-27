@@ -1,0 +1,48 @@
++-----------------------------------------------------+
+|                       Summary                       |
++---------------------------------+-------------------+
+| Metric                          | Value             |
++---------------------------------+-------------------+
+| Exchange                        | binance           |
+| Market type                     | spot              |
+| Symbol                          | SOLBTC            |
+| No. days                        | 247.999           |
+| Starting balance                | 1000.0            |
+| Final balance                   | 7337.76           |
+| Final equity                    | 7337.26           |
+| Net PNL + fees                  | 6337.76           |
+| Total gain percentage           | 633.7%            |
+| Average daily gain percentage   | 0.807%            |
+| Adjusted daily gain             | 0.00799923        |
+| avg_5days_gain percentage       | 4.19%             |
+| Closest bankruptcy percentage   | 98.84%            |
+|                                 |                   |
+| Sharpe ratio                    | 0.706189          |
+| Profit sum                      | 8989.85           |
+| Loss sum                        | 0.0               |
+| Fee sum                         | -2652.08          |
+| Lowest equity/balance ratio     | 0.562366          |
+| Biggest position size           | 18062300.0        |
+|                                 |                   |
+| No. fills                       | 14655.0           |
+| No. entries                     | 2206.0            |
+| No. closes                      | 12449.0           |
+| No. initial entries             | 1668.0            |
+| No. reentries                   | 538.0             |
+| No. normal closes               | 12449.0           |
+| No. stoploss closes             | 0.0               |
+|                                 |                   |
+| Mean hours between fills        | 0.406113          |
+| Max hours no fills (same side)  | 1609.73           |
+| Max hours no fills              | 1609.73           |
+|                                 |                   |
+| Long                            | True              |
+| No. inital entries              | 1668              |
+| No. reentries                   | 538               |
+| No. normal closes               | 12449             |
+| No. stoploss closes             | 0                 |
+| No. partial fills               | 0                 |
+| Mean hours between fills (long) | 0.406113          |
+| Max hours no fills (long)       | 1609.73           |
+| PNL sum                         | 8989.848168383802 |
++---------------------------------+-------------------+
