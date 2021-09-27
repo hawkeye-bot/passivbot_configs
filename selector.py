@@ -113,16 +113,11 @@ def generate_overview_md(version: str):
                 result = json.load(open(result_path, encoding='utf-8'))
                 path_version = result_path.parts[4]
 
-                net_pnl_plus_fees = result['result']['net_pnl_plus_fees']
                 adg = result['result']['average_daily_gain']
                 if adg > 1:
-                    print(f'ADG of {adg} turned into {adg-1}')
                     adg -= 1
                 elif adg < 1 and adg > 0.5:
-                    print(f'ADG of {adg} turned into {adg-1}')
                     adg -= 1
-                else:
-                    print(f'ADG of {adg} left unmodified')
 
                 summary.write(f'| {result["exchange"]} | {result["symbol"]} | {path_version} | {result["market_type"]} | {adg} | {result["result"]["closest_bkr"]} | {result["long"]["enabled"]} | {result["shrt"]["enabled"]} |\n')
             except Exception as e:
