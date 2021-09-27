@@ -108,6 +108,7 @@ def generate_overview_md(version: str):
 
         p = Path('configs')
         result_paths = list(p.glob('**/result.json'))
+        result_paths = sorted(result_paths, key = lambda p: (p.parts[1], p.parts[2], p.parts[3], p.parts[4], p.parts[5]))
         for result_path in result_paths:
             try:
                 result = json.load(open(result_path, encoding='utf-8'))
