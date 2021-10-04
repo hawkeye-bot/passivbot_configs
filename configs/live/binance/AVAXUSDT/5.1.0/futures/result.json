@@ -1,0 +1,202 @@
+{
+    "market_type": "futures",
+    "user": "binance_01",
+    "symbol": "AVAXUSDT",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 1000,
+    "start_date": "2021-01-01T00:00",
+    "end_date": "2021-10-02T00:00",
+    "base_dir": "backtests",
+    "spot": false,
+    "exchange": "binance",
+    "session_name": "2021-01-01T0000_2021-10-02T0000",
+    "caches_dirpath": "backtests/binance/AVAXUSDT/caches/",
+    "optimize_dirpath": "backtests/binance/AVAXUSDT/optimize/2021-10-03T221609/",
+    "plots_dirpath": "backtests/binance/AVAXUSDT/plots/2021-10-04T015418/",
+    "maker_fee": 0.0002,
+    "taker_fee": 0.0004,
+    "inverse": false,
+    "max_leverage": 25,
+    "min_qty": 1.0,
+    "min_cost": 5.0,
+    "qty_step": 1.0,
+    "price_step": 0.001,
+    "c_mult": 1.0,
+    "hedge_mode": true,
+    "starting_configs": null,
+    "iters": 15000,
+    "num_cpus": 10,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "break_early_factor": 0.5,
+    "metric": "adjusted_daily_gain",
+    "minimum_bankruptcy_distance": 0.2,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": -0.1,
+    "maximum_hrs_stuck": 48,
+    "maximum_hrs_stuck_same_side": 48,
+    "maximum_hrs_stuck_avg": 24,
+    "sliding_window_days": 10,
+    "reward_multiplier_base": 1.2,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "long\u00a3grid_span": [
+            0.03,
+            0.5
+        ],
+        "long\u00a3pbr_limit": [
+            0.9,
+            1.5
+        ],
+        "long\u00a3max_n_entry_orders": [
+            8,
+            12
+        ],
+        "long\u00a3initial_qty_pct": [
+            0.001,
+            0.1
+        ],
+        "long\u00a3eprice_pprice_diff": [
+            0.002,
+            0.02
+        ],
+        "long\u00a3secondary_pbr_allocation": [
+            0,
+            0.5
+        ],
+        "long\u00a3secondary_pprice_diff": [
+            0,
+            0.5
+        ],
+        "long\u00a3eprice_exp_base": [
+            1.618034,
+            1.618034
+        ],
+        "long\u00a3min_markup": [
+            0.0005,
+            0.005
+        ],
+        "long\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "long\u00a3n_close_orders": [
+            5,
+            9
+        ],
+        "shrt\u00a3grid_span": [
+            0.03,
+            0.2
+        ],
+        "shrt\u00a3pbr_limit": [
+            0.5,
+            2
+        ],
+        "shrt\u00a3max_n_entry_orders": [
+            10,
+            10
+        ],
+        "shrt\u00a3initial_qty_pct": [
+            0.001,
+            0.1
+        ],
+        "shrt\u00a3eprice_pprice_diff": [
+            0.001,
+            0.01
+        ],
+        "shrt\u00a3secondary_pbr_allocation": [
+            0,
+            0
+        ],
+        "shrt\u00a3secondary_pprice_diff": [
+            0.21,
+            0.5
+        ],
+        "shrt\u00a3eprice_exp_base": [
+            1.618034,
+            1.618034
+        ],
+        "shrt\u00a3min_markup": [
+            0.0005,
+            0.005
+        ],
+        "shrt\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "shrt\u00a3n_close_orders": [
+            7,
+            7
+        ]
+    },
+    "n_days": 273.99998842592595,
+    "config_name": "template",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "grid_span": 0.15218956570562242,
+        "pbr_limit": 1.4421474935998073,
+        "max_n_entry_orders": 9,
+        "initial_qty_pct": 0.016410976055973088,
+        "eprice_pprice_diff": 0.018988452408425106,
+        "secondary_pbr_allocation": 0.12665259168145715,
+        "secondary_pprice_diff": 0.04738089453457149,
+        "eprice_exp_base": 1.618034,
+        "min_markup": 0.0044558858229729395,
+        "markup_range": 0.0093021778959126,
+        "n_close_orders": 5
+    },
+    "shrt": {
+        "enabled": false,
+        "grid_span": 0.03,
+        "pbr_limit": 0.5,
+        "max_n_entry_orders": 10,
+        "initial_qty_pct": 0.001,
+        "eprice_pprice_diff": 0.001,
+        "secondary_pbr_allocation": 0,
+        "secondary_pprice_diff": 0.21,
+        "eprice_exp_base": 1.618034,
+        "min_markup": 0.0005,
+        "markup_range": 0.004,
+        "n_close_orders": 7
+    },
+    "result": {
+        "adjusted_daily_gain": 0.009911733169803524,
+        "average_daily_gain": 0.010044716787209307,
+        "avg_fills_per_day": 99.42722149518013,
+        "biggest_psize": 1071.0,
+        "closest_bkr": 0.5565297046678556,
+        "eqbal_ratio_mean": 0.9976452121124008,
+        "eqbal_ratio_median": 0.999509388926821,
+        "eqbal_ratio_min": 0.5632743497080859,
+        "exchange": "binance",
+        "fee_sum": -673.56862562,
+        "final_balance": 15464.01287438,
+        "final_equity": 15459.73787438,
+        "gain": 14.46401287438,
+        "hrs_stuck_avg": 1.1066956972960844,
+        "hrs_stuck_avg_long": 1.1066956972960844,
+        "hrs_stuck_max": 44.75833333333333,
+        "hrs_stuck_max_long": 44.75833333333333,
+        "loss_sum": 0.0,
+        "n_closes": 15077,
+        "n_days": 273.9994097222222,
+        "n_entries": 12166,
+        "n_fills": 27243,
+        "n_ientries": 10226,
+        "n_rentries": 1940,
+        "net_pnl_plus_fees": 14464.012874379992,
+        "pa_closeness_max_long": 0.4350652705288899,
+        "pa_closeness_mean_long": 0.016023232229469334,
+        "pa_closeness_median_long": 0.013810095144988809,
+        "pnl_sum": 15137.581499999993,
+        "profit_sum": 15137.581499999993,
+        "starting_balance": 1000.0,
+        "symbol": "AVAXUSDT"
+    }
+}

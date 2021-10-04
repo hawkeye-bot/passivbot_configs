@@ -1,0 +1,202 @@
+{
+    "market_type": "futures",
+    "user": "binance_01",
+    "symbol": "XTZUSDT",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 1000,
+    "start_date": "2021-01-01T00:00",
+    "end_date": "2021-10-02T00:00",
+    "base_dir": "backtests",
+    "spot": false,
+    "exchange": "binance",
+    "session_name": "2021-01-01T0000_2021-10-02T0000",
+    "caches_dirpath": "backtests/binance/XTZUSDT/caches/",
+    "optimize_dirpath": "backtests/binance/XTZUSDT/optimize/2021-10-03T140436/",
+    "plots_dirpath": "backtests/binance/XTZUSDT/plots/2021-10-03T203147/",
+    "maker_fee": 0.0002,
+    "taker_fee": 0.0004,
+    "inverse": false,
+    "max_leverage": 25,
+    "min_qty": 0.1,
+    "min_cost": 5.0,
+    "qty_step": 0.1,
+    "price_step": 0.001,
+    "c_mult": 1.0,
+    "hedge_mode": true,
+    "starting_configs": null,
+    "iters": 15000,
+    "num_cpus": 10,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "break_early_factor": 0.5,
+    "metric": "adjusted_daily_gain",
+    "minimum_bankruptcy_distance": 0.2,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": -0.1,
+    "maximum_hrs_stuck": 48,
+    "maximum_hrs_stuck_same_side": 48,
+    "maximum_hrs_stuck_avg": 24,
+    "sliding_window_days": 10,
+    "reward_multiplier_base": 1.2,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "long\u00a3grid_span": [
+            0.03,
+            0.5
+        ],
+        "long\u00a3pbr_limit": [
+            0.9,
+            1.5
+        ],
+        "long\u00a3max_n_entry_orders": [
+            8,
+            12
+        ],
+        "long\u00a3initial_qty_pct": [
+            0.001,
+            0.1
+        ],
+        "long\u00a3eprice_pprice_diff": [
+            0.002,
+            0.02
+        ],
+        "long\u00a3secondary_pbr_allocation": [
+            0,
+            0.5
+        ],
+        "long\u00a3secondary_pprice_diff": [
+            0,
+            0.5
+        ],
+        "long\u00a3eprice_exp_base": [
+            1.618034,
+            1.618034
+        ],
+        "long\u00a3min_markup": [
+            0.0005,
+            0.005
+        ],
+        "long\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "long\u00a3n_close_orders": [
+            5,
+            9
+        ],
+        "shrt\u00a3grid_span": [
+            0.03,
+            0.2
+        ],
+        "shrt\u00a3pbr_limit": [
+            0.5,
+            2
+        ],
+        "shrt\u00a3max_n_entry_orders": [
+            10,
+            10
+        ],
+        "shrt\u00a3initial_qty_pct": [
+            0.001,
+            0.1
+        ],
+        "shrt\u00a3eprice_pprice_diff": [
+            0.001,
+            0.01
+        ],
+        "shrt\u00a3secondary_pbr_allocation": [
+            0,
+            0
+        ],
+        "shrt\u00a3secondary_pprice_diff": [
+            0.21,
+            0.5
+        ],
+        "shrt\u00a3eprice_exp_base": [
+            1.618034,
+            1.618034
+        ],
+        "shrt\u00a3min_markup": [
+            0.0005,
+            0.005
+        ],
+        "shrt\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "shrt\u00a3n_close_orders": [
+            7,
+            7
+        ]
+    },
+    "n_days": 273.99998842592595,
+    "config_name": "template",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "grid_span": 0.24675220878578705,
+        "pbr_limit": 1.223371048631523,
+        "max_n_entry_orders": 11,
+        "initial_qty_pct": 0.035283371485274245,
+        "eprice_pprice_diff": 0.015138623546531605,
+        "secondary_pbr_allocation": 0.12049476446024962,
+        "secondary_pprice_diff": 0.4911977572033289,
+        "eprice_exp_base": 1.618034,
+        "min_markup": 0.003911931185433297,
+        "markup_range": 0.00892387256096445,
+        "n_close_orders": 7
+    },
+    "shrt": {
+        "enabled": false,
+        "grid_span": 0.03,
+        "pbr_limit": 0.5,
+        "max_n_entry_orders": 10,
+        "initial_qty_pct": 0.001,
+        "eprice_pprice_diff": 0.001,
+        "secondary_pbr_allocation": 0,
+        "secondary_pprice_diff": 0.21,
+        "eprice_exp_base": 1.618034,
+        "min_markup": 0.0005,
+        "markup_range": 0.004,
+        "n_close_orders": 7
+    },
+    "result": {
+        "adjusted_daily_gain": 0.004066148397294054,
+        "average_daily_gain": 0.004075147857374173,
+        "avg_fills_per_day": 108.52578582644225,
+        "biggest_psize": 978.0,
+        "closest_bkr": 0.4445506598606927,
+        "eqbal_ratio_mean": 0.9952148205165287,
+        "eqbal_ratio_median": 0.9990152672065773,
+        "eqbal_ratio_min": 0.3232102636877844,
+        "exchange": "binance",
+        "fee_sum": -139.91945834,
+        "final_balance": 3047.4924097757994,
+        "final_equity": 3047.823041660037,
+        "gain": 2.0474924097757996,
+        "hrs_stuck_avg": 1.1111837707934362,
+        "hrs_stuck_avg_long": 1.1111837707934362,
+        "hrs_stuck_max": 45.90972222222222,
+        "hrs_stuck_max_long": 45.90972222222222,
+        "loss_sum": 0.0,
+        "n_closes": 17200,
+        "n_days": 273.99939814814815,
+        "n_entries": 12536,
+        "n_fills": 29736,
+        "n_ientries": 11613,
+        "n_rentries": 923,
+        "net_pnl_plus_fees": 2047.492409775764,
+        "pa_closeness_max_long": 1.1024062456267987,
+        "pa_closeness_mean_long": 0.02006661552400969,
+        "pa_closeness_median_long": 0.015392954883956077,
+        "pnl_sum": 2187.411868115764,
+        "profit_sum": 2187.4118681157634,
+        "starting_balance": 1000.0,
+        "symbol": "XTZUSDT"
+    }
+}

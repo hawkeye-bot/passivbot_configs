@@ -1,0 +1,202 @@
+{
+    "market_type": "futures",
+    "user": "binance_01",
+    "symbol": "DYDXUSDT",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 1000,
+    "start_date": "2021-01-01T00:00",
+    "end_date": "2021-10-02T00:00",
+    "base_dir": "backtests",
+    "spot": false,
+    "exchange": "binance",
+    "session_name": "2021-01-01T0000_2021-10-02T0000",
+    "caches_dirpath": "backtests/binance/DYDXUSDT/caches/",
+    "optimize_dirpath": "backtests/binance/DYDXUSDT/optimize/2021-10-03T203730/",
+    "plots_dirpath": "backtests/binance/DYDXUSDT/plots/2021-10-03T215231/",
+    "maker_fee": 0.0002,
+    "taker_fee": 0.0004,
+    "inverse": false,
+    "max_leverage": 25,
+    "min_qty": 0.1,
+    "min_cost": 5.0,
+    "qty_step": 0.1,
+    "price_step": 0.001,
+    "c_mult": 1.0,
+    "hedge_mode": true,
+    "starting_configs": null,
+    "iters": 15000,
+    "num_cpus": 10,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "break_early_factor": 0.5,
+    "metric": "adjusted_daily_gain",
+    "minimum_bankruptcy_distance": 0.2,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": -0.1,
+    "maximum_hrs_stuck": 48,
+    "maximum_hrs_stuck_same_side": 48,
+    "maximum_hrs_stuck_avg": 24,
+    "sliding_window_days": 10,
+    "reward_multiplier_base": 1.2,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "long\u00a3grid_span": [
+            0.03,
+            0.5
+        ],
+        "long\u00a3pbr_limit": [
+            0.9,
+            1.5
+        ],
+        "long\u00a3max_n_entry_orders": [
+            8,
+            12
+        ],
+        "long\u00a3initial_qty_pct": [
+            0.001,
+            0.1
+        ],
+        "long\u00a3eprice_pprice_diff": [
+            0.002,
+            0.02
+        ],
+        "long\u00a3secondary_pbr_allocation": [
+            0,
+            0.5
+        ],
+        "long\u00a3secondary_pprice_diff": [
+            0,
+            0.5
+        ],
+        "long\u00a3eprice_exp_base": [
+            1.618034,
+            1.618034
+        ],
+        "long\u00a3min_markup": [
+            0.0005,
+            0.005
+        ],
+        "long\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "long\u00a3n_close_orders": [
+            5,
+            9
+        ],
+        "shrt\u00a3grid_span": [
+            0.03,
+            0.2
+        ],
+        "shrt\u00a3pbr_limit": [
+            0.5,
+            2
+        ],
+        "shrt\u00a3max_n_entry_orders": [
+            10,
+            10
+        ],
+        "shrt\u00a3initial_qty_pct": [
+            0.001,
+            0.1
+        ],
+        "shrt\u00a3eprice_pprice_diff": [
+            0.001,
+            0.01
+        ],
+        "shrt\u00a3secondary_pbr_allocation": [
+            0,
+            0
+        ],
+        "shrt\u00a3secondary_pprice_diff": [
+            0.21,
+            0.5
+        ],
+        "shrt\u00a3eprice_exp_base": [
+            1.618034,
+            1.618034
+        ],
+        "shrt\u00a3min_markup": [
+            0.0005,
+            0.005
+        ],
+        "shrt\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "shrt\u00a3n_close_orders": [
+            7,
+            7
+        ]
+    },
+    "n_days": 21.85383101851852,
+    "config_name": "template",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "grid_span": 0.08252423590307091,
+        "pbr_limit": 1.4755433291048625,
+        "max_n_entry_orders": 12,
+        "initial_qty_pct": 0.08594978161751046,
+        "eprice_pprice_diff": 0.011603759157018502,
+        "secondary_pbr_allocation": 0.09480185500476335,
+        "secondary_pprice_diff": 0.20083793215417323,
+        "eprice_exp_base": 1.618034,
+        "min_markup": 0.004638098591535554,
+        "markup_range": 0.008494764569234557,
+        "n_close_orders": 6
+    },
+    "shrt": {
+        "enabled": false,
+        "grid_span": 0.03,
+        "pbr_limit": 0.5,
+        "max_n_entry_orders": 10,
+        "initial_qty_pct": 0.001,
+        "eprice_pprice_diff": 0.001,
+        "secondary_pbr_allocation": 0,
+        "secondary_pprice_diff": 0.21,
+        "eprice_exp_base": 1.618034,
+        "min_markup": 0.0005,
+        "markup_range": 0.004,
+        "n_close_orders": 7
+    },
+    "result": {
+        "adjusted_daily_gain": 0.039723868726125884,
+        "average_daily_gain": 0.054172824368760475,
+        "avg_fills_per_day": 226.8294233042535,
+        "biggest_psize": 230.1,
+        "closest_bkr": 0.5886407134080245,
+        "eqbal_ratio_mean": 0.9721943457625449,
+        "eqbal_ratio_median": 0.9940781436751216,
+        "eqbal_ratio_min": 0.6826129054358918,
+        "exchange": "binance",
+        "fee_sum": -120.65143656,
+        "final_balance": 3167.391014534715,
+        "final_equity": 2971.471863440004,
+        "gain": 2.167391014534715,
+        "hrs_stuck_avg": 0.4037584466683774,
+        "hrs_stuck_avg_long": 0.4037584466683774,
+        "hrs_stuck_max": 42.699444444444445,
+        "hrs_stuck_max_long": 42.699444444444445,
+        "loss_sum": 0.0,
+        "n_closes": 2953,
+        "n_days": 21.853425925925926,
+        "n_entries": 2004,
+        "n_fills": 4957,
+        "n_ientries": 1551,
+        "n_rentries": 453,
+        "net_pnl_plus_fees": 2167.3910145347068,
+        "pa_closeness_max_long": 0.2740637169593218,
+        "pa_closeness_mean_long": 0.028240638786996237,
+        "pa_closeness_median_long": 0.015952093630482084,
+        "pnl_sum": 2288.042451094707,
+        "profit_sum": 2288.042451094707,
+        "starting_balance": 1000.0,
+        "symbol": "DYDXUSDT"
+    }
+}

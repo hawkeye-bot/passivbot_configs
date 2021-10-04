@@ -24,6 +24,7 @@
 | binance | AVABUSD | 4.1.0 | spot | 0.009025496728146676 | 0.9865762984670162 | True | False |
 | binance | AVAXUSDT | 4.0.0 | spot | 0.005477890346635705 | 1.0 | True | False |
 | binance | AVAXUSDT | 4.1.0 | futures | 0.0 | 0.041018606895058846 | True | False |
+| binance | AVAXUSDT | 5.1.0 | futures | 0.010044716787209307 | 0.5565297046678556 | True | False |
 | binance | AXSUSDT | 4.0.0 | spot | 0.013589809643070438 | 1.0 | True | False |
 | binance | AXSUSDT | 4.1.0 | futures | 0.0 | 0.05895648744340688 | True | False |
 | binance | AXSUSDT | 4.1.0 | spot | 0.005247276853144189 | 0.7030811027725865 | True | False |
@@ -54,6 +55,7 @@
 | binance | DOTBNB | 4.1.0 | spot | 0.0009311713431754409 | 0.9705144240714144 | True | False |
 | binance | DOTBUSD | 4.0.0 | spot | 0.0005217962486214756 | 1.0 | True | False |
 | binance | DOTUSDT | 4.1.0 | futures | 0.0 | 0.053866930056324556 | True | False |
+| binance | DYDXUSDT | 5.1.0 | futures | 0.054172824368760475 | 0.5886407134080245 | True | False |
 | binance | EGLDUSDT | 4.0.0 | spot | 0.006401324727268953 | 0.9994251128643428 | True | False |
 | binance | ENJUSDT | 4.0.0 | spot | 0.0056208731138891466 | 1.0 | True | False |
 | binance | EOSUSDT | 4.1.0 | futures | 0.0 | 0.059534273779218765 | True | False |
@@ -133,6 +135,7 @@
 | binance | SOLBUSD | 4.0.0 | spot | 0.0057058267293588205 | 0.9991207693113794 | True | False |
 | binance | SOLUSDT | 4.1.0 | futures | 0.0 | 0.05877951104669574 | True | False |
 | binance | SOLUSDT | 5.0.0 | futures | 0.016533798737104144 | 0.8202871015095134 | True | False |
+| binance | SOLUSDT | 5.1.0 | futures | 0.012125394218034824 | 0.5158921981299708 | True | False |
 | binance | SRMBUSD | 4.1.0 | spot | 0.004905806947548941 | 0.9851044488343182 | True | False |
 | binance | SUPERBUSD | 4.1.0 | spot | 0.0017725841036175805 | 0.9550051293847733 | True | False |
 | binance | SUSHIUPUSDT | 4.1.0 | spot | -0.002368768110081132 | 1.0 | True | False |
@@ -169,6 +172,7 @@
 | binance | XTZUSDT | 4.0.0 | spot | 0.004094190430169009 | 0.9997296222811372 | True | False |
 | binance | XTZUSDT | 4.1.0 | futures | 0.0 | 0.05553667910589028 | True | False |
 | binance | XTZUSDT | 4.1.0 | spot | 0.002632902940447046 | 0.9884779335655316 | True | False |
+| binance | XTZUSDT | 5.1.0 | futures | 0.004075147857374173 | 0.4445506598606927 | True | False |
 | binance | YFIIUSDT | 4.1.0 | spot | 0.0035087666988535826 | 0.9895849319577584 | True | False |
 | binance | YFIUPUSDT | 4.1.0 | spot | 0.003528669435245879 | 0.13315405236240066 | True | False |
 | binance | YFIUSDT | 4.0.0 | spot | 0.005041168850387967 | 1.0 | True | False |
