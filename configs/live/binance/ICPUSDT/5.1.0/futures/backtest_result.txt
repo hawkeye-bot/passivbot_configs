@@ -1,0 +1,46 @@
++---------------------------------------------------------+
+|                         Summary                         |
++------------------------------------+--------------------+
+| Metric                             | Value              |
++------------------------------------+--------------------+
+| Exchange                           | binance            |
+| Market type                        | futures            |
+| Symbol                             | ICPUSDT            |
+| No. days                           | 143.874            |
+| Starting balance                   | 1000.0             |
+| Final balance                      | 3422.66            |
+| Final equity                       | 3422.42            |
+| Net PNL + fees                     | 2422.66            |
+| Total gain percentage              | 242.3%             |
+| Average daily gain percentage      | 0.859%             |
+| Adjusted daily gain                | 0.00850523         |
+| Closest bankruptcy percentage      | 61.08%             |
+|                                    |                    |
+| Profit sum                         | 2634.34            |
+| Loss sum                           | 0.0                |
+| Fee sum                            | -211.683           |
+| Lowest equity/balance ratio        | 0.7982             |
+| Biggest psize                      | 84.8               |
+| Price action closeness mean long   | 0.00872986         |
+| Price action closeness median long | 0.00611789         |
+| Price action closeness max long    | 0.169605           |
+| Average n fills per day            | 445.918            |
+|                                    |                    |
+| No. fills                          | 64156.0            |
+| No. entries                        | 26719.0            |
+| No. closes                         | 37437.0            |
+| No. initial entries                | 19913.0            |
+| No. reentries                      | 6806.0             |
+|                                    |                    |
+| Mean hours between fills           | 0.234211           |
+| Max hours no fills (same side)     | 19.9264            |
+| Max hours no fills                 | 19.9264            |
+|                                    |                    |
+| Long                               | True               |
+| No. inital entries                 | 19913              |
+| No. reentries                      | 6806               |
+| No. normal closes                  | 37437              |
+| Mean hours stuck (long)            | 0.234211           |
+| Max hours stuck (long)             | 19.9264            |
+| PNL sum                            | 2634.3436686844198 |
++------------------------------------+--------------------+

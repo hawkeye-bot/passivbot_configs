@@ -1,0 +1,202 @@
+{
+    "market_type": "futures",
+    "user": "binance_01",
+    "symbol": "DOTUSDT",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 1000,
+    "start_date": "2021-01-01T00:00",
+    "end_date": "2021-10-02T00:00",
+    "base_dir": "backtests",
+    "spot": false,
+    "exchange": "binance",
+    "session_name": "2021-01-01T0000_2021-10-02T0000",
+    "caches_dirpath": "backtests/binance/DOTUSDT/caches/",
+    "optimize_dirpath": "backtests/binance/DOTUSDT/optimize/2021-10-05T165250/",
+    "plots_dirpath": "backtests/binance/DOTUSDT/plots/2021-10-05T194333/",
+    "maker_fee": 0.0002,
+    "taker_fee": 0.0004,
+    "inverse": false,
+    "max_leverage": 25,
+    "min_qty": 0.1,
+    "min_cost": 5.0,
+    "qty_step": 0.1,
+    "price_step": 0.001,
+    "c_mult": 1.0,
+    "hedge_mode": true,
+    "iters": 7500,
+    "num_cpus": 10,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "break_early_factor": 0.5,
+    "metric": "adjusted_daily_gain",
+    "minimum_bankruptcy_distance": 0.5,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": -0.1,
+    "maximum_hrs_stuck": 72,
+    "maximum_hrs_stuck_same_side": 72,
+    "maximum_hrs_stuck_avg": 24,
+    "sliding_window_days": 10,
+    "reward_multiplier_base": 1.2,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "long\u00a3grid_span": [
+            0.03,
+            0.5
+        ],
+        "long\u00a3pbr_limit": [
+            0.9,
+            1.5
+        ],
+        "long\u00a3max_n_entry_orders": [
+            1,
+            30
+        ],
+        "long\u00a3initial_qty_pct": [
+            0.001,
+            0.1
+        ],
+        "long\u00a3eprice_pprice_diff": [
+            0.002,
+            0.02
+        ],
+        "long\u00a3secondary_pbr_allocation": [
+            0,
+            1
+        ],
+        "long\u00a3secondary_pprice_diff": [
+            0,
+            0.5
+        ],
+        "long\u00a3eprice_exp_base": [
+            1,
+            2.5
+        ],
+        "long\u00a3min_markup": [
+            0.0005,
+            0.005
+        ],
+        "long\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "long\u00a3n_close_orders": [
+            4,
+            10
+        ],
+        "shrt\u00a3grid_span": [
+            0.03,
+            0.2
+        ],
+        "shrt\u00a3pbr_limit": [
+            0.5,
+            2
+        ],
+        "shrt\u00a3max_n_entry_orders": [
+            10,
+            10
+        ],
+        "shrt\u00a3initial_qty_pct": [
+            0.001,
+            0.1
+        ],
+        "shrt\u00a3eprice_pprice_diff": [
+            0.001,
+            0.01
+        ],
+        "shrt\u00a3secondary_pbr_allocation": [
+            0,
+            0
+        ],
+        "shrt\u00a3secondary_pprice_diff": [
+            0.21,
+            0.5
+        ],
+        "shrt\u00a3eprice_exp_base": [
+            1.618034,
+            1.618034
+        ],
+        "shrt\u00a3min_markup": [
+            0.0005,
+            0.005
+        ],
+        "shrt\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "shrt\u00a3n_close_orders": [
+            7,
+            7
+        ]
+    },
+    "starting_configs": null,
+    "n_days": 273.99998842592595,
+    "config_name": "template",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "grid_span": 0.14577128014343008,
+        "pbr_limit": 1.3146475845800285,
+        "max_n_entry_orders": 16,
+        "initial_qty_pct": 0.029966971141651942,
+        "eprice_pprice_diff": 0.01674001571522497,
+        "secondary_pbr_allocation": 0.07838847774527659,
+        "secondary_pprice_diff": 0.47921280860975235,
+        "eprice_exp_base": 1.0456348928740031,
+        "min_markup": 0.0034980600516316645,
+        "markup_range": 0.007238560540743816,
+        "n_close_orders": 5
+    },
+    "shrt": {
+        "enabled": false,
+        "grid_span": 0.03,
+        "pbr_limit": 0.5,
+        "max_n_entry_orders": 10,
+        "initial_qty_pct": 0.001,
+        "eprice_pprice_diff": 0.001,
+        "secondary_pbr_allocation": 0,
+        "secondary_pprice_diff": 0.21,
+        "eprice_exp_base": 1.618034,
+        "min_markup": 0.0005,
+        "markup_range": 0.004,
+        "n_close_orders": 7
+    },
+    "result": {
+        "adjusted_daily_gain": 0.006362124772360053,
+        "average_daily_gain": 0.006396797879730798,
+        "avg_fills_per_day": 267.2847957274243,
+        "biggest_psize": 415.2,
+        "closest_bkr": 0.5625617850900329,
+        "eqbal_ratio_mean": 0.9948774114813219,
+        "eqbal_ratio_median": 0.9994463343465972,
+        "eqbal_ratio_min": 0.417049116008483,
+        "exchange": "binance",
+        "fee_sum": -483.25434135999996,
+        "final_balance": 5738.166266482119,
+        "final_equity": 5737.02735863997,
+        "gain": 4.738166266482119,
+        "hrs_stuck_avg": 0.5915794300507776,
+        "hrs_stuck_avg_long": 0.5915794300507776,
+        "hrs_stuck_max": 76.39694444444444,
+        "hrs_stuck_max_long": 76.39694444444444,
+        "loss_sum": 0.0,
+        "n_closes": 39217,
+        "n_days": 273.9998726851852,
+        "n_entries": 34019,
+        "n_fills": 73236,
+        "n_ientries": 29441,
+        "n_rentries": 4578,
+        "net_pnl_plus_fees": 4738.166266482145,
+        "pa_closeness_max_long": 0.7982083996762823,
+        "pa_closeness_mean_long": 0.013457555485100468,
+        "pa_closeness_median_long": 0.010399568377279473,
+        "pnl_sum": 5221.420607842145,
+        "profit_sum": 5221.420607842145,
+        "starting_balance": 1000.0,
+        "symbol": "DOTUSDT"
+    }
+}

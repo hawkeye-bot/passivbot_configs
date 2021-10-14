@@ -11,8 +11,8 @@
     "exchange": "binance",
     "session_name": "2021-01-01T0000_2021-10-02T0000",
     "caches_dirpath": "backtests/binance/XTZUSDT/caches/",
-    "optimize_dirpath": "backtests/binance/XTZUSDT/optimize/2021-10-03T140436/",
-    "plots_dirpath": "backtests/binance/XTZUSDT/plots/2021-10-03T203147/",
+    "optimize_dirpath": "backtests/binance/XTZUSDT/optimize/2021-10-09T173303/",
+    "plots_dirpath": "backtests/binance/XTZUSDT/plots/2021-10-09T215020/",
     "maker_fee": 0.0002,
     "taker_fee": 0.0004,
     "inverse": false,
@@ -23,9 +23,8 @@
     "price_step": 0.001,
     "c_mult": 1.0,
     "hedge_mode": true,
-    "starting_configs": null,
-    "iters": 15000,
-    "num_cpus": 10,
+    "iters": 10000,
+    "num_cpus": 8,
     "options": {
         "c1": 1.4962,
         "c2": 1.4962,
@@ -34,11 +33,11 @@
     "n_particles": 48,
     "break_early_factor": 0.5,
     "metric": "adjusted_daily_gain",
-    "minimum_bankruptcy_distance": 0.2,
+    "minimum_bankruptcy_distance": 0.5,
     "minimum_equity_balance_ratio": 0.5,
     "minimum_slice_adg": -0.1,
-    "maximum_hrs_stuck": 48,
-    "maximum_hrs_stuck_same_side": 48,
+    "maximum_hrs_stuck": 72,
+    "maximum_hrs_stuck_same_side": 72,
     "maximum_hrs_stuck_avg": 24,
     "sliding_window_days": 10,
     "reward_multiplier_base": 1.2,
@@ -46,48 +45,48 @@
     "do_shrt": false,
     "ranges": {
         "long\u00a3grid_span": [
-            0.03,
-            0.5
+            0.09,
+            0.4
         ],
         "long\u00a3pbr_limit": [
             0.9,
-            1.5
+            2
         ],
         "long\u00a3max_n_entry_orders": [
-            8,
-            12
+            1,
+            30
         ],
         "long\u00a3initial_qty_pct": [
             0.001,
-            0.1
+            0.2
         ],
         "long\u00a3eprice_pprice_diff": [
             0.002,
-            0.02
+            0.05
         ],
         "long\u00a3secondary_pbr_allocation": [
-            0,
-            0.5
+            0.001,
+            0.9
         ],
         "long\u00a3secondary_pprice_diff": [
-            0,
+            0.001,
             0.5
         ],
         "long\u00a3eprice_exp_base": [
-            1.618034,
-            1.618034
+            1,
+            2.5
         ],
         "long\u00a3min_markup": [
             0.0005,
-            0.005
+            0.01
         ],
         "long\u00a3markup_range": [
             0.004,
-            0.01
+            0.02
         ],
         "long\u00a3n_close_orders": [
-            5,
-            9
+            4,
+            10
         ],
         "shrt\u00a3grid_span": [
             0.03,
@@ -134,22 +133,23 @@
             7
         ]
     },
+    "starting_configs": null,
     "n_days": 273.99998842592595,
     "config_name": "template",
     "logging_level": 0,
     "long": {
         "enabled": true,
-        "grid_span": 0.24675220878578705,
-        "pbr_limit": 1.223371048631523,
-        "max_n_entry_orders": 11,
-        "initial_qty_pct": 0.035283371485274245,
-        "eprice_pprice_diff": 0.015138623546531605,
-        "secondary_pbr_allocation": 0.12049476446024962,
-        "secondary_pprice_diff": 0.4911977572033289,
-        "eprice_exp_base": 1.618034,
-        "min_markup": 0.003911931185433297,
-        "markup_range": 0.00892387256096445,
-        "n_close_orders": 7
+        "grid_span": 0.27061493527630126,
+        "pbr_limit": 1.254891363687232,
+        "max_n_entry_orders": 22,
+        "initial_qty_pct": 0.150779336524722,
+        "eprice_pprice_diff": 0.049925972517623776,
+        "secondary_pbr_allocation": 0.1426034020220639,
+        "secondary_pprice_diff": 0.4942269334472087,
+        "eprice_exp_base": 1.059498947525443,
+        "min_markup": 0.009885608540358234,
+        "markup_range": 0.010534674987858372,
+        "n_close_orders": 8
     },
     "shrt": {
         "enabled": false,
@@ -166,36 +166,36 @@
         "n_close_orders": 7
     },
     "result": {
-        "adjusted_daily_gain": 0.004066148397294054,
-        "average_daily_gain": 0.004075147857374173,
-        "avg_fills_per_day": 108.52578582644225,
-        "biggest_psize": 978.0,
-        "closest_bkr": 0.4445506598606927,
-        "eqbal_ratio_mean": 0.9952148205165287,
-        "eqbal_ratio_median": 0.9990152672065773,
-        "eqbal_ratio_min": 0.3232102636877844,
+        "adjusted_daily_gain": 0.006679245840408518,
+        "average_daily_gain": 0.006719406953631157,
+        "avg_fills_per_day": 42.605933001677656,
+        "biggest_psize": 1647.5,
+        "closest_bkr": 0.5086941279821083,
+        "eqbal_ratio_mean": 0.9821516963100774,
+        "eqbal_ratio_median": 0.9914622471561847,
+        "eqbal_ratio_min": 0.2939488021253806,
         "exchange": "binance",
-        "fee_sum": -139.91945834,
-        "final_balance": 3047.4924097757994,
-        "final_equity": 3047.823041660037,
-        "gain": 2.0474924097757996,
-        "hrs_stuck_avg": 1.1111837707934362,
-        "hrs_stuck_avg_long": 1.1111837707934362,
-        "hrs_stuck_max": 45.90972222222222,
-        "hrs_stuck_max_long": 45.90972222222222,
+        "fee_sum": -201.58397001999998,
+        "final_balance": 6264.854952452106,
+        "final_equity": 6244.8765299799925,
+        "gain": 5.264854952452106,
+        "hrs_stuck_avg": 1.812065460334956,
+        "hrs_stuck_avg_long": 1.812065460334956,
+        "hrs_stuck_max": 83.70583333333333,
+        "hrs_stuck_max_long": 83.70583333333333,
         "loss_sum": 0.0,
-        "n_closes": 17200,
+        "n_closes": 6460,
         "n_days": 273.99939814814815,
-        "n_entries": 12536,
-        "n_fills": 29736,
-        "n_ientries": 11613,
-        "n_rentries": 923,
-        "net_pnl_plus_fees": 2047.492409775764,
-        "pa_closeness_max_long": 1.1024062456267987,
-        "pa_closeness_mean_long": 0.02006661552400969,
-        "pa_closeness_median_long": 0.015392954883956077,
-        "pnl_sum": 2187.411868115764,
-        "profit_sum": 2187.4118681157634,
+        "n_entries": 5214,
+        "n_fills": 11674,
+        "n_ientries": 4507,
+        "n_rentries": 707,
+        "net_pnl_plus_fees": 5264.854952452109,
+        "pa_closeness_max_long": 1.287765546443716,
+        "pa_closeness_mean_long": 0.04024624225255757,
+        "pa_closeness_median_long": 0.035013997248433563,
+        "pnl_sum": 5466.438922472109,
+        "profit_sum": 5466.438922472109,
         "starting_balance": 1000.0,
         "symbol": "XTZUSDT"
     }

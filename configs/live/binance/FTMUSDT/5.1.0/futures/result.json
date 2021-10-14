@@ -1,0 +1,202 @@
+{
+    "market_type": "futures",
+    "user": "binance_01",
+    "symbol": "FTMUSDT",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 1000,
+    "start_date": "2021-01-01T00:00",
+    "end_date": "2021-10-02T00:00",
+    "base_dir": "backtests",
+    "spot": false,
+    "exchange": "binance",
+    "session_name": "2021-01-01T0000_2021-10-02T0000",
+    "caches_dirpath": "backtests/binance/FTMUSDT/caches/",
+    "optimize_dirpath": "backtests/binance/FTMUSDT/optimize/2021-10-09T220101/",
+    "plots_dirpath": "backtests/binance/FTMUSDT/plots/2021-10-10T044341/",
+    "maker_fee": 0.0002,
+    "taker_fee": 0.0004,
+    "inverse": false,
+    "max_leverage": 25,
+    "min_qty": 1.0,
+    "min_cost": 5.0,
+    "qty_step": 1.0,
+    "price_step": 1e-05,
+    "c_mult": 1.0,
+    "hedge_mode": true,
+    "iters": 10000,
+    "num_cpus": 8,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "break_early_factor": 0.5,
+    "metric": "adjusted_daily_gain",
+    "minimum_bankruptcy_distance": 0.5,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": -0.1,
+    "maximum_hrs_stuck": 72,
+    "maximum_hrs_stuck_same_side": 72,
+    "maximum_hrs_stuck_avg": 24,
+    "sliding_window_days": 10,
+    "reward_multiplier_base": 1.2,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "long\u00a3grid_span": [
+            0.09,
+            0.4
+        ],
+        "long\u00a3pbr_limit": [
+            0.9,
+            2
+        ],
+        "long\u00a3max_n_entry_orders": [
+            1,
+            30
+        ],
+        "long\u00a3initial_qty_pct": [
+            0.001,
+            0.2
+        ],
+        "long\u00a3eprice_pprice_diff": [
+            0.002,
+            0.05
+        ],
+        "long\u00a3secondary_pbr_allocation": [
+            0.001,
+            0.9
+        ],
+        "long\u00a3secondary_pprice_diff": [
+            0.001,
+            0.5
+        ],
+        "long\u00a3eprice_exp_base": [
+            1,
+            2.5
+        ],
+        "long\u00a3min_markup": [
+            0.0005,
+            0.01
+        ],
+        "long\u00a3markup_range": [
+            0.004,
+            0.02
+        ],
+        "long\u00a3n_close_orders": [
+            4,
+            10
+        ],
+        "shrt\u00a3grid_span": [
+            0.03,
+            0.2
+        ],
+        "shrt\u00a3pbr_limit": [
+            0.5,
+            2
+        ],
+        "shrt\u00a3max_n_entry_orders": [
+            10,
+            10
+        ],
+        "shrt\u00a3initial_qty_pct": [
+            0.001,
+            0.1
+        ],
+        "shrt\u00a3eprice_pprice_diff": [
+            0.001,
+            0.01
+        ],
+        "shrt\u00a3secondary_pbr_allocation": [
+            0,
+            0
+        ],
+        "shrt\u00a3secondary_pprice_diff": [
+            0.21,
+            0.5
+        ],
+        "shrt\u00a3eprice_exp_base": [
+            1.618034,
+            1.618034
+        ],
+        "shrt\u00a3min_markup": [
+            0.0005,
+            0.005
+        ],
+        "shrt\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "shrt\u00a3n_close_orders": [
+            7,
+            7
+        ]
+    },
+    "starting_configs": null,
+    "n_days": 273.99994212962963,
+    "config_name": "template",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "grid_span": 0.26765662325218337,
+        "pbr_limit": 1.6426496086420639,
+        "max_n_entry_orders": 9,
+        "initial_qty_pct": 0.04921047322602986,
+        "eprice_pprice_diff": 0.032903218797572215,
+        "secondary_pbr_allocation": 0.16911081905591668,
+        "secondary_pprice_diff": 0.4662022056626849,
+        "eprice_exp_base": 1.4046058292337855,
+        "min_markup": 0.009579191347990252,
+        "markup_range": 0.018178422104760884,
+        "n_close_orders": 8
+    },
+    "shrt": {
+        "enabled": false,
+        "grid_span": 0.03,
+        "pbr_limit": 0.5,
+        "max_n_entry_orders": 10,
+        "initial_qty_pct": 0.001,
+        "eprice_pprice_diff": 0.001,
+        "secondary_pbr_allocation": 0,
+        "secondary_pprice_diff": 0.21,
+        "eprice_exp_base": 1.618034,
+        "min_markup": 0.0005,
+        "markup_range": 0.004,
+        "n_close_orders": 7
+    },
+    "result": {
+        "adjusted_daily_gain": 0.012003793573849937,
+        "average_daily_gain": 0.012242731149902486,
+        "avg_fills_per_day": 148.33981081914374,
+        "biggest_psize": 67083.0,
+        "closest_bkr": 0.5066500732800843,
+        "eqbal_ratio_mean": 0.989249245328479,
+        "eqbal_ratio_median": 0.9969232163495053,
+        "eqbal_ratio_min": 0.46389060411140104,
+        "exchange": "binance",
+        "fee_sum": -1023.6551640754,
+        "final_balance": 28054.003883176247,
+        "final_equity": 28039.983534924642,
+        "gain": 27.054003883176247,
+        "hrs_stuck_avg": 0.699795945514526,
+        "hrs_stuck_avg_long": 0.699795945514526,
+        "hrs_stuck_max": 65.68305555555555,
+        "hrs_stuck_max_long": 65.68305555555555,
+        "loss_sum": 0.0,
+        "n_closes": 23353,
+        "n_days": 273.99927083333336,
+        "n_entries": 17292,
+        "n_fills": 40645,
+        "n_ientries": 16319,
+        "n_rentries": 973,
+        "net_pnl_plus_fees": 27054.00388317621,
+        "pa_closeness_max_long": 0.6375193370411795,
+        "pa_closeness_mean_long": 0.032248421348589795,
+        "pa_closeness_median_long": 0.027086376909209606,
+        "pnl_sum": 28077.65904725161,
+        "profit_sum": 28077.659047251607,
+        "starting_balance": 1000.0,
+        "symbol": "FTMUSDT"
+    }
+}

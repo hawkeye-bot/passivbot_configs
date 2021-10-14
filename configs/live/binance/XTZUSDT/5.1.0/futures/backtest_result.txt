@@ -8,39 +8,39 @@
 | Symbol                             | XTZUSDT           |
 | No. days                           | 273.999           |
 | Starting balance                   | 1000.0            |
-| Final balance                      | 3047.49           |
-| Final equity                       | 3047.82           |
-| Net PNL + fees                     | 2047.49           |
-| Total gain percentage              | 204.7%            |
-| Average daily gain percentage      | 0.408%            |
-| Adjusted daily gain                | 0.00406615        |
-| Closest bankruptcy percentage      | 44.46%            |
+| Final balance                      | 6264.85           |
+| Final equity                       | 6244.88           |
+| Net PNL + fees                     | 5264.85           |
+| Total gain percentage              | 526.5%            |
+| Average daily gain percentage      | 0.672%            |
+| Adjusted daily gain                | 0.00667925        |
+| Closest bankruptcy percentage      | 50.87%            |
 |                                    |                   |
-| Profit sum                         | 2187.41           |
+| Profit sum                         | 5466.44           |
 | Loss sum                           | 0.0               |
-| Fee sum                            | -139.919          |
-| Lowest equity/balance ratio        | 0.32321           |
-| Biggest psize                      | 978.0             |
-| Price action closeness mean long   | 0.0200666         |
-| Price action closeness median long | 0.015393          |
-| Price action closeness max long    | 1.10241           |
-| Average n fills per day            | 108.526           |
+| Fee sum                            | -201.584          |
+| Lowest equity/balance ratio        | 0.293949          |
+| Biggest psize                      | 1647.5            |
+| Price action closeness mean long   | 0.0402462         |
+| Price action closeness median long | 0.035014          |
+| Price action closeness max long    | 1.28777           |
+| Average n fills per day            | 42.6059           |
 |                                    |                   |
-| No. fills                          | 29736.0           |
-| No. entries                        | 12536.0           |
-| No. closes                         | 17200.0           |
-| No. initial entries                | 11613.0           |
-| No. reentries                      | 923.0             |
+| No. fills                          | 11674.0           |
+| No. entries                        | 5214.0            |
+| No. closes                         | 6460.0            |
+| No. initial entries                | 4507.0            |
+| No. reentries                      | 707.0             |
 |                                    |                   |
-| Mean hours between fills           | 1.11118           |
-| Max hours no fills (same side)     | 45.9097           |
-| Max hours no fills                 | 45.9097           |
+| Mean hours between fills           | 1.81207           |
+| Max hours no fills (same side)     | 83.7058           |
+| Max hours no fills                 | 83.7058           |
 |                                    |                   |
 | Long                               | True              |
-| No. inital entries                 | 11613             |
-| No. reentries                      | 923               |
-| No. normal closes                  | 17200             |
-| Mean hours stuck (long)            | 1.11118           |
-| Max hours stuck (long)             | 45.9097           |
-| PNL sum                            | 2187.411868115764 |
+| No. inital entries                 | 4507              |
+| No. reentries                      | 707               |
+| No. normal closes                  | 6460              |
+| Mean hours stuck (long)            | 1.81207           |
+| Max hours stuck (long)             | 83.7058           |
+| PNL sum                            | 5466.438922472109 |
 +------------------------------------+-------------------+

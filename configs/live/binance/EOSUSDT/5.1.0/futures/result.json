@@ -1,0 +1,202 @@
+{
+    "market_type": "futures",
+    "user": "binance_01",
+    "symbol": "EOSUSDT",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 1000,
+    "start_date": "2021-01-01T00:00",
+    "end_date": "2021-10-02T00:00",
+    "base_dir": "backtests",
+    "spot": false,
+    "exchange": "binance",
+    "session_name": "2021-01-01T0000_2021-10-02T0000",
+    "caches_dirpath": "backtests/binance/EOSUSDT/caches/",
+    "optimize_dirpath": "backtests/binance/EOSUSDT/optimize/2021-10-09T155721/",
+    "plots_dirpath": "backtests/binance/EOSUSDT/plots/2021-10-09T173202/",
+    "maker_fee": 0.0002,
+    "taker_fee": 0.0004,
+    "inverse": false,
+    "max_leverage": 25,
+    "min_qty": 0.1,
+    "min_cost": 5.0,
+    "qty_step": 0.1,
+    "price_step": 0.001,
+    "c_mult": 1.0,
+    "hedge_mode": true,
+    "iters": 10000,
+    "num_cpus": 8,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "break_early_factor": 0.5,
+    "metric": "adjusted_daily_gain",
+    "minimum_bankruptcy_distance": 0.5,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": -0.1,
+    "maximum_hrs_stuck": 72,
+    "maximum_hrs_stuck_same_side": 72,
+    "maximum_hrs_stuck_avg": 24,
+    "sliding_window_days": 10,
+    "reward_multiplier_base": 1.2,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "long\u00a3grid_span": [
+            0.09,
+            0.4
+        ],
+        "long\u00a3pbr_limit": [
+            0.9,
+            2
+        ],
+        "long\u00a3max_n_entry_orders": [
+            1,
+            30
+        ],
+        "long\u00a3initial_qty_pct": [
+            0.001,
+            0.2
+        ],
+        "long\u00a3eprice_pprice_diff": [
+            0.002,
+            0.05
+        ],
+        "long\u00a3secondary_pbr_allocation": [
+            0.001,
+            0.9
+        ],
+        "long\u00a3secondary_pprice_diff": [
+            0.001,
+            0.5
+        ],
+        "long\u00a3eprice_exp_base": [
+            1,
+            2.5
+        ],
+        "long\u00a3min_markup": [
+            0.0005,
+            0.01
+        ],
+        "long\u00a3markup_range": [
+            0.004,
+            0.02
+        ],
+        "long\u00a3n_close_orders": [
+            4,
+            10
+        ],
+        "shrt\u00a3grid_span": [
+            0.03,
+            0.2
+        ],
+        "shrt\u00a3pbr_limit": [
+            0.5,
+            2
+        ],
+        "shrt\u00a3max_n_entry_orders": [
+            10,
+            10
+        ],
+        "shrt\u00a3initial_qty_pct": [
+            0.001,
+            0.1
+        ],
+        "shrt\u00a3eprice_pprice_diff": [
+            0.001,
+            0.01
+        ],
+        "shrt\u00a3secondary_pbr_allocation": [
+            0,
+            0
+        ],
+        "shrt\u00a3secondary_pprice_diff": [
+            0.21,
+            0.5
+        ],
+        "shrt\u00a3eprice_exp_base": [
+            1.618034,
+            1.618034
+        ],
+        "shrt\u00a3min_markup": [
+            0.0005,
+            0.005
+        ],
+        "shrt\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "shrt\u00a3n_close_orders": [
+            7,
+            7
+        ]
+    },
+    "starting_configs": null,
+    "n_days": 273.99998842592595,
+    "config_name": "template",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "grid_span": 0.2684073487108885,
+        "pbr_limit": 1.5118690226763283,
+        "max_n_entry_orders": 21,
+        "initial_qty_pct": 0.061136745375285934,
+        "eprice_pprice_diff": 0.04651049056259122,
+        "secondary_pbr_allocation": 0.14537137994400204,
+        "secondary_pprice_diff": 0.14086132053219919,
+        "eprice_exp_base": 1.0211198053283683,
+        "min_markup": 0.0019822881487953354,
+        "markup_range": 0.007650122233580211,
+        "n_close_orders": 8
+    },
+    "shrt": {
+        "enabled": false,
+        "grid_span": 0.03,
+        "pbr_limit": 0.5,
+        "max_n_entry_orders": 10,
+        "initial_qty_pct": 0.001,
+        "eprice_pprice_diff": 0.001,
+        "secondary_pbr_allocation": 0,
+        "secondary_pprice_diff": 0.21,
+        "eprice_exp_base": 1.618034,
+        "min_markup": 0.0005,
+        "markup_range": 0.004,
+        "n_close_orders": 7
+    },
+    "result": {
+        "adjusted_daily_gain": 0.003333557922069041,
+        "average_daily_gain": 0.0033385104070449145,
+        "avg_fills_per_day": 163.1935892070725,
+        "biggest_psize": 849.5,
+        "closest_bkr": 0.5164906953021634,
+        "eqbal_ratio_mean": 0.9940599322533696,
+        "eqbal_ratio_median": 0.9971361340502448,
+        "eqbal_ratio_min": 0.5635154825114367,
+        "exchange": "binance",
+        "fee_sum": -229.16671290000002,
+        "final_balance": 2492.353388382867,
+        "final_equity": 2492.004787099989,
+        "gain": 1.4923533883828668,
+        "hrs_stuck_avg": 1.3979578254913076,
+        "hrs_stuck_avg_long": 1.3979578254913076,
+        "hrs_stuck_max": 71.3711111111111,
+        "hrs_stuck_max_long": 71.3711111111111,
+        "loss_sum": 0.0,
+        "n_closes": 26202,
+        "n_days": 273.9997337962963,
+        "n_entries": 18513,
+        "n_fills": 44715,
+        "n_ientries": 17443,
+        "n_rentries": 1070,
+        "net_pnl_plus_fees": 1492.3533883828738,
+        "pa_closeness_max_long": 0.4067544554166611,
+        "pa_closeness_mean_long": 0.026980113580811607,
+        "pa_closeness_median_long": 0.025208938347217918,
+        "pnl_sum": 1721.5201012828738,
+        "profit_sum": 1721.5201012828738,
+        "starting_balance": 1000.0,
+        "symbol": "EOSUSDT"
+    }
+}

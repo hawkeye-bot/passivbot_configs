@@ -1,0 +1,46 @@
++--------------------------------------------------------+
+|                        Summary                         |
++------------------------------------+-------------------+
+| Metric                             | Value             |
++------------------------------------+-------------------+
+| Exchange                           | binance           |
+| Market type                        | futures           |
+| Symbol                             | MATICUSDT         |
+| No. days                           | 274.0             |
+| Starting balance                   | 1000.0            |
+| Final balance                      | 70934.6           |
+| Final equity                       | 70943.6           |
+| Net PNL + fees                     | 69934.6           |
+| Total gain percentage              | 6993.0%           |
+| Average daily gain percentage      | 1.57%             |
+| Adjusted daily gain                | 0.0151813         |
+| Closest bankruptcy percentage      | 50.73%            |
+|                                    |                   |
+| Profit sum                         | 74897.7           |
+| Loss sum                           | 0.0               |
+| Fee sum                            | -4963.02          |
+| Lowest equity/balance ratio        | 0.528004          |
+| Biggest psize                      | 94269.0           |
+| Price action closeness mean long   | 0.0166638         |
+| Price action closeness median long | 0.0107792         |
+| Price action closeness max long    | 0.454945          |
+| Average n fills per day            | 348.847           |
+|                                    |                   |
+| No. fills                          | 95584.0           |
+| No. entries                        | 35046.0           |
+| No. closes                         | 60538.0           |
+| No. initial entries                | 30292.0           |
+| No. reentries                      | 4754.0            |
+|                                    |                   |
+| Mean hours between fills           | 0.326352          |
+| Max hours no fills (same side)     | 55.9494           |
+| Max hours no fills                 | 55.9494           |
+|                                    |                   |
+| Long                               | True              |
+| No. inital entries                 | 30292             |
+| No. reentries                      | 4754              |
+| No. normal closes                  | 60538             |
+| Mean hours stuck (long)            | 0.326352          |
+| Max hours stuck (long)             | 55.9494           |
+| PNL sum                            | 74897.66347836943 |
++------------------------------------+-------------------+

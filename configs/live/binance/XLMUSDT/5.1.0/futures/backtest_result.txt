@@ -1,0 +1,46 @@
++--------------------------------------------------------+
+|                        Summary                         |
++------------------------------------+-------------------+
+| Metric                             | Value             |
++------------------------------------+-------------------+
+| Exchange                           | binance           |
+| Market type                        | futures           |
+| Symbol                             | XLMUSDT           |
+| No. days                           | 247.999           |
+| Starting balance                   | 1000.0            |
+| Final balance                      | 7183.15           |
+| Final equity                       | 7184.37           |
+| Net PNL + fees                     | 6183.15           |
+| Total gain percentage              | 618.3%            |
+| Average daily gain percentage      | 0.798%            |
+| Adjusted daily gain                | 0.00791513        |
+| Closest bankruptcy percentage      | 60.43%            |
+|                                    |                   |
+| Profit sum                         | 6462.35           |
+| Loss sum                           | 0.0               |
+| Fee sum                            | -279.204          |
+| Lowest equity/balance ratio        | 0.393618          |
+| Biggest psize                      | 34371.0           |
+| Price action closeness mean long   | 0.0179888         |
+| Price action closeness median long | 0.0110341         |
+| Price action closeness max long    | 0.947531          |
+| Average n fills per day            | 130.956           |
+|                                    |                   |
+| No. fills                          | 32477.0           |
+| No. entries                        | 14708.0           |
+| No. closes                         | 17769.0           |
+| No. initial entries                | 12831.0           |
+| No. reentries                      | 1877.0            |
+|                                    |                   |
+| Mean hours between fills           | 0.700069          |
+| Max hours no fills (same side)     | 183.965           |
+| Max hours no fills                 | 183.965           |
+|                                    |                   |
+| Long                               | True              |
+| No. inital entries                 | 12831             |
+| No. reentries                      | 1877              |
+| No. normal closes                  | 17769             |
+| Mean hours stuck (long)            | 0.700069          |
+| Max hours stuck (long)             | 183.965           |
+| PNL sum                            | 6462.352689383304 |
++------------------------------------+-------------------+

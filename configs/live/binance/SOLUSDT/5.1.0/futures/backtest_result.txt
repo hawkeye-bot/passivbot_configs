@@ -1,46 +1,46 @@
-+---------------------------------------------------------+
-|                         Summary                         |
-+------------------------------------+--------------------+
-| Metric                             | Value              |
-+------------------------------------+--------------------+
-| Exchange                           | binance            |
-| Market type                        | futures            |
-| Symbol                             | SOLUSDT            |
-| No. days                           | 248.0              |
-| Starting balance                   | 1000.0             |
-| Final balance                      | 19866.0            |
-| Final equity                       | 19856.3            |
-| Net PNL + fees                     | 18866.0            |
-| Total gain percentage              | 1887.0%            |
-| Average daily gain percentage      | 1.21%              |
-| Adjusted daily gain                | 0.0118932          |
-| Closest bankruptcy percentage      | 51.59%             |
-|                                    |                    |
-| Profit sum                         | 20310.4            |
-| Loss sum                           | 0.0                |
-| Fee sum                            | -1444.41           |
-| Lowest equity/balance ratio        | 0.584434           |
-| Biggest psize                      | 968.0              |
-| Price action closeness mean long   | 0.0116318          |
-| Price action closeness median long | 0.00857931         |
-| Price action closeness max long    | 0.394163           |
-| Average n fills per day            | 218.061            |
-|                                    |                    |
-| No. fills                          | 54079.0            |
-| No. entries                        | 21297.0            |
-| No. closes                         | 32782.0            |
-| No. initial entries                | 16026.0            |
-| No. reentries                      | 5271.0             |
-|                                    |                    |
-| Mean hours between fills           | 0.505048           |
-| Max hours no fills (same side)     | 36.5164            |
-| Max hours no fills                 | 36.5164            |
-|                                    |                    |
-| Long                               | True               |
-| No. inital entries                 | 16026              |
-| No. reentries                      | 5271               |
-| No. normal closes                  | 32782              |
-| Mean hours stuck (long)            | 0.505048           |
-| Max hours stuck (long)             | 36.5164            |
-| PNL sum                            | 20310.369600000005 |
-+------------------------------------+--------------------+
++--------------------------------------------------------+
+|                        Summary                         |
++------------------------------------+-------------------+
+| Metric                             | Value             |
++------------------------------------+-------------------+
+| Exchange                           | binance           |
+| Market type                        | futures           |
+| Symbol                             | SOLUSDT           |
+| No. days                           | 248.0             |
+| Starting balance                   | 1000.0            |
+| Final balance                      | 33840.2           |
+| Final equity                       | 33499.0           |
+| Net PNL + fees                     | 32840.2           |
+| Total gain percentage              | 3284.0%           |
+| Average daily gain percentage      | 1.43%             |
+| Adjusted daily gain                | 0.0139239         |
+| Closest bankruptcy percentage      | 52.7%             |
+|                                    |                   |
+| Profit sum                         | 35279.1           |
+| Loss sum                           | 0.0               |
+| Fee sum                            | -2438.89          |
+| Lowest equity/balance ratio        | 0.41621           |
+| Biggest psize                      | 890.0             |
+| Price action closeness mean long   | 0.0292304         |
+| Price action closeness median long | 0.02027           |
+| Price action closeness max long    | 0.743153          |
+| Average n fills per day            | 187.879           |
+|                                    |                   |
+| No. fills                          | 46594.0           |
+| No. entries                        | 19425.0           |
+| No. closes                         | 27169.0           |
+| No. initial entries                | 18776.0           |
+| No. reentries                      | 649.0             |
+|                                    |                   |
+| Mean hours between fills           | 1.49698           |
+| Max hours no fills (same side)     | 74.7703           |
+| Max hours no fills                 | 74.7703           |
+|                                    |                   |
+| Long                               | True              |
+| No. inital entries                 | 18776             |
+| No. reentries                      | 649               |
+| No. normal closes                  | 27169             |
+| Mean hours stuck (long)            | 1.49698           |
+| Max hours stuck (long)             | 74.7703           |
+| PNL sum                            | 35279.06523578675 |
++------------------------------------+-------------------+
